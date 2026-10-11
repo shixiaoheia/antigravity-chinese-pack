@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "revision": "r2",
+  "software": "Google Antigravity Desktop",
+  "version": "2.22.0",
+  "created": "2026-10-11",
+  "baseSize": 4486221,
+  "baseSha256": "259c83ffa266088dda6ede520a601bbf06cc5c34985cdf56c5d68549c98dbb0e",
+  "patchedSize": 5004069,
+  "patchedSha256": "8438fa1a3dadd473fe81bab136c534920f3b1c9f34084cf805d696c3411fa20d",
+  "patchSha256": "d9d8a4bfdd56ecb6c77d9198ab13ffc8ae6065a0963b2d05730c5c3b26ffdc76",
+  "compatiblePreviousHashes": [
+    "94a8f92902916bbb1a994c9b3bab40d5a8dac7c5a3654dd49763ccd6c6a6e03f"
+  ],
+  "dictionaryEntries": 2757,
+  "newEntries": 576,
+  "refinedEntries": 156,
+  "changedFiles": [
+    "dist/ideInstall/wizardHtml.js",
+    "dist/ideInstall/wizardPreload.js",
+    "dist/ipcHandlers.js",
+    "dist/main.js",
+    "dist/menu.js",
+    "dist/preload.js",
+    "dist/provisionSplash.js",
+    "dist/tray.js",
+    "dist/updater.js",
+    "dist/wsl.js"
+  ],
+  "operations": [
+    {
+      "type": "insert",
+      "offset": 0,
+      "length": 287692
+    },
+    {
+      "type": "copy",
+      "offset": 287688,
+      "length": 3893687
+    },
+    {
+      "type": "insert",
+      "offset": 287692,
+      "length": 6660
+    },
+    {
+      "type": "insert",
+      "offset": 294352,
+      "length": 257622
+    },
+    {
+      "type": "copy",
+      "offset": 4188930,
+      "length": 18371
+    },
+    {
+      "type": "insert",
+      "offset": 551974,
+      "length": 17863
+    },
+    {
+      "type": "copy",
+      "offset": 4223858,
+      "length": 37755
+    },
+    {
+      "type": "insert",
+      "offset": 569837,
+      "length": 20043
+    },
+    {
+      "type": "copy",
+      "offset": 4281636,
+      "length": 16394
+    },
+    {
+      "type": "insert",
+      "offset": 589880,
+      "length": 9032
+    },
+    {
+      "type": "copy",
+      "offset": 4304532,
+      "length": 9525
+    },
+    {
+      "type": "insert",
+      "offset": 598912,
+      "length": 262152
+    },
+    {
+      "type": "copy",
+      "offset": 4319466,
+      "length": 3211
+    },
+    {
+      "type": "insert",
+      "offset": 861064,
+      "length": 3046
+    },
+    {
+      "type": "copy",
+      "offset": 4325488,
+      "length": 24961
+    },
+    {
+      "type": "insert",
+      "offset": 864110,
+      "length": 4029
+    },
+    {
+      "type": "copy",
+      "offset": 4354214,
+      "length": 7806
+    },
+    {
+      "type": "insert",
+      "offset": 868139,
+      "length": 14479
+    },
+    {
+      "type": "copy",
+      "offset": 4376481,
+      "length": 31829
+    },
+    {
+      "type": "insert",
+      "offset": 882618,
+      "length": 14030
+    },
+    {
+      "type": "copy",
+      "offset": 4422339,
+      "length": 63882
+    }
+  ],
+  "source": "https://github.com/liominsb/Antigravity-Chinese-Localization",
+  "upstreamSourceSha256": "d92217af116e2c0c1eede7b72154786687fdefe8d81e05709a98361331b46ea6"
+}

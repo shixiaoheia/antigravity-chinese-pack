@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-11",
+  "softwareVersion": "2.22.0",
+  "revision": "r2",
+  "dictionaryEntries": 2757,
+  "newEntries": 576,
+  "refinedEntries": 156,
+  "unchangedArchiveEntries": 1075,
+  "changedFileSyntax": "passed",
+  "deltaReconstruction": "passed",
+  "windowsPowerShellFreshInstall": "passed",
+  "windowsPowerShellR1Upgrade": "passed",
+  "repeatInstall": "passed",
+  "freshAndUpgradeRestores": "passed-byte-exact",
+  "repeatRestore": "passed",
+  "realClientReadOnlyUpgradeVerification": "passed",
+  "realInstalledR1Unchanged": true,
+  "r2RealClientVisualAcceptance": false,
+  "ui": {
+    "values": {
+      "settings": "设置",
+      "new": "新建对话",
+      "permissions": "权限",
+      "user": "Settings",
+      "user-action": "Ran",
+      "code": "Ran",
+      "input": "Settings",
+      "editable": "Settings",
+      "answer": "Settings"
+    },
+    "dynamic": [
+      "设置",
+      "设置",
+      "设置"
+    ],
+    "refinement": {
+      "plan": "输入 / 并选择 plan，让智能体生成计划。",
+      "browser": "浏览器子智能体需要先安装 Google Chrome。",
+      "placeholder": "搜索自定义配置…",
+      "inputLabel": "消息输入框",
+      "inputValue": "Settings",
+      "composerLabel": "消息输入框",
+      "queue": "等当前回复结束后再发送。",
+      "interrupt": "中断当前回复，立即发送。",
+      "model": "Gemini 3.8 Flash High",
+      "modelLabel": "选择模型，当前：Gemini 3.8 Flash High",
+      "project": "Settings",
+      "projectLabel": "选择项目，当前：Settings",
+      "named": "Settings",
+      "namedTitle": "Settings",
+      "untitled": "未命名对话",
+      "unknown": "Share rocket",
+      "type": "类型",
+      "customizations": "尚未启用任何自定义配置。",
+      "subscription": "订阅方案",
+      "age": "17天前"
+    },
+    "dynamicMetadata": "passed",
+    "reparentedProtection": "passed"
+  }
+}

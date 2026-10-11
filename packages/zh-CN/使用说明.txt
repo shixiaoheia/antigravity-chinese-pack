@@ -1,0 +1,31 @@
+﻿Antigravity Desktop 2.22.0 简体中文汉化包 r2
+
+第一次安装：
+1. 右键下载的 ZIP → 全部解压缩 → 提取。
+2. 保存工作，并完全退出 Antigravity（包括托盘）。
+3. 打开解压后的文件夹，双击「双击安装汉化.cmd」。
+4. 看到安装成功后，按任意键关闭窗口，再打开软件。
+
+不要直接在 ZIP 内运行，也不要把安装文件单独拿出来。无需安装 Node.js 或 Python。
+如果找不到软件，按提示输入包含 Antigravity.exe 的文件夹路径。
+
+恢复英文：退出软件，双击本包的「双击还原英文.cmd」。
+安装时自动保留原版备份，请勿删除或改名：
+安装目录\resources\app.asar.agy-zh-CN-2.22.0.original
+
+适用范围：Windows，已核对的 Desktop 2.22.0 构建。
+不适用于 Antigravity IDE 1.x、命令行工具、不同构建或其他来源的补丁。
+本项目旧简体 r1 可直接升级；繁体 r1 用户需先用繁体包恢复英文，再安装本包。
+版本不匹配时工具拒绝覆盖，请勿绕过校验。官方更新后的新版本需要重新适配。
+
+本包提供 2,757 条词条，补充设置、权限、搜索和按钮提示，改善语序与中英混排。
+保留模型名称、用户输入、代码、对话正文、自定义标题与项目名。
+少量新增文案或第三方插件仍可能显示英文。汉化不处理账号地区限制或模型服务错误。
+安装、升级、重复安装与还原等测试结果见「验证报告.json」。
+
+完整教程、下载与反馈：
+https://github.com/shixiaoheia/antigravity-chinese-pack
+
+基础引擎与词库：
+https://github.com/liominsb/Antigravity-Chinese-Localization
+MIT 许可见 LICENSE-upstream.txt。

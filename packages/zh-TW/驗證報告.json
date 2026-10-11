@@ -1,0 +1,77 @@
+{
+  "locale": "zh-TW",
+  "version": "2.22.0",
+  "dictionaryEntries": 2766,
+  "modifiedArchiveEntries": 10,
+  "unchangedArchiveEntries": 1075,
+  "deltaReconstruction": "passed",
+  "moduleSyntax": "passed",
+  "interfaceTests": {
+    "values": {
+      "settings": "設定",
+      "new": "新對話",
+      "permissions": "權限",
+      "user": "Settings",
+      "user-action": "Ran",
+      "code": "Ran",
+      "input": "Settings",
+      "editable": "Settings",
+      "answer": "Settings"
+    },
+    "dynamic": [
+      "設定",
+      "設定",
+      "設定"
+    ],
+    "refinement": {
+      "plan": "輸入 / 並選擇 plan，讓智慧代理生成計劃。",
+      "browser": "瀏覽器子代理需要先安裝 Google Chrome。",
+      "placeholder": "搜尋自訂設定…",
+      "inputLabel": "訊息輸入框",
+      "inputValue": "Settings",
+      "composerLabel": "訊息輸入框",
+      "queue": "等目前回覆結束後再傳送。",
+      "interrupt": "中斷目前回覆，立即傳送。",
+      "model": "Gemini 3.8 Flash High",
+      "modelLabel": "選擇模型，目前：Gemini 3.8 Flash High",
+      "project": "Settings",
+      "projectLabel": "選擇專案，目前：Settings",
+      "named": "Settings",
+      "namedTitle": "Settings",
+      "untitled": "未命名對話",
+      "unknown": "Share rocket",
+      "type": "型別",
+      "customizations": "尚未啟用任何自訂設定。",
+      "subscription": "訂閱方案",
+      "age": "17天前"
+    },
+    "dynamicMetadata": "passed",
+    "reparentedProtection": "passed"
+  },
+  "errorDialogTests": "passed",
+  "nativeUpdateMenuDispatch": "passed",
+  "installationTests": [
+    {
+      "case": "fresh",
+      "installRepeatRestoreRepeat": "passed",
+      "roundTripOriginalSha256": "259c83ffa266088dda6ede520a601bbf06cc5c34985cdf56c5d68549c98dbb0e",
+      "originalBackupPreserved": true
+    },
+    {
+      "case": "simplified-r2",
+      "installRepeatRestoreRepeat": "passed",
+      "roundTripOriginalSha256": "259c83ffa266088dda6ede520a601bbf06cc5c34985cdf56c5d68549c98dbb0e",
+      "originalBackupPreserved": true
+    },
+    {
+      "case": "simplified-r1",
+      "installRepeatRestoreRepeat": "passed",
+      "roundTripOriginalSha256": "259c83ffa266088dda6ede520a601bbf06cc5c34985cdf56c5d68549c98dbb0e",
+      "originalBackupPreserved": true
+    }
+  ],
+  "unsupportedBuildRefusedWithoutChange": true,
+  "officialInstallationModified": false,
+  "originalSha256": "259c83ffa266088dda6ede520a601bbf06cc5c34985cdf56c5d68549c98dbb0e",
+  "localizedSha256": "c9a483baa054510af223f406babf5dc02da668358c5b57189c88ec4210a08be6"
+}

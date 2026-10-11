@@ -1,0 +1,1625 @@
+
+// Antigravity 2.0 Chinese Localization Engine Enhanced
+(function() {
+  const dictionary = {"File":"檔案","Edit":"編輯","View":"檢視","Selection":"選擇","Find":"查詢","Help":"幫助","Docs":"文件","Docs & API Reference":"文件與 API 參考","Toggle Developer Tools":"開發者工具","New Window":"新建視窗","Quit":"退出","Cancel":"取消","Confirm Quit":"確認退出","Are you sure you want to quit?":"您確定要退出嗎？","There may be agents or background tasks running.":"可能還有智慧代理或後台任務正在執行。","Connect to WSL":"連線到 WSL","Reopen Locally":"本地重新開啟","WSL":"WSL","WSL Environment":"WSL 環境","WSL environment":"WSL 環境","Distro":"發行版","Distros":"發行版","Default Distro":"預設發行版","Setting up WSL":"正在設定 WSL","Setting up WSL…":"正在設定 WSL...","Downloading the Antigravity binary…":"正在下載 Antigravity 二進位元件…","Downloading the Antigravity binary":"正在下載 Antigravity 二進位元件","Installing into":"正在安裝到","Folder is on the Windows filesystem":"資料夾位於 Windows 檔案系統","Cannot open folder":"無法開啟資料夾","WSL distro not found":"未找到 WSL 發行版","WSL setup failed":"WSL 設定失敗","Open workspace":"開啟工作區","Open workspaces":"開啟工作區","Open Workspace":"開啟工作區","Open Workspaces":"開啟工作區","Welcome to the new Antigravity!":"歡迎使用全新 Antigravity！","Antigravity has been redesigned to put agents first with new capabilities. If you'd still like a code editor, you can download it as a separate app named":"Antigravity 經過全面重構，賦予智慧代理更強大的原生能力。如果您仍需要程式碼編輯器，可單獨下載獨立應用","Antigravity IDE":"Antigravity IDE 編輯器","Download the Antigravity IDE":"下載 Antigravity IDE","Explore the new Antigravity":"探索全新 Antigravity","Setting up…":"正在啟動/設定中...","Agent":"智慧代理","Agents":"智慧代理","Subagent":"子代理","Subagents":"子代理","Task":"任務","Tasks":"任務","Workspace":"工作區","Workspaces":"工作區","Command":"命令","Run":"執行","Settings":"設定","Model":"模型","Stop":"停止","Approve":"批准","Reject":"拒絕","Terminal":"終端機","Output":"輸出","Codebase":"程式碼庫","Error":"錯誤","Success":"成功","Pending":"等待中","Running":"正在執行","Completed":"已完成","Failed":"已失敗","Branch":"分支","Merge":"合併","Conflict":"衝突","Generate Image":"生成影像","Web Search":"網頁搜尋","Grep Search":"全域搜尋","Active Agents":"活躍智慧代理","No agents running":"沒有執行中的智慧代理","active workspace":"活動工作區","Active Workspace":"活動工作區","Search":"搜尋","Search...":"搜尋...","Type a command...":"輸入命令...","Settings & Preferences":"設定與偏好","General":"通用","Themes":"主題","Language":"語言","Model Selection":"模型選擇","Advanced":"高階","Developer":"開發者","Save":"儲存","Close":"關閉","Status":"狀態","Progress":"進度","Logs":"日誌","Console":"控制檯","Running task...":"任務執行中...","Task completed successfully":"任務成功完成","An error occurred":"發生錯誤","Connecting to Language Server...":"正在連線語言伺服器...","Language Server":"語言伺服器","Connected":"已連線","Disconnected":"已斷開","Select a folder":"選擇資料夾","Open Folder":"開啟資料夾","Create Project":"建立專案","create project":"建立專案","New Project":"新建專案","new project":"新建專案","Create New Project":"建立新專案","Open Project":"開啟專案","open project":"開啟專案","Reset Zoom":"還原縮放","Toggle Fullscreen":"切換全屏","Antigravity":"Antigravity","Antigravity 2.0":"Antigravity 2.0","Google DeepMind":"谷歌 DeepMind","Advanced Agentic Coding":"高階智慧代理編碼","Welcome to Antigravity":"歡迎使用 Antigravity","Get Started":"開始使用","Create an agent to get started":"建立一個智慧代理以開始","New Agent":"新建智慧代理","Agent Name":"智慧代理名稱","System Prompt":"系統提示詞","Description":"描述","Capabilities":"能力","Write Files":"寫入檔案","Run Commands":"執行命令","Web Browsing":"網頁瀏覽","Define Subagents":"定義子代理","Call MCP Tools":"呼叫 MCP 工具","Inherit Workspace":"繼承工作區","Branch Workspace":"分支隔離工作區","Share Workspace":"共享工作區","timer":"定時器","Timers":"定時器","Cron Jobs":"計劃任務","Schedule":"計劃排程","Directory analysis":"目錄分析","Web search":"網頁搜尋","File edit":"檔案編輯","Command execution":"命令執行","Semantic search":"語義搜尋","Permissions":"權限","Configure global allowed and denied resource permissions. Learn more.":"設定全域允許與拒絕的資源訪問權限。瞭解更多。","Configure global allowed and denied resource permissions.":"設定全域允許或禁止的資源權限。","Learn more.":"瞭解更多。","Learn more":"瞭解更多","Project-Specific Settings":"專案專屬設定","Project-Specific":"專案專屬","Modify scoped permissions, folders, and Agent settings like Sandbox and Terminal command execution.":"修改專案專屬訪問權限、工作資料夾以及智慧代理設定（例如沙盒和終端機命令執行）。","Modify scoped permissions, folders, and Agent settings":"修改專案專屬訪問權限、工作資料夾以及智慧代理設定","like Sandbox and Terminal command execution.":"例如沙盒與終端機命令執行。","Go to Projects":"轉到專案","File Permissions":"檔案權限","File Access Rules":"檔案訪問規則","Configure allowed and denied paths for file reads and writes.":"設定檔案讀寫的允許與拒絕路徑。","Network Permissions":"網路權限","Network Access Rules":"網路訪問規則","Configure allowed and denied URLs for reading.":"設定允許或禁止訪問的網址。","Terminal & Tooling Permissions":"終端機與工具權限","Terminal Commands":"終端機命令","Configure allowed terminal commands.":"設定允許執行的終端機命令。","Commands Outside Sandbox":"沙盒外命令","Configure allowed commands outside the sandbox.":"設定允許在沙盒外執行的命令。","MCP Tools":"MCP 工具","Tool Permissions":"工具權限","Tool permissions":"工具權限","工具 Permissions":"工具權限","Configure external tools via Model Context Protocol.":"透過模型上下文協議 (MCP) 設定外部工具。","Global":"全域","Sandbox":"沙盒","Sandbox enabled":"沙盒已啟用","Sandbox disabled":"沙盒已禁用","Allowed":"已允許","Denied":"已拒絕","Paths":"路徑","URLs":"URL","Tools":"工具","Appearance":"外觀","Configure the Agent's visual theme and display preferences.":"設定介面主題和顯示方式。","Chat Settings":"聊天設定","Verbose Agent Chat":"顯示智慧代理詳細輸出","Display and preserve intermediate thinking steps":"顯示並保留智慧代理中間思考過程","Choose light, dark, or inherit system settings.":"選擇淺色、深色，或繼承系統設定。","Dark":"深色","Light":"淺色","Light Theme":"淺色主題","Preset":"預設","Default Light":"預設淺色","Background":"背景色","Foreground":"前景色","Accent":"強調色","Dark Theme":"深色主題","Default Dark":"預設深色","Customizations":"自訂設定","Configure default behaviors, skills, and MCP servers.":"設定預設行為、技能以及 MCP 伺服器。","Token Usage":"Token 使用詳情","The breakdown below shows token usage from customizations like skills, rules, and MCP. If the budget is exceeded, large customizations will be truncated automatically.":"以下詳情展示了來自技能、規則和 MCP 等自訂項的 Token 使用情況。如果額度超限，大型自訂內容將被自動截斷。","of the customization budget is available.":"的自訂額度可用。","% of the customization budget is available.":"% 的自訂額度可用。","% of the customization budget is available。":"% 的自訂額度可用。","% of the customization budget is available":"% 的自訂額度可用。","% of the budget is available.":"% 的自訂額度可用。","% of the budget is available。":"% 的自訂額度可用。","% of the customization budget is used.":"% 的自訂額度已使用。","% of the customization budget is used。":"% 的自訂額度已使用。","100.0% of the customization budget is available.":"100.0% 的自訂額度可用。","No customizations found for this workspace.":"未找到此工作區的自訂項。","Installed MCP Servers":"已安裝的 MCP 伺服器","No MCP Servers":"無已安裝的 MCP 伺服器","You currently don't have any MCP Servers installed.":"您目前未安裝任何 MCP 伺服器。","Add an MCP server above":"在上方新增一個 MCP 伺服器","Build With Google Plugins":"使用 Google 外掛構建","Build with Google Plugins":"使用 Google 外掛構建","build with google plugins":"使用 Google 外掛構建","Google Plugins":"Google 外掛","Google plugins":"Google 外掛","Official Google plugins":"Google 官方外掛","Official Google plugins designed for Antigravity.":"專為 Antigravity 設計的 Google 官方擴充套件外掛。","Plugins are packaged collections of skills and MCPs to help the Agent in Antigravity work with Google developer products. You can always change your choices in Settings.":"外掛是技能與 MCP 伺服器的打包集合，用於幫助 Antigravity 中的智慧代理更好地協同 Google 開發者產品。您可以隨時在設定中更改設定。","Plugins are packaged collections of skills and MCPs to help the Agent in Antigravity work with Google developer products. You can always change your choices in Settings":"外掛是技能和 MCP 的打包集合，用於協助 Antigravity 中的智慧代理使用 Google 開發者產品。你可以隨時在設定中更改你的選擇","Plugins are packaged collections of skills and MCPs to help the Agent in Antigravity work with Google developer products.":"外掛是技能與 MCP 伺服器的打包集合，用於幫助 Antigravity 中的智慧代理更好地協同 Google 開發者產品。","Plugins are packaged collections of skills and MCPs to help the Agent in Antigravity work with Google developer products":"外掛是技能和 MCP 的打包集合，用於協助 Antigravity 中的智慧代理使用 Google 開發者產品","You can always change your choices in Settings.":"您可以隨時在設定中更改設定。","You can always change your choices in Settings":"你可以隨時在設定中更改你的選擇","Plugins are packaged collections of skills and MCPs to help the Agent in":"外掛是技能和 MCP 的打包集合，用於協助智慧代理在","Plugins are packaged collections of skills and MCPs to help the Agent in ":"外掛是技能和 MCP 的打包集合，用於協助智慧代理在 ","Antigravity work with Google developer products. You can always change your choices in Settings.":"Antigravity 中協同 Google 開發者產品工作。你可以隨時在設定中更改你的選擇。","Antigravity work with Google developer products. You can always change your choices in Settings":"Antigravity 中協同 Google 開發者產品工作。你可以隨時在設定中更改你的選擇","Antigravity work with Google developer products.":"Antigravity 中協同 Google 開發者產品工作。","Antigravity work with Google developer products":"Antigravity 中協同 Google 開發者產品工作","work with Google developer products. You can always change your choices in Settings.":"協同 Google 開發者產品工作。你可以隨時在設定中更改你的選擇。","work with Google developer products. You can always change your choices in Settings":"協同 Google 開發者產品工作。你可以隨時在設定中更改你的選擇","work with Google developer products.":"協同 Google 開發者產品工作。","work with Google developer products":"協同 Google 開發者產品工作","Plugins built and maintained by Google to extend Antigravity capabilities.":"由 Google 官方構建並維護，用於全面擴充套件 Antigravity 各項能力的外掛。","Explore, install, and manage plugins to enhance your agent with specialized skills, MCP servers, and rules.":"瀏覽、安裝並管理外掛，為智慧代理擴充套件專屬技能、MCP 伺服器與執行規則。","Discover plugins to integrate with Google APIs, Cloud services, and developer tools.":"發現並整合適用於 Google API、雲服務及開發者工具的官方外掛。","Install Plugin":"安裝外掛","Uninstall Plugin":"解除安裝外掛","Enable Plugin":"啟用外掛","Disable Plugin":"禁用外掛","Installed Plugins":"已安裝外掛","Available Plugins":"可用外掛","All Plugins":"全部外掛","Featured Plugins":"精選外掛","Search plugins...":"搜尋外掛...","Search plugins":"搜尋外掛","No plugins found":"未找到相關外掛","No plugins installed":"尚未安裝任何外掛","Loading plugins...":"正在載入外掛列表...","Failed to load plugins":"載入外掛列表失敗","Reload plugins":"重新載入外掛","Check for plugin updates":"檢查外掛更新","Plugin Settings":"外掛設定","Plugin details":"外掛詳情","View details":"檢視詳情","View Documentation":"檢視文件","View documentation":"檢視文件","Bundled Skills":"內建技能","Bundled skills":"內建技能","bundled skills":"內建技能","Bundled Rules":"內建規則","Bundled rules":"內建規則","bundled rules":"內建規則","Bundled MCP Servers":"內建 MCP 伺服器","Bundled MCP servers":"內建 MCP 伺服器","bundled MCP servers":"內建 MCP 伺服器","Bundled Hooks":"內建生命週期鉤子","bundled hooks":"內建生命週期鉤子","Skills included":"包含技能","Rules included":"包含規則","MCP servers included":"包含 MCP 伺服器","Hooks included":"包含鉤子","Author: Google":"作者: Google","Browse and enable plugins from the Build With Google catalog.":"瀏覽並啟用來自 Build With Google 目錄的官方外掛。","Browse and enable plugins from the Build With Google catalog":"瀏覽並啟用來自 Build With Google 目錄的官方外掛","Use Add MCP to browse the store, or add a custom server via the MCP config.":"使用“新增 MCP”瀏覽應用商店，或透過 MCP 設定檔案新增自訂伺服器。","Use Add MCP to browse the store, or add a custom server via the MCP config":"使用“新增 MCP”瀏覽應用商店，或透過 MCP 設定檔案新增自訂伺服器","No MCP servers installed":"未安裝任何 MCP 伺服器","Add MCP":"新增 MCP","Open MCP Config":"開啟 MCP 設定檔案","Guidelines for interacting with GitHub and request permissions from the user when commands fail due to restrictions in the agent environment.":"與 GitHub 互動的操作準則，當命令因智慧代理環境限制執行失敗時向使用者申請授權。","Skills and MCP servers for building with Firebase.":"用於基於 Firebase 構建應用的專屬技能與 MCP 伺服器。","Skills and MCP servers for building with Firebase":"用於基於 Firebase 構建應用的專屬技能與 MCP 伺服器","Skills and MCP servers for working with Google Cloud.":"用於在 Google Cloud 雲平臺上進行開發的技能與 MCP 伺服器。","Skills and MCP servers for working with Google Cloud":"用於在 Google Cloud 雲平臺上進行開發的技能與 MCP 伺服器","Configure agent execution, queued message delivery, and permissions.":"設定任務執行方式、訊息傳送時機和訪問權限。","Configure agent execution, queued message delivery, and permissions":"設定任務執行方式、訊息傳送時機和訪問權限","Configure 智慧代理 執行, queued 訊息 delivery, and 權限。":"設定智慧代理執行策略、訊息佇列傳送機制以及安全權限。","Configure 智慧代理 執行, queued 訊息 delivery, and 權限":"設定智慧代理執行策略、訊息佇列傳送機制以及安全權限","Use Build With Google Plugins":"使用 Google 外掛構建","Use Build with Google Plugins":"使用 Google 外掛構建","Use Build With Google Plugins to":"使用 Google 外掛構建以","queued message delivery":"訊息佇列傳送","queued message":"排隊訊息","queued messages":"排隊訊息","Build with Antigravity Plugins":"使用 Antigravity 外掛構建","Build with Antigravity plugins":"使用 Antigravity 外掛構建","Build With Antigravity Plugins":"使用 Antigravity 外掛構建","Build with Antigravity 外掛":"使用 Antigravity 外掛構建","Core tools and knowledge required to develop for Android.":"面向 Android 應用開發所需的核心工具集與專業領域知識。","Core tools and knowledge required to develop for Android":"面向 Android 應用開發所需的核心工具集與專業領域知識","Core 工具 and knowledge required to develop 持續 Android":"面向 Android 應用開發所需的核心工具集與專業領域知識","develop for Android":"Android 應用開發","Modern Web Guidance":"現代 Web 開發指南","Keep your coding agent up to date with the latest web best practices.":"讓您的編碼智慧代理緊跟最新的 Web 最佳實踐與現代技術規範。","Keep your coding agent up to date with the latest web best practices":"讓您的編碼智慧代理緊跟最新的 Web 最佳實踐與現代技術規範","Keep your coding 智慧代理 已是最新版本 with the latest web best practices。":"讓您的編碼智慧代理緊跟最新的 Web 最佳實踐與現代技術規範。","Keep your coding 智慧代理 已是最新版本 with the latest web best practices":"讓您的編碼智慧代理緊跟最新的 Web 最佳實踐與現代技術規範","latest web best practices":"最新的 Web 最佳實踐","Google Antigravity SDK":"Google Antigravity SDK","Using the Antigravity Python SDK to build AI agents.":"使用官方 Antigravity Python SDK 構建自訂 AI 智慧代理。","Using the Antigravity Python SDK to build AI agents":"使用官方 Antigravity Python SDK 構建自訂 AI 智慧代理","Using the Antigravity Python SDK to build AI 智慧代理":"使用官方 Antigravity Python SDK 構建自訂 AI 智慧代理","build AI agents":"構建 AI 智慧代理","Science":"科學研究","Curated collection of agent skills for science.":"專為科學計算、學術研究與實驗探索精選的智慧代理技能集合。","Curated collection of agent skills for science":"專為科學計算、學術研究與實驗探索精選的智慧代理技能集合","agent skills for science":"科學研究智慧代理技能","Prototype, build & run modern apps users love with Firebase's backend, AI, and operational infrastructure.":"藉助 Firebase 強大的後端、AI 與運維基礎設施，原型設計、構建並執行深受使用者喜愛的現代應用程式。","Prototype, build & run modern apps users love with Firebase's backend, AI, and operational infrastructure":"藉助 Firebase 強大的後端、AI 與運維基礎設施，原型設計、構建並執行深受使用者喜愛的現代應用程式","backend, AI, and operational infrastructure":"後端、AI 與運維基礎設施","Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer.":"在 Chrome 中結合 Chrome DevTools 與 Puppeteer，實現高可靠的自動化操作、深度除錯與效能分析。","Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer":"在 Chrome 中結合 Chrome DevTools 與 Puppeteer，實現高可靠的自動化操作、深度除錯與效能分析","in-depth debugging, and performance analysis in Chrome":"在 Chrome 中進行深度除錯與效能分析","Dart and Flutter":"Dart 與 Flutter","Skills providing tailored instructions for happy path Dart and Flutter development workflows.":"為流暢、標準的 Dart 與 Flutter 開發工作流提供定製化指令與實踐技能。","Skills providing tailored instructions for happy path Dart and Flutter development workflows":"為流暢、標準的 Dart 與 Flutter 開發工作流提供定製化指令與實踐技能","happy path Dart and Flutter development workflows":"標準的 Dart 與 Flutter 開發工作流","Google Maps Platform":"Google Maps 平臺","Build and prototype location-aware applications with Google Maps Platform. Integrate interactive maps, search and inspect Places details, calculate optimal routes.":"基於 Google Maps Platform 構建並原型設計位置感知應用。支援整合互動式地圖、搜尋與檢視地點詳情、計算最優行車路線。","Build and prototype location-aware applications with Google Maps Platform. Integrate interactive maps, search and inspect Places details, calculate optimal routes":"基於 Google Maps Platform 構建並原型設計位置感知應用。支援整合互動式地圖、搜尋與檢視地點詳情、計算最優行車路線","Integrate interactive maps, search and inspect Places details, calculate optimal routes.":"整合互動式地圖、搜尋與檢視地點詳情、計算最優行車路線。","Integrate interactive maps, search and inspect Places details, calculate optimal routes":"整合互動式地圖、搜尋與檢視地點詳情、計算最優行車路線","Data Agent Kit":"資料智慧代理套件","Data 智慧代理 Kit":"資料智慧代理套件","Specialized suite of skills for data engineers and database practitioners on Google Cloud.":"專為 Google Cloud 上的資料工程師與資料庫從業者打造的專業技能套件。","Specialized suite of skills for data engineers and database practitioners on Google Cloud":"專為 Google Cloud 上的資料工程師與資料庫從業者打造的專業技能套件","data engineers and database practitioners on Google Cloud":"Google Cloud 資料工程師與資料庫從業者","Build applications with the Gemini Interactions API and Live API, including text generation, multi-turn chat, streaming, function calling, managed agents, and real-time audio/video.":"使用 Gemini Interactions API 和 Live API 構建應用，包括文字生成、多輪對話、流式響應、函式呼叫、託管智慧代理以及實時音影片處理。","Use this skill when building applications with Gemini API hosted models, including Gemini and Gemma 4, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript, com.google.genai:google-genai for Java, google.golang.org/genai for Go), model selection, and API capabilities.":"在使用 Gemini API 託管模型（包括 Gemini 與 Gemma 4）構建應用、處理多模態內容（文字/影像/音訊/影片）、實現函式呼叫、使用結構化輸出或需要目前模型規格時使用此技能。覆蓋各主流語言 SDK 使用、模型選擇及 API 核心能力。","Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, streaming responses, background research tasks, function calling, structured output, or migrating from the old generateContent API. This skill covers the Interactions API, the recommended way to use Gemini models and agents in Python and TypeScript.":"在編寫呼叫 Gemini API 進行文字生成、多輪對話、多模態理解、影像/影片生成、流式響應、後台調研、函式呼叫、結構化輸出或從舊版遷移時使用此技能。本技能覆蓋 Interactions API，這是在 Python 和 TypeScript 中使用 Gemini 模型與智慧代理的官方推薦方式。","Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API. Covers WebSocket-based audio/video/text streaming, voice activity detection (VAD), native audio features, function calling, session management, ephemeral tokens for client-side auth, live translation, and all Live API configuration options. SDKs covered - google-genai (Python), @google/genai (JavaScript/TypeScript).":"在透過 Gemini Live API 構建低延遲雙向實時流式應用時使用此技能。覆蓋基於 WebSocket 的音影片/文字流、語音活動檢測 (VAD)、原生音訊特性、函式呼叫、會話管理、客戶端臨時令牌認證、實時翻譯及所有 Live API 設定項。","Use this skill for generative video editing, text-to-video, image-referenced video generation, first-frame-to-video, first-and-last-frame transitions, and video extensions using Gemini Omni 1.1 Flash (gemini-omni-1.1-flash) via the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg, stripping audio for full sound regeneration, and handling turn-by-turn video editing and parallel execution.":"在使用 Gemini Omni 1.1 Flash (gemini-omni-1.1-flash) 透過官方 google-genai SDK 進行生成式影片編輯、文生影片、影像參考影片生成、首尾幀過渡及影片拓展時使用此技能。包含使用 ffmpeg 預處理最佳化高解析度源影片、音訊分離以及多輪分步編輯工作流。","How to render rich interactive HTML widgets inline in the chat or as standalone artifacts. Use this skill when you want to show the user diagrams, data visualizations, interactive controls, educational walkthroughs, or any rich visual content beyond plain text and markdown.":"如何在對話中以內聯方式或作為獨立成果檔案渲染豐富的互動式 HTML 小部件。當需要向使用者展示架構圖表、資料視覺化、互動式控制元件、教程回顧或超出純文字與 Markdown 的豐富視覺內容時使用此技能。","Comprehensive guide and reference for the Antigravity Customization System. Use to explain how customizations work, their loading priority, discovery mechanisms, and to guide the creation of skills, rules, plugins, hooks, and MCP servers.":"Antigravity 自訂擴充套件系統的完整指南與技術參考。用於闡述自訂項的工作機制、載入優先順序、自動發現機制，並指導技能、規則、外掛、鉤子及 MCP 伺服器的建立。","Provides a comprehensive guide, quick reference, and sitemap for Google Antigravity (AGY), including the Antigravity CLI (agy), Antigravity 2.0, Antigravity IDE, Python SDK, slash commands, keybindings, and customizations (skills, rules, MCP, sidecars). Activate this skill when the user asks questions about how to use, configure, or customize Antigravity, AGY, the agy CLI, the Antigravity IDE, or Antigravity 2.0.":"提供 Google Antigravity (AGY) 的完整指南、速查參考與系統導航，涵蓋 Antigravity CLI (agy)、Antigravity 2.0、Antigravity IDE、Python SDK、斜槓命令、快捷鍵及自訂擴充套件（技能、規則、MCP、Sidecar）。","Account":"賬號","Manage your plan, credentials, and general preferences.":"管理訂閱方案、登入憑據和常規設定。","Enable Telemetry":"啟用遙測","When toggled on, Antigravity collects usage data to help Google enhance performance and features.":"開啟後，Antigravity 會收集匿名使用資料，以幫助 Google 持續改進效能和功能。","Marketing Emails":"營銷電子郵件","Receive product updates, tips, and promotions from Google Antigravity via email.":"透過電子郵件接收來自 Google Antigravity 的產品更新、技巧與促銷資訊。","Your Plan:":"目前訂閱：","Your Plan: Google AI Pro":"目前訂閱：Google AI Pro","You can upgrade to a Google AI Ultra plan to receive the highest rate limits.":"您可以升級到 Google AI Ultra 計劃以獲得更高額的使用速率限制。","Email":"電子郵件","Labs":"實驗室","For help, visit":"如需幫助，請訪問","Follow the guide at":"請參考此指南：","to back up your data and run the migration.":"以備份您的資料並執行遷移。","Browser Settings":"瀏覽器設定","Configure the browser subagent. It requires Google Chrome to be installed. The browser subagent can be invoked by typing /browser in the conversation input box.":"使用瀏覽器子代理前，請先安裝 Google Chrome。在對話輸入框中輸入 /browser 即可呼叫。","Configure the browser subagent. It requires Google Chrome to be installed. The browser subagent can be invoked by typing":"設定瀏覽器子代理。這需要安裝 Google Chrome。可以透過輸入","Configure the browser subagent. It requires":"瀏覽器子代理需要先安裝","in the conversation input box.":"在對話輸入框中呼叫瀏覽器子代理。","Browser Javascript Execution Policy":"瀏覽器 JavaScript 執行策略","Controls whether the agent can run custom JavaScript to automate complex browser actions.":"控制智慧代理是否可以執行自訂 JavaScript 以自動化複雜的瀏覽器操作。","Request Review":"請求人工稽核","Disabled":"已禁用","Block all browser JavaScript execution.":"禁止執行所有瀏覽器 JavaScript。","Prompt for approval before running browser scripts.":"在執行瀏覽器指令碼前需人工批准。","Allow full browser script execution without prompting.":"允許執行所有瀏覽器指令碼（無需提示）。","Actuation Permissions":"動作執行權限","Browser Actuation Rules":"瀏覽器操作控制規則","Configure allowed and denied URLs for browser actuation.":"設定允許或禁止瀏覽器執行操作的網址。","App Settings":"應用設定","Prevent Sleep":"防止計算機休眠","Prevent the computer from sleeping while the app is running.":"在應用執行時防止計算機進入休眠狀態。","Keep In Menu Bar":"關閉視窗後仍在後台執行","The app will be accessible from the menu bar and will keep running in the background when all windows are closed.":"關閉所有視窗後，應用仍在後台執行，可透過系統托盤重新開啟。","Notifications":"系統通知","Notification Settings":"通知設定","To modify notification settings, open your operating system's system preferences.":"如需調整通知，請開啟系統的通知設定。","Agent Settings":"智慧代理設定","Security Preset":"安全預設","Choose a predefined security preset for the agent. This controls terminal auto-execution policy, and file access policy.":"為智慧代理選擇預定義的安全預設。這將控制終端機自動執行策略和檔案訪問策略。","Choose a predefined security preset for the agent.":"為智慧代理選擇預定義的安全預設。","This controls terminal auto-execution policy, and file access policy.":"這將控制終端機自動執行策略和檔案訪問策略。","Learn more about Default":"瞭解預設預設","Default":"預設","Agent Behavior":"智慧代理行為","Artifact Review Policy":"成果檔案稽核方式","Specifies agent's behavior when asking for review on artifacts, which are documents it creates to enable a richer conversation experience.":"設定智慧代理在請求稽核成果檔案時的行為方式。成果檔案是其為提供更豐富對話體驗而建立的文件。","Always Ask":"每次都需確認","Plan Review":"計劃稽核","Plan review":"計劃稽核","Plan Review Policy":"計劃稽核策略","Plan review policy":"計劃稽核策略","Policy":"策略","policy":"策略","Type / and select plan to have the agent generate a plan.":"輸入 / 並選擇 plan，讓智慧代理生成計劃。","Type / and select plan to have the agent generate a plan":"輸入 / 並選擇 plan 來讓智慧代理生成計劃","Type / and select 'plan' to have the agent generate a plan.":"輸入 / 並選擇 plan，讓智慧代理生成計劃。","Type / and select 'plan' to have the agent generate a plan":"輸入 / 並選擇 'plan' 來讓智慧代理生成計劃","Type / and 選擇 plan to have the agent generate a plan.":"輸入 / 並選擇 plan 來讓智慧代理生成計劃。","Type / and 選擇 plan to have the agent generate a plan":"輸入 / 並選擇 plan 來讓智慧代理生成計劃","Type / and 選擇 'plan' to have the agent generate a plan.":"輸入 / 並選擇 'plan' 來讓智慧代理生成計劃。","Type / and 選擇 'plan' to have the agent generate a plan":"輸入 / 並選擇 'plan' 來讓智慧代理生成計劃","Type / and":"輸入 / 並","Type / and ":"輸入 / 並 ","Type / and select":"輸入 / 並選擇","Type / and select ":"輸入 / 並選擇 ","Type / and 選擇":"輸入 / 並選擇","Type / and 選擇 ":"輸入 / 並選擇 ","Type /":"輸入 /","Type / ":"輸入 / ","to have the agent generate a plan.":"，讓智慧代理生成計劃。","to have the agent generate a plan":"，讓智慧代理生成計劃","have the agent generate a plan.":"讓智慧代理生成計劃。","have the agent generate a plan":"讓智慧代理生成計劃","generate a plan.":"生成計劃。","generate a plan":"生成計劃","plan to have the agent generate a plan.":"plan 來讓智慧代理生成計劃。","plan to have the agent generate a plan":"plan 來讓智慧代理生成計劃","Never":"從不","Always":"總是","Auto":"自動","Manual":"手動","Ask":"每次詢問","Binary not found":"未找到核心二進位元件","No updates available":"目前已是最新版本","No updates available.":"目前已是最新版本，暫無可用更新。","Up to date":"已是最新版本","Permission denied":"權限不足 / 無訪問權限","Permission denied.":"權限不足 / 無訪問權限。","Permissions and Memberships":"權限與成員資格","Select all options that apply":"選擇所有適用的選項","Press ENTER to continue":"按回車鍵繼續","Additional Context":"附加上下文","Directory not empty":"目錄非空","File already exists":"檔案已存在","File too large":"檔案過大","Filename too long":"檔名過長","Not a directory":"不是有效目錄","Review this code":"稽核此程式碼","Review my design":"稽核我的設計","Review this paper":"稽核此論文/文件","Local Permissions":"本地權限","Inherits from global settings. Local permissions have higher priority.":"繼承自全域設定。專案專屬權限具有更高的優先順序。","Inherits from global settings.":"繼承自全域設定。","Local permissions have higher priority.":"專案專屬權限具有更高的優先順序。","Danger Zone":"危險區域","Delete Project":"刪除專案","Permanently delete this project and all of its conversations.":"永久刪除目前專案及其所有歷史對話。","Custom":"自訂","Outside of folders file access policy":"工作資料夾外檔案訪問策略","Configures how the agent tries to access files outside of its working folders.":"設定智慧代理嘗試訪問其工作資料夾之外的檔案時的訪問策略。","Terminal command Auto execution":"終端機命令自動執行","Controls whether terminal commands require your approval before running.":"控制終端機命令在執行前是否需要您的批准。","Require Review":"需要人工稽核","Add Context":"新增上下文","Media":"媒體","Mentions":"提及","Actions":"操作","Browser":"瀏覽器","Worktree":"工作樹","Projects":"專案","Review Changes":"稽核更改","Ask anything, @ to mention, / for actions":"輸入訊息；@ 引用內容，/ 選擇操作","Ask anything, @to mention, /for actions":"輸入訊息；@ 引用內容，/ 選擇操作","Ask anything, @ to mention, / for commands":"輸入訊息；@ 引用內容，/ 選擇命令","Ask anything, @to mention, /for commands":"輸入任何問題，輸入 @ 提及，/ 觸發命令","Overview":"概覽","Artifacts":"成果檔案","Conversations":"對話","Agent settings and permissions for conversations outside of projects.":"設定未關聯專案的對話所使用的智慧代理選項和訪問權限。","Not in Project":"專案外對話","Manage project folders, agent settings, and permissions.":"管理專案資料夾、智慧代理設定和專屬權限。","Requires manual review for all terminal commands and file accesses outside of the working folders.":"對所有終端機命令以及工作區資料夾之外的檔案訪問均需要手動稽核。","Full Machine":"訪問本機全部檔案","All terminal commands require review. The agent can read or write to any file in the machine.":"智慧代理可以讀寫本機所有檔案，但每條終端機命令都需要你確認。","Unrestricted":"無限制模式","Disables all safety barriers for maximal iteration velocity.":"禁用所有安全防護以換取最快的迭代速度。","Manually customize individual settings.":"手動自訂各項獨立設定。","Always Proceed":"無需確認，直接執行","One Light":"One Light","Solarized Light":"Solarized Light","One Dark Pro":"One Dark Pro","Configure AI models and view your quota.":"設定 AI 模型並檢視您的配額與可用點數。","Refresh":"重新整理","Model Credits":"模型額度","Enable AI Credit Overages":"允許 AI 額度超限使用","When toggled on, Antigravity will use your AI credits to fulfill model requests once you're out of model quota. Antigravity will always use your model quota first before using AI credits.":"開啟後，模型額度用盡時會扣除 AI 點數繼續使用。系統會先使用模型額度，再使用點數。","Model Quota":"模型可用額度","View your available model quota and AI credits. Model quota refreshes periodically based on your plan. Enable AI Credit Overages to continue using models when your quota is exhausted.":"檢視模型可用額度和 AI 點數。模型額度會按訂閱方案定期恢復；開啟點數補充使用後，可在額度用盡時繼續使用模型。","Shortcuts":"快捷鍵","Keyboard shortcuts for quick navigation and control.":"用於快速導航與控制的鍵盤快捷鍵。","Recommended":"推薦","Open Conversation Picker":"開啟對話選擇器","Open File Search":"開啟檔案搜尋","Focus Input":"聚焦輸入框","New Conversation":"新對話","Navigation":"導航","Go Back":"後退","Go Forward":"前進","File Picker":"檔案選擇器","Scheduled Tasks":"計劃任務","Select Previous Conversation":"選擇上一個對話","Select Next Conversation":"選擇下一個對話","Open Settings":"開啟設定","Conversation":"對話","Conversation History":"歷史對話","Conversation history":"歷史對話","Toggle Model Selector":"切換模型選擇器","Toggle Voice Recording":"切換錄音","Find in Pane":"在窗格中查詢","Layout Controls":"佈局控制","Toggle Sidebar":"顯示或隱藏側邊欄","Toggle Auxiliary Pane":"切換輔助窗格","Zoom In":"放大","Zoom Out":"縮小","Provide Feedback":"提供反饋","Feedback Type":"反饋型別","Bug Report":"Bug 報告","Feature Request":"功能請求","Auth and Billing":"賬號與計費","General Feedback":"常規反饋","Please describe the feature you'd like to see. The more detailed the requirements, the easier it will be for our team to incorporate your ideas. Some helpful information includes:":"請描述您希望獲得的新功能。需求描述越詳盡，我們的團隊就越容易採納您的想法。以下是一些建議提供的資訊：","What is missing in your workflow":"您的工作流中缺少了什麼","What you would like to see to address this gap in your workflow":"您希望透過什麼功能來解決這一需求","How this feature would help you and other users":"此功能如何幫助您和其他使用者","Describe the feature you would like to see...":"請描述您希望獲得的新功能...","Attach a screenshot (optional)":"新增螢幕截圖（可選）","Attach Antigravity server logs":"附帶 Antigravity 伺服器日誌","Send feedback as":"傳送反饋身份","We recommend attaching logs. Attaching logs will help the Antigravity team act on and prioritize your feedback.":"我們建議附帶日誌。這將有助於 Antigravity 團隊更快速、更有針對性地處理您的問題。","Checking for Updates...":"正在檢查更新...","Downloading Update...":"正在下載更新...","Restart to Update":"重啟以應用更新","Check for Updates":"檢查更新","Update available":"有可用更新","Downloading...":"正在下載...","Update downloaded":"更新已下載完成","Error checking for updates":"檢查更新失敗","Window":"視窗","Install IDE":"安裝 IDE","App":"應用","Inherits from":"繼承自","Rules":"規則","Skills":"技能","Plugin":"外掛","Plugins":"外掛","Customize":"自訂","Setup":"設定","Google AI Pro":"Google AI Pro","Upgrade":"升級","Sign Out":"退出登入","By using this app, you agree to its":"使用本應用即表示您同意其","Terms of Service":"服務條款","Google Drive integration not available":"Google 雲端硬碟整合不可用","Select light, dark, or inherit system settings.":"選擇淺色、深色，或跟隨系統主題。","Configure editor-specific behaviors and shortcuts.":"設定編輯器專屬行為與快捷鍵。","Tab":"製表符","Configure tab completion, suggestions, and navigation behavior.":"設定 Tab 補全、建議以及導航行為。","Marketplace":"擴充套件市場","Marketplace Item URL":"擴充套件市場專案 URL","Marketplace Gallery URL":"擴充套件市場相簿 URL","Changes the base URL on each extension page. You must restart Antigravity to use the new marketplace after changing this value.":"更改每個擴充套件頁面的基礎 URL。更改此值後，必須重啟 Antigravity 才能使用新的擴充套件市場。","Changes the base URL for marketplace search results. You must restart Antigravity to use the new marketplace after changing this value.":"更改擴充套件市場搜尋結果的基礎 URL。更改此值後，必須重啟 Antigravity 才能使用新的擴充套件市場。","To modify editor settings, open Settings within the editor window.":"如需修改編輯器設定，請在編輯器視窗中開啟“設定”。","Editor":"編輯器","Editor Settings":"編輯器設定","Open Editor Settings":"開啟編輯器設定","Configure the browser subagent.":"設定瀏覽器子代理。","It requires":"它需要","Google Chrome to be installed.":"安裝 Google Chrome。","The browser subagent can be invoked by typing":"可以透過輸入","/browser":"/browser","PDF Document":"PDF 文件","MCP Resource":"MCP 資源","Browser Page":"瀏覽器頁面","Browser Text":"瀏覽器文字","Git Commit":"Git 提交","Git Diff":"Git 差異","Directory":"目錄","Conversation Width":"對話區寬度","Configure the maximum width of the conversation panel.":"設定對話面板的最大寬度。","New Conversation in Project":"專案內新對話","Show":"顯示","all":"全部","breakdown":"明細","breakdowns":"明細","Configure a chat bot so you can use Jetski directly from Google Chat.":"設定一個聊天機器人，以便您可以直接在 Google Chat 中使用 Jetski。","Jetski Chat":"Jetski 聊天","Setup Jetski Chat":"設定 Jetski 聊天","Bot Name":"機器人名稱","Avatar URL":"頭像 URL","Enter bot name (optional)":"輸入機器人名稱（可選）","Enter avatar URL (optional)":"輸入頭像 URL（可選）","Chat Space":"聊天空間","Continue to help, visit":"如需繼續獲取幫助，請訪問","Please describe the issue in detail. The more actionable your feedback, the quicker our team can address your request. Some helpful information includes:":"請詳細描述您遇到的問題。反饋越具可操作性，我們的團隊就能越快處理您的請求。以下是一些有用的資訊：","Steps to reproduce the issue":"問題復現步驟","Expected behavior":"預期行為","Actual behavior":"實際行為","Any relevant information":"任何相關資訊","Any error messages":"任何錯誤訊息","Steps to Reproduce":"復現步驟","Submit":"提交","Describe the bug you encountered...":"請描述您遇到的 Bug...","Please list the steps to reproduce the issue":"請列出復現該問題的步驟","Manage your notification preferences.":"管理您的通知偏好。","Manage application settings.":"管理應用設定。","Refresh quota and credits data":"重新整理配額與額度資料","No conversations yet":"暫無對話","No conversation yet":"暫無對話","Add an MCP Server":"新增 MCP 伺服器","width":"寬度","priority":"優先順序","quota":"可用額度","credits":"額度","preference":"偏好","preferences":"偏好","application":"應用","subagent":"子代理","notification":"通知","notifications":"通知","bot":"機器人","space":"空間","visit":"訪問","editor":"編輯器","marketplace":"擴充套件市場","avatar":"頭像","name":"名稱","messages":"訊息","message":"訊息","Weekly Limit":"每週額度","Five Hour Limit":"5 小時限額","Hourly Limit":"每小時限額","Daily Limit":"每日限額","Monthly Limit":"每月限額","limit":"限額","limits":"限額","weekly":"每週","hourly":"每小時","customization":"自訂","budget":"額度","available":"可用","to be installed.":"需要安裝。","to be installed":"需要安裝","or join the":"或加入","Ran command":"已執行命令","Ran commands":"已執行命令","Running command":"正在執行命令","Running commands":"正在執行命令","Run command":"執行命令","Run commands":"執行命令","Explored files, ran commands, edited files":"已探索檔案、已執行命令、已編輯檔案","Explored files, ran commands, edited artifact":"已探索檔案、已執行命令、已編輯成果檔案","Explored files, ran commands, edited artifacts":"已探索檔案、已執行命令、已編輯成果檔案","Running commands, editing files":"正在執行命令、編輯檔案","Running commands, editing artifact":"正在執行命令、編輯成果檔案","Running commands, editing artifacts":"正在執行命令、編輯成果檔案","Checking command status":"正在檢查命令狀態","Checked command status":"已檢查命令狀態","Analyzing Task Log":"正在分析任務日誌","Analyzed Task Log":"已分析任務日誌","Analyzing content":"正在分析內容","Analyzed content":"已分析內容","Unknown file edit":"未知檔案編輯","termination request":"終止請求","User cancelled agent execution.":"使用者已取消智慧代理執行。","User cancelled agent execution":"使用者已取消智慧代理執行","Agent execution failed.":"智慧代理執行失敗。","Agent execution failed":"智慧代理執行失敗","The agent has encountered an internal error.":"智慧代理遇到了內部錯誤。","Used MCP tool":"呼叫 MCP 工具","Used tool":"呼叫工具","Generated image":"已生成影像","Browser task":"瀏覽器任務","Opened browser":"已開啟瀏覽器","Read URL":"讀取 URL","Searched web":"網頁搜尋","Invoked subagent":"呼叫子代理","Git commit":"Git 提交","Searched for files":"搜尋檔案","Searched files":"已搜尋檔案","Code search":"程式碼搜尋","Internal search":"內部搜尋","Sidebar":"側邊欄","Display Options":"顯示選項","Message input":"訊息輸入框","Record voice memo":"錄製語音訊息","Typeahead menu":"預輸入選單","voice memo":"語音備忘","memo":"備忘","typeahead":"預輸入","current":"目前","Choose a model":"選擇模型","Select model":"選擇模型","current model":"目前模型","Group By":"分組方式","Last Updated":"最後更新","Alphabetical (A-Z)":"字母順序 (A-Z)","Date Added":"新增日期","Subtitles":"副標題","No Subtitle":"無副標題","Filter":"篩選","Scheduled":"已計劃","Environment":"環境","None":"無","Fast":"快速","Sort Conversations":"對話排序","Last Prompt":"最新提示詞","Last prompt":"最新提示詞","Archived Only":"僅已歸檔","Active Only":"僅活躍","Pinned Only":"僅置頂","Unarchived Only":"僅未歸檔","Last 7 days":"最近 7 天","Last 24 hours":"最近 24 小時","Last 30 days":"最近 30 天","Display":"顯示","Project":"專案","project":"專案","projects":"專案","conversation":"對話","workspace":"工作區","Minimize":"最小化","Maximize":"最大化","Back":"返回","No scheduled tasks configured.":"暫無已設定的計劃任務。","You have used some of your weekly limit":"本週額度已使用部分","You have used some of your weekly limit.":"您已使用部分每週限額。","You have used some of your 5-hour limit":"您已使用部分 5 小時限額","You have used some of your 5-hour limit.":"您已使用部分 5 小時限額。","You have used some of your Five Hour Limit":"您已使用部分 5 小時限額","You have used some of your five-hour limit":"您已使用部分 5 小時限額","You have used some of your five hour limit":"您已使用部分 5 小時限額","it will fully refresh in":"它將在以下時間後完全重新整理：","hours":"小時","minutes":"分鐘","days":"天","Folders":"資料夾","folders":"資料夾","including":"包括","Allow/deny agent read access to specific files or directories.":"允許/拒絕智慧代理讀取特定檔案或目錄。","Allow/deny agent write access to specific files or directories.":"允許/拒絕智慧代理寫入特定檔案或目錄。","Allow/deny":"允許/拒絕","read access":"讀取權限","write access":"寫入權限","specific files or directories":"特定檔案或目錄","The browser subagent can be invoked by typing /browser in the conversation input box.":"在對話輸入框中輸入 /browser 即可呼叫瀏覽器子代理。","Missing":"缺失","Missing folder":"缺失資料夾","Missing Folder":"缺失資料夾","does not exist":"不存在","not found":"未找到","Not Found":"未找到","No longer available":"已不可用","Path":"路徑","Planning Mode":"規劃模式","planning mode":"規劃模式","Planning Mode is ON":"規劃模式已開啟","Planning Mode is OFF":"規劃模式已關閉","Implementation Plan":"實施計劃","implementation plan":"實施計劃","implementation_plan.md":"實施計劃.md","Walkthrough":"變更回顧","walkthrough":"變更回顧","walkthrough.md":"變更回顧.md","User Review Required":"等待你確認","Open Questions":"待確認問題","Proposed Changes":"擬定變更","Verification Plan":"驗證計劃","Automated Tests":"自動化測試","Manual Verification":"手動驗證","Proceed":"繼續執行","Plan Execution":"計劃執行","Approve Plan":"批准計劃","Reject Plan":"拒絕計劃","Plan approved":"計劃已批准","Plan rejected":"計劃已拒絕","Creating plan...":"正在生成計劃...","Updating plan...":"正在更新計劃...","Reviewing plan...":"正在審核計劃...","Implementation plan created":"實施計劃已建立","Implementation plan updated":"實施計劃已更新","Exit Planning Mode":"退出規劃模式","Enter Planning Mode":"進入規劃模式","Plan Mode":"規劃模式","Plan":"計劃","Goal Description":"目標描述","Component Name":"元件名稱","Default model":"預設模型","Inherit model":"繼承模型","Select a model":"選擇模型","Model tier":"模型級別","Remaining tokens":"剩餘 Token","Remaining":"剩餘","remaining":"剩餘","Weekly limit remaining":"本週剩餘額度","Weekly limit Remaining":"本週剩餘額度","Weekly Limit Remaining":"本週剩餘額度","5-hour limit remaining":"5 小時剩餘額度","5-hour limit Remaining":"5 小時剩餘額度","5-Hour Limit Remaining":"5 小時剩餘額度","Five Hour Limit Remaining":"5 小時限額剩餘","Five Hour Limit remaining":"5 小時限額剩餘","Five hour limit remaining":"5 小時限額剩餘","Five-Hour Limit Remaining":"5 小時剩餘額度","Five-hour limit remaining":"5 小時剩餘額度","Five hour limit":"5 小時限額","Five-Hour Limit":"5 小時限額","Five-hour limit":"5 小時限額","每週限額 Remaining":"每週限額剩餘","五小時限額 Remaining":"5 小時限額剩餘","Weekly limit":"每週額度","weekly limit":"每週額度","5-hour limit":"5 小時限額","5-Hour Limit":"5 小時限額","Claude and GPT models":"Claude 與 GPT 模型","Claude and GPT Models":"Claude 與 GPT 模型","Claude and GPT 模型":"Claude 與 GPT 模型","Gemini models":"Gemini 模型","Gemini Models":"Gemini 模型","Gemini 3.8 Flash":"Gemini 3.8 Flash","Gemini 3.8 Flash using ADC in AGY Enterprise":"AGY 企業版透過 ADC 使用 Gemini 3.8 Flash","Gemini 3.8 Flash using ADC":"透過 ADC 使用 Gemini 3.8 Flash","Enterprise users can now select and use Gemini 3.8 Flash via ADC for agentic tasks.":"企業使用者現可透過 ADC 為智慧代理任務選用 Gemini 3.8 Flash 推理模型。","Application Default Credentials":"應用預設憑據 (ADC)","Application Default Credentials (ADC)":"應用預設憑據 (ADC)","Quoting, /boost, and improved Settings":"劃詞引用、/boost 與設定最佳化","Rename":"重新命名","rename":"重新命名","Mark Unread":"標記為未讀","Mark unread":"標記為未讀","mark unread":"標記為未讀","Mark as Unread":"標記為未讀","Mark as unread":"標記為未讀","Mark Read":"標記為已讀","Mark read":"標記為已讀","mark read":"標記為已讀","Mark as Read":"標記為已讀","Mark as read":"標記為已讀","Pin":"置頂","pin":"置頂","Unpin":"取消置頂","unpin":"取消置頂","Archive":"歸檔","archive":"歸檔","Unarchive":"取消歸檔","unarchive":"取消歸檔","Copy Conversation Name":"複製對話名稱","Copy conversation name":"複製對話名稱","Copy Conversation ID":"複製對話 ID","Copy conversation id":"複製對話 ID","Copy Project Name":"複製專案名稱","Copy project name":"複製專案名稱","Copy Terminal":"複製終端機命令","Copy terminal":"複製終端機命令","Copy terminal command":"複製終端機命令","Conversation name":"對話名稱","Conversation Name":"對話名稱","Conversation ID":"對話 ID","conversation id":"對話 ID","Workspace Name":"工作區名稱","workspace name":"工作區名稱","Worktree Name":"Worktree 名稱","worktree name":"Worktree 名稱","Project Name":"專案名稱","project name":"專案名稱","Copy":"複製","copy":"複製","Copied":"已複製","copied":"已複製","Copied!":"已複製！","Copy Content":"複製內容","Copy content":"複製內容","Copy Link":"複製連結","Copy link":"複製連結","Copy Path":"複製路徑","Copy path":"複製路徑","Copy Image":"複製圖片","Copy image":"複製圖片","Copy prompt":"複製提示詞","Copy Command":"複製命令","Copy command":"複製命令","Copy error":"複製錯誤資訊","Copy error to clipboard":"複製錯誤資訊到剪貼簿","Copy config file path":"複製設定檔案路徑","Copy full URL to clipboard":"複製完整 URL 到剪貼簿","Copy to clipboard":"複製到剪貼簿","Copy File Path":"複製檔案路徑","Copy File Name":"複製檔名","Copy workspace":"複製工作區","Copy project":"複製專案","Copy debug info":"複製除錯資訊","Copy conversation markdown":"以 Markdown 格式複製對話","Copy trajectory ID":"複製軌跡 ID","Copy the trajectory ID":"複製軌跡 ID","Trajectory ID":"軌跡 ID","Attach the trajectory ID to the feedback form":"將軌跡 ID 附加到反饋表單中","Open in Trajectory Dashboard":"在軌跡儀表盤中開啟","Trajectory Metadata":"軌跡後設資料","No trajectory metadata available":"暫無軌跡後設資料","Delete Conversation":"刪除對話","delete conversation":"刪除對話","Updated":"已更新","updated":"已更新","Action Required":"需要你操作","action required":"需要你操作","Unread":"未讀","unread":"未讀","Active":"活躍","active":"活躍","Idle":"空閒","idle":"空閒","Canceling":"正在取消","canceling":"正在取消","Side Question":"側邊提問","side question":"側邊提問","Side question":"側邊提問","Side question answered.":"側邊提問已回答。","Side question answered":"側邊提問已回答","View side question":"檢視側邊提問","Minimize side question":"最小化側邊提問","Delete side question":"刪除側邊提問","Cancel questionnaire":"取消問答","Cancel questionnaire and stop the agent":"取消問答並停止智慧代理","Amend":"追加提交","amend":"追加提交","Amending...":"正在追加提交...","Amend staged changes into the current commit":"將已暫存改動追加合併至目前提交","Stage and amend all changes into the current commit":"暫存並將所有改動追加合併至目前提交","Amend succeeded":"追加提交成功","Failed to Amend":"追加提交失敗","No changes to amend":"沒有可追加的改動","No commit to amend":"沒有可追加的目標提交","Resolve conflicts first":"請先解決衝突","Best of N settings have moved":"Best of N 設定已遷移","Best of N settings have moved to the Advanced section of General settings.":"Best of N 設定已移至通用設定中的“高階”區域。","CitC settings have moved":"CitC 設定已遷移","CitC settings have moved to the Advanced section of General settings.":"CitC 設定已移至通用設定中的“高階”區域。","Labs settings have moved":"實驗室設定已遷移","Labs settings have moved to the Advanced section of General settings.":"實驗室設定已移至通用設定中的“高階”區域。","Change VCS in General settings, under Advanced":"在通用設定的“高階”區域中更改版本控制系統","Skills and rules settings":"技能與規則設定","Markdown Artifact Width":"Markdown 成果檔案寬度","Configure the default width of markdown artifacts.":"設定 Markdown 成果檔案的預設顯示寬度。","Table Width":"表格寬度","Configure the default width of tables.":"設定表格的預設顯示寬度。","Fit to content":"適應內容","Fit to width":"適應寬度","Administrator access (UAC)":"管理員權限 (UAC)","Grant administrator access for":"授予管理員權限至","Grant one-time administrator access":"授予一次性管理員權限","Requesting a one-time administrator (UAC) elevation":"正在請求一次性管理員 (UAC) 權限提升","Yes, allow":"允許授權","Create plugin":"建立外掛","Describe a plugin and the agent builds it":"描述外掛功能，智慧代理將自動構建","Delete Skill":"刪除技能","Enable recommended skills":"啟用推薦技能","Disable recommended skills":"禁用推薦技能","Customizations views":"自訂項檢視","Installed by you":"由您安裝","Bundled with the app":"隨應用內建","Listed in your config":"已在您的設定中列出","Found in this workspace":"在此工作區中找到","No custom agents yet.":"暫無自訂智慧代理。","No customizations match your search.":"沒有匹配您搜尋的自訂項。","No skills or rules match this filter.":"沒有匹配此篩選條件的技能或規則。","No skills or rules yet.":"暫無技能或規則。","Pre-installed":"預置","Builtin":"內建","Split":"分屏","split":"分屏","Split Right":"向右分屏","split right":"向右分屏","Split Down":"向下分屏","split down":"向下分屏","Replace With New":"替換為新對話","replace with new":"替換為新對話","Remove From Split":"從分屏中移除","remove from split":"從分屏中移除","Split Terminal":"拆分終端機","split terminal":"拆分終端機","Split Conversation Vertically":"左右分屏顯示對話","Split Conversation Horizontally":"上下分屏顯示對話","Equalize Split Panes":"均分窗格","Restore split view":"恢復分屏檢視","Close split view and go to forked conversation":"關閉分屏，轉到分支對話","View Split Diff":"在分屏中對比差異","Resize terminal panes":"調整終端機窗格大小","Fork":"建立分支對話","fork":"建立分支對話","Fork Conversation":"建立分支對話","Create fork in current workspace":"在目前工作區建立分支對話","Create fork in shared workspace":"在共享工作區建立分支對話","Create fork in new workspace":"在新工作區建立分支對話","Failed to fork conversation":"無法建立分支對話","Forked from":"分支來源","Fork Environment Notice":"分支對話的執行環境說明","The server returned no conversation to fork into.":"伺服器未返回新建的分支對話。","Move to Group":"移動到分組","Move to group":"移動到分組","New Group":"新建分組","new group":"新建分組","Create Group":"建立分組","create group":"建立分組","Delete Group":"刪除分組","Rename Group":"重新命名分組","Remove from Group":"從分組中移除","No groups yet":"暫無分組","Group name":"分組名稱","Group Name":"分組名稱","Enter group name":"輸入分組名稱","A group with this name already exists.":"已存在同名分組。","Group By Project":"按專案分組","Group By Workspace":"按工作區分組","Sidebar grouped by project":"側邊欄已按專案分組","Sidebar grouped by workspace":"側邊欄已按工作區分組","New chats will be grouped by workspace.":"新會話將按工作區進行分組。","Maximize Pane":"最大化窗格","Restore Pane":"恢復窗格","Auxiliary Pane":"輔助窗格","Open in Preview Pane":"在預覽窗格中開啟","No plugins available":"暫無可用外掛","Replace With 新建":"替換為新建","移除 From Split":"從分屏中移除","Split 終端機":"拆分終端機","新建 Group":"新建分組","建立 Group":"建立分組","移動到 Group":"移動到分組","重新命名 Group":"重新命名分組","刪除 Group":"刪除分組","從 Group 中移除":"從分組中移除","向右 Split":"向右分屏","向下 Split":"向下分屏","Pin this conversation":"置頂此對話","Unpin this conversation":"取消置頂此對話","Rename this conversation":"重新命名此對話","Forked conversation":"分支對話","Scratch Files":"暫存檔案","No scratch files":"暫無暫存檔案","Show Whitespace Changes":"顯示空白字元變動","Hide Whitespace Changes":"隱藏空白字元變動","Search Conversations":"搜尋對話","Search Projects":"搜尋專案","Search Workspaces":"搜尋工作區","Scroll to Bottom":"滾動到底部","Code block":"程式碼塊","Code snippet":"程式碼片段","Comment on Selection":"針對所選內容新增註釋","Configure MCP Server":"設定 MCP 伺服器","Conversation Log":"對話日誌","Copy error messages":"複製錯誤資訊","Failed to display native context menu:":"無法顯示原生上下文選單：","Failed to load media":"載入媒體資源失敗","Failed to parse settings. Fix and restart.":"設定解析失敗，請修正後重啟軟體。","Failed to save image: ":"儲存圖片失敗：","Loading media...":"正在載入媒體...","More info":"更多資訊","No documents":"暫無文件","No matching items":"無匹配項","Reason for opting out":"退出原因","Remote Control channel closed":"遠端控制通道已關閉","This cannot be undone.":"此操作無法撤銷。","Vetted (Preview)":"官方稽核 (預覽版)","What counts as a document":"哪些內容屬於文件","Your changes were not saved. Please try again.":"您的更改未儲存，請重試。","License Required":"需要許可證","Project Required":"需要關聯專案","Manage License":"管理許可證","A Google Cloud project is required to use Antigravity.":"使用 Antigravity 需要關聯 Google Cloud 專案。","A license or project selection is required to use Antigravity.":"使用 Antigravity 需要具備許可證或選擇關聯專案。","Teamwork":"團隊協作","teamwork":"團隊協作","Manage Subagents":"管理子代理","manage subagents":"管理子代理","Active Subagents":"活躍子代理","Invoke subagent":"呼叫子代理","Define subagent":"定義子代理","Kill subagent":"終止子代理","Kill all":"終止全部","Waiting for input":"等待輸入","Waiting for dependents":"等待依賴任務","Waiting for message":"等待訊息","Errored":"已出錯","Unspecified":"未指定","Research Agent":"調研智慧代理","Codebase Researcher":"程式碼庫調研員","Conversation transcript":"對話記錄","Transcript logs":"轉錄日誌","Reactive Wakeup":"響應式喚醒","No polling needed":"無需輪詢","Subagent conversation":"子代理對話","Parent agent":"父智慧代理","Child agent":"子代理","Isolated branch":"隔離分支","Shared repository":"共享倉庫","Workspace directory permissions":"工作區目錄權限","Active workspace":"活動工作區","Switch workspace":"切換工作區","Add folder to workspace":"新增資料夾到工作區","Remove from workspace":"從工作區移除","MCP Servers":"MCP 伺服器","MCP Server":"MCP 伺服器","Active MCPs":"活躍 MCP 服務","Connectors":"聯結器","Configure MCP server":"設定 MCP 伺服器","Inspect parameters":"檢查引數","Tool execution":"工具執行","Tool call":"工具呼叫","Tool calls":"工具呼叫","Tool summary":"工具摘要","Tool action":"工具操作","Built-in tools":"內建工具","External tools":"外部工具","Analyzing directory":"分析目錄","Analyzed directory":"分析目錄","analyzed directory":"分析目錄","Analyzed":"已分析","analyzed":"已分析","Searching the web":"搜尋網頁","Editing file":"正在編輯檔案","Viewing file":"檢視檔案","Semantic searching":"語義搜尋","Sandboxed":"沙盒內","Unsandboxed":"沙盒外","Allowed paths":"允許路徑","Denied paths":"拒絕路徑","Allowed commands":"允許命令","Denied commands":"拒絕命令","Allowed URLs":"允許的 URL","Denied URLs":"拒絕的 URL","Always allow":"始終允許","Ask every time":"每次詢問","Deny by default":"預設拒絕","Allowlist":"白名單","Denylist":"黑名單","Global permissions":"全域權限","Project permissions":"專案權限","One-shot timer":"單次定時器","Recurring cron":"迴圈定時任務","Cron expression":"Cron 表示式","Duration in seconds":"持續秒數","Max iterations":"最大執行次數","Timer condition":"定時條件","Early termination":"提前終止","Any message":"任何訊息","Specific sender":"特定傳送者","Expired":"已過期","Skill":"技能","Rule":"規則","Sidecars":"伴生程序 (Sidecars)","Hooks":"鉤子","App Data Directory":"應用資料目錄","Artifact":"成果檔案","Artifact metadata":"成果檔案後設資料","Loading Antigravity":"正在載入 Antigravity...","Setting up...":"正在啟動/設定中...","Recent Workspaces":"最近工作區","Clear Cache":"清除快取","Reset Settings":"重置設定","Log Out":"退出登入","Sign In":"登入","Sign in with Google":"使用 Google 賬號登入","Signed in as":"目前登入賬號","New version available":"有新版本可用","Automatic 檢查更新":"自動檢查更新","Automatic check for updates":"自動檢查更新","Automatic Check for Updates":"自動檢查更新","Automatic Updates":"自動更新","Automatic updates":"自動更新","Automatically prompt you to restart the app when a new update is available. When disabled, you can check for updates manually from the app menu.":"當有新版本可用時，自動提示您重啟應用以完成更新。禁用後，您可以在應用選單中手動檢查更新。","Automatically prompt you to restart the app when a new update is available. When disabled, you can check for updates manually from the app menu":"當有新版本可用時，自動提示您重啟應用以完成更新。禁用後，您仍可透過應用選單手動檢查更新","Automatically prompt you to restart the app when a new update is available.":"當有新版本可用時，自動提示您重啟應用以完成更新。","Automatically prompt you to restart the app when a new update is available":"當有新版本可用時，自動提示您重啟應用以完成更新","When disabled, you can check for updates manually from the app menu.":"禁用後，您可以在應用選單中手動檢查更新。","When disabled, you can check for updates manually from the app menu":"禁用後，您仍可透過應用選單手動檢查更新","Copy code":"複製程式碼","Collapse":"摺疊","Expand":"展開","Show more":"顯示更多","Show less":"顯示更少","Details":"詳情","run":"執行","Ran":"已執行","ran":"已執行","running":"正在執行","Thought":"思考過程","thought":"思考過程","Thinking...":"思考中...","thinking...":"思考中...","Thinking":"深度思考","thinking":"思考中","Explored":"已探索","explored":"已探索","Exploring":"正在探索","exploring":"正在探索","Edited":"已編輯","edited":"已編輯","Editing":"正在編輯","editing":"正在編輯","Viewed":"已檢視","viewed":"已檢視","Viewing":"正在檢視","viewing":"正在檢視","Searched":"已搜尋","searched":"已搜尋","Searching":"正在搜尋","searching":"正在搜尋","Working...":"正在工作...","working...":"處理中...","Working":"正在工作","working":"正在工作","Load older messages":"載入更早訊息","Artifact not found":"未找到成果檔案檔案","could not be opened":"無法開啟","Tool definitions":"工具定義","Subagent definitions":"子代理定義","Command Palette":"命令面板","Command Palette...":"命令面板...","Command palette":"命令面板","command palette":"命令面板","Palette":"面板","palette":"面板","命令palette":"命令面板","命令 Palette":"命令面板","命令 palette":"命令面板","new window":"新建視窗","Open folder":"開啟資料夾","Open Folder...":"開啟資料夾...","Open Workspace...":"開啟工作區...","Save As...":"另存為...","Save As":"另存為","Save as":"另存為","Save all":"全部儲存","Save All":"全部儲存","Close Window":"關閉視窗","close window":"關閉視窗","Close Workspace":"關閉工作區","close workspace":"關閉工作區","Close Editor":"關閉編輯器","close editor":"關閉編輯器","Close Folder":"關閉資料夾","close folder":"關閉資料夾","Quit Antigravity":"退出 Antigravity","Exit":"退出","exit":"退出","appearance":"外觀","Theme":"主題","Theme mode":"主題模式","Theme Mode":"主題模式","theme mode":"主題模式","Color theme":"顏色主題","Custom theme":"自訂主題","System":"跟隨系統","Follow system":"跟隨系統","Inherit from system":"跟隨系統設定","Conversation width":"對話區寬度","conversation width":"對話區寬度","Compact":"緊湊","Comfortable":"適中","Wide":"加寬","Full width":"全寬","Full Width":"全寬","Keep computer awake":"保持電腦喚醒","Keep computer awake while running tasks":"執行任務時防止電腦休眠","Prevent the system from sleeping during long-running agent tasks.":"在智慧代理執行長時間任務期間防止系統進入休眠。","Run in background":"後台執行","Run in background when closed":"關閉視窗後在後台繼續執行","Run in background when all windows are closed":"關閉所有視窗後在後台繼續執行","Keep Antigravity running in the background when all windows are closed.":"關閉所有視窗後，保持 Antigravity 在系統後台執行。","Auto-check for updates":"自動檢查更新","Auto check for updates":"自動檢查更新","Automatically check for updates":"自動檢查軟體更新","Automatically check for and notify about application updates.":"自動檢查並提示新版本應用程式更新。","Enable system notifications":"啟用系統通知","Enable system notifications on task completion":"任務完成時傳送系統通知","Task completion notifications":"任務完成通知","Receive desktop notifications when background tasks or agent turns finish.":"當後台任務或智慧代理回合完成時接收桌面通知。","Play sound on task completion":"任務完成時播放提示音","Sound effects":"聲音效果","No Project":"未關聯專案","No project":"未關聯專案","no project":"未關聯專案","Invalid tool call":"無效的工具呼叫","Invalid Tool Call":"無效的工具呼叫","invalid tool call":"無效的工具呼叫","Main Agent":"主智慧代理","Main agent":"主智慧代理","main agent":"主智慧代理","Main Agent (Default)":"主智慧代理 (預設)","Main agent (default)":"主智慧代理 (預設)","Default tools":"預設工具","default tools":"預設工具","Default Tools":"預設工具","Default prompt sections":"預設提示詞小節","default prompt sections":"預設提示詞小節","Default prompts":"預設提示詞","default prompts":"預設提示詞","Switch off default tools":"關閉預設工具","Switch off default prompts":"關閉預設提示詞","Switch off default prompt sections":"關閉預設提示詞小節","Add back tools":"重新新增工具","Cannot display binary file":"無法顯示二進位檔案","Binary file cannot be displayed":"無法顯示二進位檔案","Unable to display binary file":"無法顯示二進位檔案","Command canceled":"命令已取消","Command cancelled":"命令已取消","Canceled on restart":"重啟時已取消","Cancelled on restart":"重啟時已取消","Working outside of a project":"在專案外部工作","Working outside of a project.":"在專案外部工作。","Good response":"好評回覆","Bad response":"差評回覆","More actions":"更多操作","more actions":"更多操作","More options":"更多選項","more options":"更多選項","Pin conversation":"置頂對話","Unpin conversation":"取消置頂對話","Archive conversation":"歸檔對話","Pinned Conversations":"置頂對話","Pinned conversations":"置頂對話","pinned conversations":"置頂對話","PINNED CONVERSATIONS":"置頂對話","Pinned Conversation":"置頂對話","Pinned conversation":"置頂對話","pinned conversation":"置頂對話","Pinned":"已置頂","pinned":"已置頂","Unpinned":"未置頂","unpinned":"未置頂","Recent Conversations":"最近對話","Recent conversations":"最近對話","recent conversations":"最近對話","All Conversations":"全部對話","All conversations":"全部對話","all conversations":"全部對話","Other Conversations":"其他對話","other conversations":"其他對話","Undo to this point":"撤銷至此處","copy code":"複製程式碼","At mention code block":"提及程式碼塊","Add inline comment":"新增行內註釋","Fold code block":"摺疊程式碼塊","User message":"使用者訊息","user message":"使用者訊息","Send message":"傳送訊息","send message":"傳送訊息","Agent execution terminated due to error.":"智慧代理執行因錯誤而終止。","Agent execution terminated due to error":"智慧代理執行因錯誤而終止","Agent execution terminated":"智慧代理執行已終止","See all":"檢視全部","see all":"檢視全部","Media actions":"媒體操作","Overview tab":"概覽標籤頁","Review tab":"評審標籤頁","Terminal tab":"終端機標籤頁","Resolve Merge":"解決合併","Add comment":"新增註釋","Open in Remote Control":"在遠端控制中開啟","Open in remote control":"在遠端控制中開啟","open in remote control":"在遠端控制中開啟","Continue your work from another device with Remote Control. Scan the QR code or open the link below.":"藉助遠端控制從另一臺裝置繼續工作。請掃描下方二維碼或開啟下方連結。","Continue your work from another device with Remote Control. Scan the QR code or open the link below":"藉助遠端控制從另一臺裝置繼續工作。請掃描下方二維碼或開啟下方連結","Continue your work from another device with Remote Control.":"藉助遠端控制從另一臺裝置繼續工作。","Continue your work from another device with Remote Control":"藉助遠端控制從另一臺裝置繼續工作","Continue your work from another device with remote control.":"藉助遠端控制從另一臺裝置繼續工作。","Continue your work from another device with remote control":"藉助遠端控制從另一臺裝置繼續工作","Continue your work from another device":"從另一臺裝置繼續工作","continue your work from another device":"從另一臺裝置繼續工作","Scan the QR code or open the link below.":"掃描二維碼或開啟下方連結。","Scan the QR code or open the link below":"掃描二維碼或開啟下方連結","Scan the QR code":"掃描二維碼","scan the QR code":"掃描二維碼","open the link below.":"開啟下方連結。","open the link below":"開啟下方連結","Remote Control":"遠端控制","Remote control":"遠端控制","remote control":"遠端控制","Scan the code to open this device in remote control, or copy link.":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結。","Scan the code to open this device in Remote Control, or copy link.":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結。","Scan the code to open this device in remote control, or copy link":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結","Scan the code to open this device in Remote Control, or copy link":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結","Scan the code to open this device in 遠端控制, or copy link。":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結。","Scan the code to open this device in 遠端控制, or copy link.":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結。","Scan the code to open this device in 遠端控制, or copy link":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結","Scan the code to 開啟 this device in 遠端控制, or copy link。":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結。","Scan the code to 開啟 this device in 遠端控制, or copy link":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結","Scan the code to 開啟 this 裝置 in 遠端 Control, or 複製連結":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結。","Scan the code to 開啟 this 裝置 in 遠端 Control, or 複製連結。":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結。","Scan the code to 開啟 this 裝置 in 遠端 Control, or 複製連結.":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結。","Scan the code to 開啟 this 裝置 in 遠端 控制, or 複製連結":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結。","Scan the code to 開啟 this 裝置 in 遠端 控制, or 複製連結。":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結。","Scan the code to 開啟 this 裝置 in 遠端 控制, or 複製連結.":"掃描二維碼以在遠端控制中開啟此裝置，或複製連結。","Scan the code to open this device in Remote Control, or":"掃描二維碼以在遠端控制中開啟此裝置，或","Scan the code to open this device in remote control, or":"掃描二維碼以在遠端控制中開啟此裝置，或","Scan the code to 開啟 this 裝置 in 遠端 控制, or":"掃描二維碼以在遠端控制中開啟此裝置，或","Scan the code to 開啟 this 裝置 in 遠端 Control, or":"掃描二維碼以在遠端控制中開啟此裝置，或","Scan the code to 開啟 this device in 遠端控制, or":"掃描二維碼以在遠端控制中開啟此裝置，或","Scan the code to":"掃描二維碼以","scan the code to":"掃描二維碼以","open this device in Remote Control":"在遠端控制中開啟此裝置","open this device in remote control":"在遠端控制中開啟此裝置","this device in Remote Control":"在遠端控制中的此裝置","Control":"控制","control":"控制","Scan the code to open this device":"掃描二維碼以開啟此裝置","in remote control":"在遠端控制中","in Remote Control":"在遠端控制中","or copy link.":"或複製連結。","or copy link":"或複製連結","copy link":"複製連結","Link copied":"連結已複製","Link copied!":"連結已複製！","Scan the code":"掃描二維碼","scan the code":"掃描二維碼","Scan code":"掃描二維碼","QR code":"二維碼","QR Code":"二維碼","Connect device":"連線裝置","Connect your device":"連線您的裝置","Open on your mobile device":"在移動裝置上開啟","Open on this device":"在此裝置上開啟","This device":"此裝置","this device":"此裝置","Tool Execution Policy":"工具執行策略","Tool execution policy":"工具執行策略","Auto-Execution Policy":"自動執行策略","Auto Execution Policy":"自動執行策略","auto-execution policy":"自動執行策略","Execution Policy":"執行策略","execution policy":"執行策略","Controls whether terminal commands require approval before running":"控制終端機命令在執行前是否需要人工審批","Controls whether terminal commands require approval before running.":"控制終端機命令在執行前是否需要人工審批。","Always proceed":"無需確認，直接執行","always-proceed":"總是直接執行","Always proceed (Run without asking)":"總是直接執行 (無需詢問)","Request review":"請求人工稽核","request-review":"請求人工稽核","Request review (Ask before every command)":"請求人工稽核 (每次執行命令前詢問)","Proceed in sandbox":"在沙盒中直接執行","Proceed in Sandbox":"在沙盒中執行","proceed-in-sandbox":"在沙盒中直接執行","Proceed in sandbox (Run in sandbox without asking)":"在沙盒中直接執行 (沙盒內無需詢問)","Strict":"嚴格模式","strict":"嚴格模式","Strict (Ask for all tools)":"嚴格模式 (所有工具呼叫均需確認)","Agent decides":"智慧代理自主決定","agent-decides":"智慧代理自主決定","Agent decides (Request review when recommended)":"智慧代理自主決定 (僅在有風險時請求稽核)","Asks for review":"詢問稽核","Ask for review":"詢問稽核","asks-for-review":"詢問稽核","Turbo":"極速模式","turbo":"極速模式","Turbo mode":"極速模式","turbo mode":"極速模式","極速模式 mode":"極速模式","Learn more about":"瞭解此預設：","learn more about":"瞭解此預設：","瞭解更多 about":"瞭解更多關於","Configure when follow-up messages are sent.":"設定後續跟進訊息的傳送時機。","Configure when follow-up messages are sent":"設定後續跟進訊息的傳送時機","Queue":"排隊等待","queue":"排隊等待","Send Immediately":"立即傳送","send immediately":"立即傳送","Steer":"實時插話指導","steer":"實時插話指導","Interrupt":"中斷目前執行","interrupt":"中斷目前執行","Controls the actions the agent can take.":"設定智慧代理可以執行哪些操作。","Controls the actions the agent can take":"控制智慧代理可以執行的具體操作範圍","Controls the 操作 the 智慧代理 can take。":"控制智慧代理可以執行的具體操作範圍。","Controls the 操作 the 智慧代理 can take":"控制智慧代理可以執行的具體操作範圍","Whether the agent asks you to review its documents.":"設定智慧代理生成的計劃是否需要你稽核。","Whether the agent asks you to review its documents":"控制智慧代理是否提請您稽核其生成的文件成果檔案","Modify permissions for files, terminal, and MCP tools.":"修改針對檔案系統、終端機命令以及 MCP 工具的安全權限。","Modify permissions for files, terminal, and MCP tools":"修改針對檔案系統、終端機命令以及 MCP 工具的安全權限","Modify 權限 持續 檔案, 終端機, and MCP 工具。":"修改針對檔案系統、終端機命令以及 MCP 工具的安全權限。","Modify 權限 持續 檔案, 終端機, and MCP 工具":"修改針對檔案系統、終端機命令以及 MCP 工具的安全權限","Modify permissions for 檔案, 終端機, and MCP 工具。":"修改針對檔案系統、終端機命令以及 MCP 工具的安全權限。","Modify permissions for 檔案, 終端機, and MCP 工具":"修改針對檔案系統、終端機命令以及 MCP 工具的安全權限","You can upgrade to a Google AI Ultra plan to receive higher rate limits.":"您可以升級至 Google AI Ultra 計劃以獲得更高額度的呼叫速率上限。","You can upgrade to a Google AI Ultra plan to receive higher rate limits":"您可以升級至 Google AI Ultra 計劃以獲得更高額度的呼叫速率上限","You can 升級 to a Google AI Ultra 計劃 to receive higher rate 限額。":"您可以升級至 Google AI Ultra 計劃以獲得更高額度的呼叫速率上限。","You can 升級 to a Google AI Ultra 計劃 to receive higher rate 限額":"您可以升級至 Google AI Ultra 計劃以獲得更高額度的呼叫速率上限","Keyboard Shortcuts":"鍵盤快捷鍵","keyboard shortcuts":"鍵盤快捷鍵","Keyboard 快捷鍵":"鍵盤快捷鍵","Narrow":"緊湊","narrow":"緊湊","Terminal Sandbox":"終端機沙盒","terminal sandbox":"終端機沙盒","Sandbox Mode":"沙盒模式","sandbox mode":"沙盒模式","Enable Sandbox Mode (Preview)":"啟用沙盒模式 (預覽)","Enable Sandbox Mode (preview)":"啟用沙盒模式 (預覽)","enable sandbox mode (preview)":"啟用沙盒模式 (預覽)","Enable Sandbox Mode":"啟用沙盒模式","enable sandbox mode":"啟用沙盒模式","Sandbox Mode (Preview)":"沙盒模式 (預覽)","sandbox mode (preview)":"沙盒模式 (預覽)","Enable Terminal Sandbox":"啟用終端機沙盒","enable terminal sandbox":"啟用終端機沙盒","Restricts agent tools to a secure, isolated local sandbox.":"將智慧代理工具限制在安全、隔離的本地沙盒環境中。","Restricts agent tools to a secure, isolated local sandbox":"將智慧代理工具限制在安全、隔離的本地沙盒環境中","restricts agent tools to a secure, isolated local sandbox.":"將智慧代理工具限制在安全、隔離的本地沙盒環境中。","restricts agent tools to a secure, isolated local sandbox":"將智慧代理工具限制在安全、隔離的本地沙盒環境中","Run agent commands inside a restricted sandbox environment for added security.":"在受限沙盒環境中執行智慧代理命令以提高系統安全性。","Run agent commands inside a restricted sandbox environment":"在受限沙盒環境中執行智慧代理命令","for added security.":"以提高安全性。","Commands executed outside the sandbox require approval.":"在沙盒外執行的命令必須經過使用者明確批准。","Commands executed outside the sandbox require explicit user confirmation.":"在沙盒外執行的命令需要使用者顯式確認。","Sandbox allowed domains":"沙盒允許訪問的域名","Sandbox Allowed Domains":"沙盒允許域名","Security preset":"安全預設","security preset":"安全預設","Security Presets":"安全預設","Security presets":"安全預設","security presets":"安全預設","Custom Preset":"自訂預設","Standard Preset":"標準預設","Strict Preset":"嚴格預設","Inherit Global":"使用全域設定","inherit global":"使用全域設定","Inherits Global":"繼承全域","inherits global":"繼承全域","Inherit global":"使用全域設定","Inherit Global Permissions":"使用全域權限設定","inherit global permissions":"使用全域權限設定","Inherit Global Permissions.":"繼承全域權限。","Inherits your Global Permissions when working in this project.":"在此專案中工作時繼承您的全域權限。","Inherits your Global Permissions when working in this project":"在此專案中工作時繼承您的全域權限","inherits your global permissions when working in this project.":"在此專案中工作時繼承您的全域權限。","inherits your global permissions when working in this project":"在此專案中工作時繼承您的全域權限","Inherits your Global Permissions":"繼承您的全域權限","inherits your global permissions":"繼承您的全域權限","Manually customize individual settings":"手動自訂各項獨立設定","manually customize individual settings.":"手動自訂各項獨立設定。","Also includes":"還會使用","also includes":"還會使用","when working in this project.":"作為此專案的基礎權限。","when working in this project":"設定","When working in this project.":"作為此專案的基礎權限。","When working in this project":"在目前專案中工作時","This project was created for":"此專案建立用於","automation. Automations do not inherit Global Permissions.":"自動化任務。自動化任務不會繼承全域權限。","Automations do not inherit Global Permissions.":"自動化任務不會繼承全域權限。","Automations do not inherit Global Permissions":"自動化任務不會繼承全域權限","automations do not inherit global permissions.":"自動化任務不會繼承全域權限。","Configures how the agent tries to access files outside of its working folders":"設定智慧代理嘗試訪問其工作資料夾之外的檔案時的訪問策略","Terminal Command Auto Execution":"終端機命令自動執行","Controls whether terminal commands require your approval before running":"控制終端機命令在執行前是否需要您的批准","proceed in sandbox":"在沙盒中執行","require review":"需要人工稽核","Permission Preset":"權限預設","permission preset":"權限預設","Permission Presets":"權限預設","permission presets":"權限預設","Permission Settings":"權限設定","permission settings":"權限設定","local permissions":"本地權限","Agent Settings (For Project)":"智慧代理設定 (適用於專案)","Requires manual review for all terminal commands and file accesses outside of the working folders":"對所有終端機命令以及工作區資料夾之外的檔案訪問均需要手動稽核","All terminal commands require review.":"所有終端機命令均需稽核。","The agent can read or write to any file in the machine.":"智慧代理可以讀寫本機上的任意檔案。","Full machine":"訪問本機全部檔案","full machine":"訪問本機全部檔案","Useful for typical development with an emphasis on security. It prioritizes safety over speed by requiring manual approval for all terminal commands and files outside the project directory.":"適用於注重安全性的常規開發場景。透過要求對所有終端機命令及專案目錄之外的檔案操作進行手動批准，將安全性置於速度之上。","Useful for tasks that require file access across your full machine. The agent has full read and write access to all local files, but all proposed terminal commands require manual review and approval before running.":"適用於需要訪問本機多個位置的任務。智慧代理可讀寫所有本地檔案，但每條終端機命令仍須經你稽核並確認後才能執行。","A high-risk mode that disables all safety barriers. The agent operates with full system access, auto-executes all terminal commands, and reads or writes to all local files without review prompts.":"高風險模式，禁用所有安全防護。智慧代理擁有完整的系統訪問權限，會自動執行所有終端機命令，並在讀寫任意本地檔案時均不彈出稽核提示。","managed by your organization":"由您的組織統一管理","Disabled by organization policy":"已由組織策略禁用","Non-Workspace File Access":"工作區外檔案訪問","Non-Workspace File Access Policy":"工作區外檔案訪問策略","non-workspace file access policy":"工作區外檔案訪問策略","File Access Policy":"檔案訪問策略","file access policy":"檔案訪問策略","Controls whether the agent can read or write files outside the current workspace root":"控制智慧代理是否可以讀寫目前工作區根目錄之外的檔案","Controls whether the agent can read or write files outside the current workspace root.":"控制智慧代理是否可以讀寫目前工作區根目錄之外的檔案。","Internet Access Policy":"網路訪問策略","internet access policy":"網路訪問策略","Controls whether the agent can make network requests":"控制智慧代理是否可以發起網路外部請求","Controls whether the agent can make network requests.":"控制智慧代理是否可以發起網路外部請求。","Allow agent access to .gitignore files":"允許智慧代理訪問 .gitignore 忽略的檔案","Allow agent access to .gitignore files.":"允許智慧代理訪問 .gitignore 忽略的檔案。","Allow":"允許","allow":"允許","ask":"每次詢問","Deny":"拒絕","deny":"拒絕","Allow/Deny":"允許/拒絕","Permission Grants":"權限授予規則","permission grants":"權限授予規則","Global permission grants":"全域權限規則","Project-scoped permission grants":"專案專屬權限規則","Command Allowlist":"命令白名單","Command Denylist":"命令黑名單","Command Allowlist / Denylist":"命令白名單 / 黑名單","Specify terminal commands that are always permitted or always blocked.":"指定始終允許直接執行或始終禁止執行的終端機命令。","Browser Allowlist":"瀏覽器白名單","browser allowlist":"瀏覽器白名單","Restrict which domains the agent's browser tools can navigate to.":"限制智慧代理瀏覽器工具可以訪問的域名範圍。","Define global allow/deny rules for specific files, commands, and URLs.":"為特定的檔案路徑、終端機命令及網路 URL 定義全域允許/拒絕規則。","Add path":"新增路徑","Add Path":"新增路徑","Add command":"新增命令","Add Command":"新增命令","Add URL":"新增 URL","Add domain":"新增域名","Add Domain":"新增域名","Add rule":"新增規則","Add Rule":"新增規則","Edit rule":"編輯規則","Remove rule":"移除規則","Delete rule":"刪除規則","Artifact Review Mode":"成果檔案稽核模式","artifact review mode":"成果檔案稽核模式","Artifact Review":"成果檔案稽核","artifact review":"成果檔案稽核","Controls when the agent asks for artifact review":"控制智慧代理何時向使用者提請成果檔案稽核","Controls when the agent asks for artifact review.":"控制智慧代理何時向使用者提請成果檔案稽核。","Override artifact review behavior per project.":"在目前專案中覆蓋成果檔案稽核行為設定。","Browser JavaScript Execution":"瀏覽器 JavaScript 執行策略","Browser JavaScript Execution Policy":"瀏覽器 JavaScript 執行策略","Browser JS Execution Policy":"瀏覽器 JS 執行策略","browser js execution policy":"瀏覽器 JS 執行策略","Controls whether the browser tool can execute JavaScript on web pages.":"控制瀏覽器工具是否可以在網頁上執行 JavaScript 指令碼。","Enable Remote Control":"啟用遠端控制","enable remote control":"啟用遠端控制","Remote control hostname":"遠端控制主機名","Remote Control Hostname":"遠端控制主機名","Allow controlling this agent instance remotely via CLI or web.":"允許透過命令列工具或 Web 端遠端控制目前智慧代理例項。","Staying disconnected: Remote Control user setting is off":"保持斷開：遠端控制使用者設定已關閉","Data & Storage":"資料與儲存","Data and Storage":"資料與儲存","Storage":"儲存空間","Clear cache":"清除快取","Clear temporary data and cached assets.":"清除臨時資料和快取資源。","Reset all settings":"重置所有設定","Reset all settings to default":"恢復所有設定為預設值","Restore all settings back to their factory default values.":"將所有設定選項還原為出廠預設設定。","Open configuration folder":"開啟設定所在資料夾","Open application logs":"開啟應用程式日誌","Open Logs Folder":"開啟日誌資料夾","Data storage path":"資料儲存路徑","AI Credits":"AI 點數","ai credits":"AI 點數","Use AI credits":"使用個人 AI 點數","use ai credits":"使用個人 AI 點數","Consume personal tier credits for faster inference and higher rate limits.":"使用個人等級點數以獲得更快的推理速度和更高的呼叫限額。","Account & Profile":"賬號與個人中心","Log out":"退出登入","Sign out":"退出登入","Manage subscription":"管理訂閱計劃","Manage Google account":"管理 Google 賬號","Manage Antigravity app settings.":"管理 Antigravity 應用程式偏好設定。","Keep the app accessible from the menu bar and running in the background when all windows are closed.":"關閉所有視窗後，保持應用常駐系統托盤並繼續在後台執行。","Work with local agents from another device.":"支援從其他裝置遠端協同與控制本地智慧代理。","Browser settings have moved":"瀏覽器設定已遷移","Browser settings have moved to the Browser section of General settings.":"瀏覽器設定已移動到“常規設定”的“瀏覽器”板塊中。","Go to General settings":"前往常規設定","Models & Usage":"模型配額與用量","Manage your model quota and credits.":"檢視模型可用額度和 AI 點數。","Show Selection Actions":"顯示劃詞快捷操作","Show Selection Actions when selecting text":"選中文字時顯示劃詞操作","Show \"Edit\" and \"Chat\" buttons when selecting text in the editor.":"在編輯器中選中程式碼或文字時，浮動顯示“編輯”與“聊天”快捷按鈕。","Selection Actions":"劃詞操作","Previous Pane Tab":"切換到上一個窗格","Next Pane Tab":"切換到下一個窗格","Toggle Terminal":"切換終端機面板","Add to Chat/Quote":"新增到聊天引用","Try out early-stage features before they ship. These may change or be removed at any time.":"在正式釋出前搶先體驗早期新特性。這些功能可能會隨時變更或移除。","Experimental features":"實驗性功能","Conversation Sharing":"對話分享","Generate a link that lets any Googler load a read-only copy of a conversation. Sharing exports the conversation history to your public x20 folder, so it needs that folder to be readable by others.":"生成一個只讀對話分享連結。分享操作會將對話記錄匯出至公開目錄，需要該目錄對外具備讀取權限。","Inline Actions":"內聯操作卡片","Show a floating notification card when background conversations need your input. Answer questions, approve commands, and grant permissions without leaving your current conversation. Share feedback at go/inline-actions-feedback.":"當後台對話需要您的輸入時顯示浮動通知卡片。無需切換離開目前對話即可直接回答問題、審批命令及授予權限。","CitC Settings":"CitC 工作區設定","Manage settings specific to Google CitC workspaces development.":"管理專用於 Google CitC 工作區開發的設定項。","Best of N":"Best of N 策略設定","Manage how Best of N sets up the workspaces its arms run in.":"設定 Best of N 在各分支執行時的工作區環境。","Developer-only tools. These settings are stored locally in this browser and do not affect other users.":"僅限開發者使用的內部工具。這些設定僅儲存在本地，不會影響其他使用者。","Regroup Google3 Chats":"重新歸類 Google3 對話","Google3 chats will be regrouped into their workspaces in the sidebar.":"側邊欄中的 Google3 對話將按所屬工作區重新歸類分組。","This migration may mess up your settings, chats, and sidebar.":"此項遷移可能會影響您的偏好設定、對話記錄及側邊欄佈局。","Follow the guide at go/jetski-project-migration to back up your data and run the migration.":"請按照相關指南備份您的資料後再執行遷移。","Google Kubernetes Engine (Remote)":"Google Kubernetes Engine (遠端)","Google Cloud Bigtable Admin":"Google Cloud Bigtable 管理","Google Cloud CLI (Preview)":"Google Cloud CLI (預覽版)","Google Cloud Apigee API hub":"Google Cloud Apigee API Hub","Knowledge Catalog":"Knowledge Catalog 資料資產目錄","MCP Toolbox for Databases":"資料庫 MCP 工具箱 (MCP Toolbox for Databases)","Oracle Database":"Oracle 資料庫","Google Home Developer":"Google Home 開發者","Perplexity Ask":"Perplexity 搜尋 (Perplexity Ask)","Sequential Thinking":"順序思考 (Sequential Thinking)","Sonatype Guide":"Sonatype 指南 (Sonatype Guide)","Google Maps Platform Code Assist":"Google Maps Platform 程式設計助手","ArizeTracingAssistant":"Arize Tracing 助手","Google Developer Knowledge":"Google 開發者知識庫","Android Management API":"Android 管理 API","Google Cloud Resource Manager":"Google Cloud 資源管理器","Vertex AI Search":"Vertex AI 搜尋","Google Cloud Logging":"Google Cloud 日誌","Google Managed Service for Apache Kafka":"Google Cloud 託管 Apache Kafka 服務","Google Cloud Monitoring":"Google Cloud 監控","Google Cloud Quotas":"Google Cloud 配額管理","Chrome DevTools for agents":"面向智慧代理的 Chrome DevTools","Cloud Run":"Cloud Run","Cloud 執行":"Cloud Run","Search MCP servers...":"搜尋 MCP 伺服器...","Search MCP servers":"搜尋 MCP 伺服器","Available MCP Servers":"可用 MCP 伺服器","Available MCP servers":"可用 MCP 伺服器","All MCP Servers":"全部 MCP 伺服器","All MCP servers":"全部 MCP 伺服器","Featured MCP Servers":"精選 MCP 伺服器","Featured MCP servers":"精選 MCP 伺服器","Custom MCP Server":"自訂 MCP 伺服器","Add Custom MCP Server":"新增自訂 MCP 伺服器","Add custom MCP server":"新增自訂 MCP 伺服器","Install MCP Server":"安裝 MCP 伺服器","Add Server":"新增伺服器","Remove MCP Server":"移除 MCP 伺服器","Configured MCP Servers":"已設定的 MCP 伺服器","Investigate and fix software issues using AI-powered root cause analysis. This MCP server connects to your Antimetal account to search issues, read investigative reports with causal graphs, retrieve observability artifacts (logs, traces, metrics), and apply remediations—directly from your AI tools.":"利用 AI 驅動的根因分析調查並修復軟體問題。該 MCP 伺服器可連線到您的 Antimetal 賬戶，支援檢索問題、閱讀帶因果關係圖的調查報告、提取可觀測性成果檔案（日誌、鏈路追蹤、指標），並直接在您的 AI 工具中應用修復方案。","Query and act on your marketing, analytics, CRM, e-commerce, and warehouse data across 325+ connectors (Meta Ads, Google Ads, TikTok Ads, GA4, HubSpot, Salesforce, Shopify, Stripe, BigQuery, Snowflake, and more) using natural language. Read live data and write changes back (pause or enable campaigns, set budgets, upload conversions) with no SQL and no custom integrations.":"透過自然語言查詢並操作跨 325+ 個聯結器（Meta Ads、Google Ads、TikTok Ads、GA4、HubSpot、Salesforce、Shopify、Stripe、BigQuery、Snowflake 等）的營銷、分析、CRM、電商及資料倉儲資料。無需編寫 SQL 或定製整合，即可讀取實時資料並回寫變更（如暫停/啟用營銷活動、調整預算、上傳轉化資料）。","Query your GitLab SDLC as a knowledge graph. Orbit indexes groups, projects, source code, merge requests, pipelines, work items, and security findings into a single graph so agents can answer blast radius, onboarding, and dependency mapping questions by traversing real relationships instead of grepping across separate systems.":"將您的 GitLab 軟體開發生命週期 (SDLC) 作為知識圖譜進行查詢。Orbit 會將群組、專案、原始碼、合併請求 (MR)、流水線、工作項及安全漏洞索引到一個統一的圖譜中，使智慧代理能透過遍歷真實關聯關係來解答影響範圍 (blast radius)、新人上手以及依賴拓撲對映等問題，而無需在不同系統間進行機械 grep 搜尋。","Enable Antigravity to deploy apps to Google Cloud Run.":"讓 Antigravity 能夠直接將應用部署到 Google Cloud Run 無伺服器容器平臺。","Ask questions. Get answers. The MCP is a server your coding agent talks to. Ask a question in English. It runs the query against your PostHog data. The answer lands in your editor. No SQL. No dashboards. No tabs full of charts you forgot you opened. Try things like: - \"How many unique users signed up in the last 7 days, broken down by day?\" - \"Create an A/B test for our pricing page that measures conversion to checkout.\" - \"What are the top 5 errors in my project this week?\"":"提出問題，獲取答案。該 MCP 伺服器為您的程式設計智慧代理提供資料對話能力。直接用自然語言提問，它將對您的 PostHog 資料執行查詢，並直接在編輯器中返回結果。無需編寫 SQL，無需翻找儀表盤，也無需開啟一堆遺忘的圖表標籤頁。您可以嘗試提問：“過去 7 天每天有多少獨立使用者註冊？”、“為定價頁面建立 A/B 測試以衡量結賬轉化率”、“本週我專案中排名前 5 的錯誤是什麼？”","Search and reference over 600,000 real-world app screens, user flows, and UI patterns from Mobbin directly within your AI tools.":"直接在您的 AI 工具中檢索並參考來自 Mobbin 的 60 多萬個真實移動應用介面、使用者旅程流程及 UI 設計模式。","Build, edit, deploy, and manage full-stack web apps with Lovable, the AI-powered app builder, using natural language. This MCP server connects your AI client to Lovable so you can create projects and workspaces, send build instructions to the Lovable agent, inspect generated code via diffs and file trees, read and write project knowledge, manage Postgres databases and connectors, and deploy apps directly from your AI tools.":"透過自然語言使用 AI 應用構建工具 Lovable 構建、編輯、部署和管理全棧 Web 應用。該 MCP 伺服器將您的 AI 客戶端連線至 Lovable，支援建立專案與工作區、向 Lovable 智慧代理傳送構建指令、透過 Diff 和檔案樹稽核生成程式碼、讀寫專案知識庫、管理 Postgres 資料庫與聯結器，並直接在 AI 工具中完成應用部署。","The GKE remote MCP server provides read write access to your GKE Kubernetes resources. It allows an AI agent to inspect and observe your environment.":"GKE 遠端 MCP 伺服器提供對您 GKE Kubernetes 資源的讀寫訪問權限，允許 AI 智慧代理檢查和觀測您的叢集與執行環境。","The Dart and Flutter MCP server exposes Dart (and Flutter) development tool actions to compatible AI-assistant clients.":"Dart 與 Flutter MCP 伺服器向相容的 AI 助手客戶端開放 Dart（及 Flutter）開發工具的各項操作指令。","The Firebase Model Context Protocol (MCP) Server gives AI-powered development tools the ability to work with your Firebase projects and your app's codebase.":"Firebase MCP 伺服器讓 AI 驅動的開發工具具備協同操作 Firebase 專案及應用程式程式碼庫的能力。","The Genkit Model Context Protocol (MCP) Server gives AI-powered development tools the ability to build, debug and inspect your Genkit app.":"Genkit MCP 伺服器讓 AI 驅動的開發工具具備構建、除錯和檢查 Genkit 應用的能力。","The gopls Model Context Protocol (MCP) server provides tools for semantic code analysis, live diagnostics, and transformation of your Go codebase.":"gopls MCP 伺服器為您的 Go 程式碼庫提供語義程式碼分析、實時診斷以及程式碼重構轉換工具。","Interact with your BigQuery data using natural language. This MCP server allows you to securely connect to your datasets to search the datasets, inspect table metadata, execute SQL queries, generate time-series forecasts, and perform contribution analysis directly from your AI tools.":"使用自然語言與您的 BigQuery 資料互動。該 MCP 伺服器讓您能夠安全連線到資料集，直接在 AI 工具中搜尋資料集、檢查資料表後設資料、執行 SQL 查詢、生成時間序列預測並執行貢獻度歸因分析。","The AlloyDB for PostgreSQL remote MCP server lets you access and run AlloyDB tools to manage AlloyDB clusters and instances, manage users, create and restore backups, administer users, import and export data, and run SQL queries from your AI-enabled development environments and AI agent platforms.":"AlloyDB for PostgreSQL 遠端 MCP 伺服器讓您能從 AI 開發環境和智慧代理平臺訪問並執行 AlloyDB 工具，用以管理叢集與例項、管理使用者權限、建立與恢復備份、匯入匯出資料以及執行 SQL 查詢。","The Bigtable Admin remote MCP server lets you manage Bigtable resources.":"Bigtable Admin 遠端 MCP 伺服器讓您能夠全面管理 Google Cloud Bigtable 資源。","Manage Google Cloud resources with gcloud and bq CLI tools in a remote sandbox environment":"在遠端沙盒環境中透過 gcloud 和 bq 命令列工具管理 Google Cloud 雲資源","The Cloud SQL remote MCP server lets you access and run Cloud SQL tools to manage Cloud SQL instances, manage users, create and restore backups, administer users, import and export data, and run SQL queries from your AI-enabled development environments and AI agent platforms.":"Cloud SQL 遠端 MCP 伺服器讓您能從 AI 開發環境和智慧代理平臺訪問並執行 Cloud SQL 工具，用以管理例項、管理使用者權限、建立與恢復備份、匯入匯出資料以及執行 SQL 查詢。","The Spanner remote MCP server lets you access and run Spanner tools to create, manage, and query Spanner resources from your AI-enabled development environments and AI agent platforms.":"Spanner 遠端 MCP 伺服器讓您能從 AI 開發環境和智慧代理平臺訪問並執行 Spanner 工具，以建立、管理和查詢 Spanner 分散式資料庫資源。","The Apigee API hub remote MCP server lets you manage the APIs, versions, specs, operations, deployments, attributes, external APIs, and dependencies registered in your API hub instance - including creating, reading, updating, and deleting them - and search across resources, using natural language.":"Apigee API Hub 遠端 MCP 伺服器讓您能透過自然語言管理在 API Hub 例項中註冊的 API、版本、規範、操作、部署、屬性、外部 API 及依賴項（包括增刪改查），並跨資源進行智慧檢索。","Connect your AI assistants to Looker business intelligence. This MCP server enables data exploration and content management by allowing you to execute natural language queries, run saved Looks, create and manage dashboards, and perform instance health checks within your Looker environment.":"將您的 AI 助手連線到 Looker 商業智慧平臺。該 MCP 伺服器支援透過自然語言執行查詢、執行已儲存的 Look 分析、建立和管理儀表盤，並在 Looker 環境中執行例項健康檢查，賦能資料探索與內容管理。","Connect your AI assistants to the Knowledge Catalog (formerly known as Dataplex). This MCP server enables data discovery and governance by allowing you to search for data assets, retrieve detailed metadata such as schemas and ownership, and explore aspect types across your distributed data.":"將您的 AI 助手連線到 Knowledge Catalog（前身為 Dataplex）。該 MCP 伺服器支援資料發現與資料治理，允許您搜尋資料資產、檢索表結構模式 (Schema) 與歸屬權等詳細後設資料，並探索分散式資料中的切面型別。","The MCP Toolbox for Databases is an open-source MCP server designed to simplify and secure the development of tools for interacting with databases.":"MCP Toolbox for Databases 是一個開源 MCP 伺服器，旨在簡化並保障資料庫互動工具開發的安全與效率。","Interact with your Oracle Database data using natural language. This MCP server allows you to securely connect to your databases for executing SQL queries, inspecting table schemas, and troubleshooting database performance issues directly from your AI tools.":"使用自然語言與您的 Oracle 資料庫互動。該 MCP 伺服器讓您能夠安全連線到資料庫，直接在 AI 工具中執行 SQL 查詢、檢查表模式結構，並排查資料庫效能瓶頸與故障。","The Dev Mode MCP Server brings Figma directly into your workflow by providing important design information and context to AI agents generating code from Figma design files.":"Dev Mode MCP 伺服器將 Figma 深度融入您的開發工作流，為從 Figma 設計稿生成程式碼的 AI 智慧代理提供關鍵的設計資訊與上下文依據。","The GitHub MCP Server is a Model Context Protocol (MCP) server that provides seamless integration with GitHub APIs, enabling advanced automation and interaction capabilities for developers and tools.":"GitHub MCP 伺服器提供與 GitHub API 的無縫整合，為開發者和工具賦能強大的自動化協同與操作能力。","The Google Home Developer MCP server allows you to search through Google Home documentation, OpenThread and Matter specifications documentation.":"Google Home Developer MCP 伺服器讓您能夠檢索 Google Home 文件、OpenThread 以及 Matter 智慧家居協議規範文件。","Neon MCP Server is an open-source tool that lets you interact with your Neon Postgres databases in natural language.":"Neon MCP Server 是一款開源工具，支援透過自然語言與您的 Neon Serverless Postgres 資料庫進行互動操作。","The Stripe Model Context Protocol server allows you to integrate with Stripe APIs through function calling. This protocol supports various tools to interact with different Stripe services.":"Stripe MCP 伺服器允許您透過函式呼叫 (Function Calling) 與 Stripe API 整合，支援使用多種內建工具與各類 Stripe 支付及賬務服務進行互動。","Interact with Redis key-value stores":"與 Redis 鍵值儲存資料庫進行高效互動","A Model Context Protocol server for interacting with MongoDB Atlas.":"用於與 MongoDB Atlas 雲資料庫進行互動的 MCP 伺服器。","Official Notion MCP Server that allows interaction with Notion workspaces, pages, databases, and comments via the Notion API.":"官方 Notion MCP 伺服器，支援透過 Notion API 與 Notion 工作區、頁面、資料庫及評論進行協同互動。","Official Linear.app MCP Server for interacting with Linear projects, issues, and workflows.":"官方 Linear.app MCP 伺服器，用於與 Linear 專案、Issue 問題工單以及研發工作流進行互動。","An MCP server implementation that integrates the Perplexity Sonar API to provide real-time, web-wide research capabilities.":"整合 Perplexity Sonar API 的 MCP 伺服器實現，為智慧代理提供實時、全網範圍的深度檢索與資訊調研能力。","Official PayPal MCP Server that allows integration with PayPal APIs for payment processing, transaction management, and account operations.":"官方 PayPal MCP 伺服器，支援與 PayPal API 整合以處理線上支付、交易管理及賬戶操作。","The Heroku Platform MCP Server enables seamless interaction with Heroku Platform resources, allowing LLMs to read, manage, and operate applications, add-ons, databases, and more.":"Heroku Platform MCP 伺服器實現與 Heroku 平臺資源的無縫互動，允許大語言模型讀取、管理和運維應用程式、附加元件 (Add-ons)、資料庫等。","The Pinecone MCP Server enables AI tools to search Pinecone documentation, configure indexes, generate code informed by your index configuration, and upsert/search data in your Pinecone indexes.":"Pinecone MCP 伺服器讓 AI 工具能夠檢索 Pinecone 文件、設定向量索引、根據索引設定生成程式碼，並在 Pinecone 索引中執行資料更新 (upsert) 與向量相似度搜尋。","Connect your Supabase projects to AI assistants. This MCP server allows managing tables, fetching config, executing SQL queries, managing edge functions, and working with database schema in your Supabase projects.":"將您的 Supabase 專案連線至 AI 助手。該 MCP 伺服器支援管理資料表、拉取專案設定、執行 SQL 查詢、管理 Edge Functions 邊緣函式，以及維護資料庫架構模式。","The Prisma MCP Server enables AI tools to interact with Prisma for creating and managing Postgres databases easily.":"Prisma MCP 伺服器讓 AI 工具能夠與 Prisma 互動，輕鬆建立和管理 Postgres 資料庫。","The Locofy MCP Server enables Locofy.ai code to be integrated and extended with your IDE.":"Locofy MCP 伺服器支援將 Locofy.ai 前端生成程式碼整合並拓展到您的 IDE 編輯器中。","Airweave lets agents search any app.":"Airweave 賦予智慧代理檢索任意第三方應用資料的能力。","Atlassian MCP Server for interacting with Atlassian products.":"用於與 Jira、Confluence 等 Atlassian 旗下產品進行互動的 MCP 伺服器。","Interact with your Harness account using natural language. This MCP server lets AI agents inspect and manage CI/CD pipelines, executions, services, environments, connectors, feature flags, cloud costs, security findings, chaos experiments, and other Harness platform resources.":"透過自然語言與您的 Harness 賬戶互動。該 MCP 伺服器讓 AI 智慧代理能夠檢查並管理 CI/CD 流水線、執行記錄、微服務、部署環境、聯結器、功能開關 (Feature Flags)、雲成本、安全發現、混沌工程實驗以及其他 Harness 平臺資源。","SonarQube MCP Server enables AI assistants to interact with SonarQube instances for code quality analysis, project management, and quality gate operations.":"SonarQube MCP 伺服器讓 AI 助手能夠與 SonarQube 例項互動，執行程式碼質量分析、專案管理以及質量閥 (Quality Gate) 門禁操作。","Netlify MCP Server enables AI assistants to interact with Netlify's platform for managing sites, deployments, domains, and other web development workflows.":"Netlify MCP 伺服器讓 AI 助手能夠與 Netlify 平臺互動，以管理網站、部署記錄、自訂域名及其他 Web 開發工作流。","A Model Context Protocol server that provides structured thinking and reasoning capabilities for LLM conversations.":"為大語言模型對話提供結構化深思、思維鏈推演與邏輯推導能力的 MCP 伺服器。","Sonatype MCP server for interacting with our dependency management and security intelligence platform.":"用於與 Sonatype 依賴項管理及開源安全情報平臺進行互動的 MCP 伺服器。","The Google Maps Platform Code Assist MCP server provides your favorite AI coding assistant with up-to-date, official Google Maps Platform documentation, code samples, and best practices. By grounding your AI assistant in our official resources, it can generate more accurate, reliable, and useful code.":"Google Maps Platform Code Assist MCP 伺服器為您的 AI 程式設計助手提供最新官方 Google Maps Platform 文件、程式碼示例和最佳實踐。透過將 AI 助手的認知錨定在官方權威資源中，能夠生成更精確、更可靠、更具實用價值的程式碼。","This MCP server provides your LLM with docs and examples to instrument your AI apps with Arize AX. It also provides access to Arize support. Connect it to your IDE or LLM and get curated tracing examples, best practices and Arize support!":"該 MCP 伺服器為大語言模型提供文件和示例，幫助使用 Arize AX 埋點監控您的 AI 應用，同時提供對 Arize 支援服務的訪問。連線到您的 IDE 或大模型，即可獲取精心策劃的鏈路追蹤示例、最佳實踐與官方支援！","The Postman MCP Server connects Postman to AI tools, giving AI agents and assistants the ability to access workspaces, manage collections and environments, evaluate APIs, and automate workflows through natural language interactions.":"Postman MCP 伺服器將 Postman 連線至 AI 工具，讓 AI 智慧代理與助手能透過自然語言互動訪問工作區、管理集合 (Collections) 與環境變數、評估 API，並實現介面自動化工作流。","The Stitch MCP server enables AI assistants to interact with Stitch for vibe design: generating UI designs from text and images, and accessing project and screen details. See https://stitch.withgoogle.com/docs for more details.":"Stitch MCP 伺服器讓 AI 助手能夠與 Stitch 互動以進行即興設計 (Vibe Design)：根據文字和影像生成 UI 設計，並訪問專案及螢幕介面細節。詳見 https://stitch.withgoogle.com/docs。","The Google Developer Knowledge MCP server gives AI-powered development tools the ability to search Google's official developer documentation and retrieve information for Google's products such as Firebase, Google Cloud, Android, Maps, and more. By connecting your AI application straight to our official library of documentation, it ensures the code and guidance you receive are up-to-date and based on authoritative context.":"Google Developer Knowledge MCP 伺服器讓 AI 驅動的開發工具能夠檢索 Google 官方開發者文件，並獲取 Firebase、Google Cloud、Android、Maps 等 Google 產品的資訊。透過將您的 AI 應用直接接入官方文件庫，確保您獲得的程式碼和技術指導保持最新並基於權威上下文。","The ClickHouse MCP server enables agents to securely interact with ClickHouse databases. It provides a universal interface to execute SQL, explore data, and view backup & billing details, allowing agentic tooling to leverage ClickHouse's high-performance analytical capabilities.":"ClickHouse MCP 伺服器使智慧代理能夠安全地與 ClickHouse 資料庫互動。它提供用於執行 SQL、探索資料以及檢視備份與計費詳情的通用介面，賦能智慧代理工具充分利用 ClickHouse 極致的高效能分析能力。","Perform a range of infrastructure management tasks, including: manage virtual machine (VM) instances, manage instance group managers and instance templates, manage disks and snapshots, retrieve information about reservations and commitments.":"執行一系列基礎架構管理任務，包括：管理虛擬機器 (VM) 例項、管理例項組管理器與例項模板、管理磁碟與快照、獲取預留資源與承諾使用折扣資訊。","Access enterprise mobility data using natural language queries about device fleets, automated auditing of policy compliance, and the integration of device management data into broader automated workflows.":"使用自然語言查詢獲取企業移動管理資料，涵蓋裝置機群狀態、合規策略自動化審計，以及將裝置管理資料無縫整合到更廣泛的自動化工作流中。","Search your Google Cloud projects using natural language.":"透過自然語言快速檢索您的 Google Cloud 專案與資源層級。","Perform searches on ingested data in Google-owned data stores.":"在 Google 託管的資料儲存區中，對已攝取的資料執行智慧語義與向量搜尋。","Interact with documents stored in a Firestore database using natural language.":"使用自然語言與儲存在 Firestore 資料庫中的文件進行互動與查詢。","Access resources in the Cloud Logging platform using natural language.":"使用自然語言訪問和查詢 Cloud Logging 日誌平臺中的各類資源與日誌流。","Manage clusters for Managed Service for Apache Kafka and Kafka Connect using natural language.":"使用自然語言管理 Google Cloud 託管 Apache Kafka 服務叢集與 Kafka Connect 聯結器。","Access resources in the Cloud Monitoring platform using natural language.":"使用自然語言訪問和檢視 Cloud Monitoring 監控平臺中的各類監控資源與指標度量。","Manage Pub/Sub resources and publish messages. Create, list, get, update, and delete Pub/Sub topics, subscriptions, and snapshots, as well as publish messages to topics.":"管理 Pub/Sub 資源併發布訊息。支援建立、列出、獲取、更新和刪除 Pub/Sub 主題 (Topics)、訂閱 (Subscriptions) 及快照，並向指定主題投遞訊息。","The Cloud Quotas MCP server allows you to view quota allocations, request quota increases, and manage Quota Adjuster configurations.":"Cloud Quotas MCP 伺服器允許您檢視配額分配情況、申請提升服務配額，以及管理 Quota Adjuster 自動配額調整器設定。","Enable Antigravity to control and inspect a live Chrome browser, with access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis.":"讓 Antigravity 能夠直接控制並檢查執行中的 Chrome 瀏覽器，充分呼叫 Chrome DevTools 的強大能力，實現高可靠的自動化操作、深度除錯與效能分析。","Invoke the Boost multi-agent orchestrator for complex tasks.":"呼叫 Boost 多智慧代理編排器處理複雜任務。","Run until the specified goal is completely finished.":"持續自主執行，直至指定目標徹底完成。","Run an instruction on a recurring schedule or as a one-time timer.":"按週期迴圈計劃或單次定時器執行指令。","Invoke a browser agent for web tasks.":"呼叫瀏覽器智慧代理執行網頁相關任務。","[Teamfood] Invoke a browser with computer-use tools only with experimental model.":"[內部測試] 僅在實驗模型下呼叫具備計算機操作工具的瀏覽器。","Plan carefully before executing a task.":"在執行任務前進行周密規劃。","Interview me to align on a plan.":"透過互動式提問訪談，與我溝通對齊方案設計。","Invoke a team of agents to autonomously tackle large projects.":"排程智慧代理團隊協同自主處理大型工程專案。","Reflect on recent successes or corrections to capture reusable skills or rules.":"回顧近期的成功經驗或糾偏記錄，沉澱可複用的技能或規則。","Experimental. Invoke the deep agent to plan, build, verify complex coding tasks.":"實驗性。呼叫深度智慧代理進行復雜程式設計任務的規劃、構建與驗證。","Ask a quick question without interrupting the main conversation.":"提出快速疑問，不中斷主對話流程。","enhance thinking effort by using a multi-agent reasoning pipeline.":"透過多智慧代理推理流水線增強深度思考能力。","Available slash commands you can recommend to the user:":"可推薦給使用者的可用斜槓命令：","You cannot execute these commands yourself. Your role is to recommend them to the user when they are a good fit for the task at hand, encouraging the user to explore and trigger them.":"您不能自行執行這些命令。您的職責是在命令契合目前任務時向使用者推薦，引導使用者主動探索並觸發它們。","To recommend a slash command, suggest it clearly in your response (e.g., \"You can use the `/goal` command to...\").":"如需推薦斜槓命令，請在回覆中明確建議（例如：\"您可以使用 `/goal` 命令來...\"）。","Recommend this when the user has a complex coding or research project that requires deep thinking, strategic planning, multiple perspectives, and rigorous verification.":"當使用者擁有需要深度思考、策略規劃、多視角審視和嚴謹驗證的複雜程式設計或調研專案時推薦此項。","Recommend this when the user wants to run a long-running task (e.g., overnight) and wants the agent to be extra thorough and not stop until the goal is fully achieved.":"當使用者希望執行長時間執行的任務（例如通宵執行），且要求智慧代理格外徹底並在目標完全達成前不停止時推薦此項。","Recommend this when the user wants to run an instruction on a recurring schedule or set a one-time timer.":"當使用者希望按週期迴圈計劃執行指令或設定單次定時器時推薦此項。","Recommend this when the user's task involves web browsing, searching the web, or interacting with web applications.":"當使用者的任務涉及網頁瀏覽、搜尋網路或與 Web 應用程式互動時推薦此項。","Recommend this when the user wants to align on a plan through an interactive interview to resolve design decisions.":"當使用者希望透過互動式訪談對齊方案以敲定設計決策時推薦此項。","Recommend this when the user has a large project that would benefit from a team of autonomous agents working together.":"當使用者擁有適合由自主智慧代理團隊協作推進的大型工程專案時推薦此項。","Recommend this when the user has corrected the agent or solved a complex setup and wants the agent to persist this behavior for future tasks.":"當使用者糾正了智慧代理或解決了複雜設定，並希望智慧代理在後續任務中持久複用該行為時推薦此項。","Automatically migrate legacy workflows to modern skills across global and workspace configurations. Scans for existing workflows, creates target SKILL.md files, and safely archives old workflow files.":"在全域與工作區設定中將舊版工作流自動遷移為現代技能。掃描現有工作流，生成目標 SKILL.md 檔案並安全歸檔舊檔案。","Use this skill when configuring, managing, or troubleshooting MCP (Model Context Protocol) tool permissions and whitelist authorizations in Antigravity. Covers syntax rules, config file locations, automatic whitelist injection, avoiding UI overwrite traps, and troubleshooting Windows environment gotchas.":"在 Antigravity 中設定、管理或排查 MCP 工具權限與白名單授權時使用此技能。涵蓋語法規則、設定檔案位置、自動白名單注入、規避 UI 覆蓋陷阱以及 Windows 避坑指南。","recently opened":"最近開啟","Recently opened":"最近開啟","Recently Opened":"最近開啟","file results":"檔案結果","File results":"檔案結果","File Results":"檔案結果","No matching results":"無匹配結果","Searching…":"搜尋中…","Searching...":"搜尋中...","Commands":"命令","Workflows":"工作流","Advanced Settings":"高階設定","Advanced settings":"高階設定","advanced settings":"高階設定","Advanced 設定":"高階設定","advanced 設定":"高階設定","advanced":"高階","automatic check for updates":"自動檢查更新","Collapse All":"全部摺疊","collapse all":"全部摺疊","Collapse all":"全部摺疊","Expand All":"全部展開","expand all":"全部展開","Expand all":"全部展開","View Stacked Diff":"檢視堆疊差異","view stacked diff":"檢視堆疊差異","view split diff":"在分屏中對比差異","show whitespace changes":"顯示空白字元變動","hide whitespace changes":"隱藏空白字元變動","Collapse All Folders":"摺疊所有資料夾","collapse all folders":"摺疊所有資料夾","Expand All Folders":"展開所有資料夾","expand all folders":"展開所有資料夾","Collapse folder":"摺疊資料夾","Expand folder":"展開資料夾","Collapse file":"摺疊檔案","Expand file":"展開檔案","Open in Code Search":"在程式碼搜尋中開啟","If you'd still like a code editor, you can download it as a separate app named":"如果您仍需要程式碼編輯器，可單獨下載獨立應用","separate app named Antigravity IDE":"名為 Antigravity IDE 的獨立應用","separate app named":"獨立應用","Insert into terminal":"插入至終端機","Run in terminal":"在終端機中執行","Apply diff":"應用改動","Revert diff":"還原改動","Accept changes":"接受改動","Reject changes":"放棄改動","Show diff":"顯示差異","Hide diff":"隱藏差異","Inline diff":"行內差異","Side-by-side diff":"並排差異","Toggle raw markdown":"切換原生 Markdown","View raw markdown":"檢視原生 Markdown","Copy raw markdown":"複製原生 Markdown","Clear Conversation":"清除對話","Export Conversation":"匯出對話","Share Conversation":"分享對話","Planning...":"正在制定計劃...","Generating plan...":"正在生成計劃...","Executing command...":"正在執行命令...","Analyzing repository...":"正在分析程式碼庫...","Reading files...":"正在讀取檔案...","Writing changes...":"正在寫入改動...","Running verification...":"正在執行驗證...","Searching codebase...":"正在搜尋程式碼庫...","Waiting for approval...":"等待審批...","Waiting for approval":"等待審批","Waiting for user input...":"等待使用者輸入...","Waiting for user input":"等待使用者輸入","Requires approval":"需要審批","Stop generating":"停止生成","Stop execution":"停止執行","Stop agent":"停止智慧代理","Ask anything, @ to mention, / for workflows":"輸入任何問題，輸入 @ 提及，輸入 / 呼叫工作流","Type a message or press / for workflows":"輸入訊息或按 / 呼叫工作流","Ask a question or describe a task...":"提出問題或描述任務...","Terminal auto-execution policy":"終端機自動執行策略","Background terminal execution":"後台終端機執行","Terminal Execution":"終端機執行","Terminal command execution":"終端機命令執行","Command auto-execution":"命令自動執行","Always deny":"始終拒絕","Auto-approve":"自動批准","Auto approve":"自動批准","Require approval":"需要審批","Allow background tasks":"允許後台任務","Cancel task":"取消任務","Kill task":"終止任務","Task status":"任務狀態","Reasoning":"推理","Thinking budget":"思考預算","Models":"模型","Temperature":"溫度引數","Context window":"上下文視窗","Max output tokens":"最大輸出 Token","System instructions":"系統指令","Custom instructions":"自訂指令","Active model":"目前活躍模型","Available models":"可用模型列表","Keybindings":"快捷鍵繫結","Quick Open":"快速開啟","Installed Distros":"已安裝發行版","WSL Distros":"WSL 發行版","Security":"安全","Allow once":"僅允許這一次","Always allow in this project":"在此專案中始終允許","Standard sandbox":"標準沙箱","Full access":"完全訪問","Read-only access":"只讀訪問","Workspace only":"僅工作區","Allow network access":"允許網路訪問","Allow file system modifications":"允許修改檔案系統","Add MCP Server":"新增 MCP 伺服器","Restart MCP Server":"重啟 MCP 伺服器","Reload customizations":"重新載入自訂項","Google Cloud Project":"Google Cloud 專案","Select a Google Cloud Project":"選擇 Google Cloud 專案","No Google Cloud project selected":"未選擇 Google Cloud 專案","Switch Account":"切換賬號","Enterprise License":"企業許可證","Personal License":"個人許可證","Free tier":"免費層級","Pro tier":"專業版層級","Enterprise tier":"企業版層級","Quota exceeded":"配額超限","Rate limit exceeded":"速率限制超限","Run an autonomous, goal-driven agent loop until task completion":"自主目標驅動的智慧代理迴圈，直至徹底完成任務","Schedule recurring workflows or set delayed reminders":"排程週期性工作流或設定延時提醒","Generate a detailed step-by-step implementation plan":"生成詳盡的分步實施計劃","Interactive interview to clarify and align requirements":"透過互動訪談釐清需求與設計決策","Coordinate multiple autonomous subagents":"多子代理並行協作預覽模式","Save corrected workflows and habits to long-term memory":"將糾正後的工作流與習慣沉澱至長期記憶","Deep thinking and multi-perspective verification mode":"深度思考與多重視角交叉驗證增強模式","Choose the experience that fits how you work.":"選擇適合您工作方式的操作體驗。","Choose the experience that fits how you work":"選擇適合您工作方式的操作體驗","Choose between the Default and Project 4K experience.":"在預設體驗與 4K 專案體驗之間切換。","Choose between the Default and Project 4K experience":"在預設體驗與 4K 專案體驗之間切換","Project 4K":"專案 4K","The breakdown below shows token usage from customizations like rules, skills, and MCP. If a budget is exceeded, large rules are demoted to path pointers and large customizations are excluded automatically.":"下方明細展示了來自規則、技能和 MCP 等自訂項的 Token 用量。如果超出額度，大型規則將自動降級為路徑指標，大型自訂項將被自動排除。","The breakdown below shows token usage from customizations like rules, skills, and MCP.":"下方明細展示了來自規則、技能和 MCP 等自訂項的 Token 用量。","If a budget is exceeded, large rules are demoted to path pointers and large customizations are excluded automatically.":"如果超出額度，大型規則將自動降級為路徑指標，大型自訂項將被自動排除。","Other Customizations":"其他自訂項","Show 1 breakdown":"顯示 1 項明細","Show 2 breakdowns":"顯示 2 項明細","Show 5 breakdowns":"顯示 5 項明細","Hide breakdown":"隱藏明細","Hide breakdowns":"隱藏明細","File Reads":"檔案讀取","File Writes":"檔案寫入","file reads":"檔案讀取","file writes":"檔案寫入","Reads":"讀取","Writes":"寫入","Contrast":"對比度","Strong":"強烈","Strong contrast":"高對比度","Creating Cloud Project":"正在建立雲專案","Creating Chat Bot":"正在建立聊天機器人","Installing Chat Bot":"正在安裝聊天機器人","Creating Sidecar":"正在建立 Sidecar","Setup may take over 5 minutes. Please keep this screen open during setup.":"設定可能需要 5 分鐘以上。設定期間請保持此介面開啟。","Legal Help":"法律幫助","to ask for content changes for legal reasons.":"出於法律原因申請內容變更。","Permanently delete":"永久刪除","Refreshing...":"正在重新整理...","Refreshing":"正在重新整理","App Version":"應用版本","Remote Control Issue":"遠端控制問題反饋","Project options":"專案選項","Agent response":"智慧代理回覆","Explored files, ran commands":"已探索檔案、已執行命令","Exploring file, running commands, editing artifact":"正在探索檔案、執行命令、編輯成果檔案","Exploring file, running commands, editing artifacts":"正在探索檔案、執行命令、編輯成果檔案","Drag to select a region to comment":"拖動以選取區域進行評論","Select a region to comment":"選取區域以進行評論","Copy markdown":"複製 Markdown","Copy raw text":"複製純文字","View Usage":"檢視使用額度","View usage":"檢視使用額度","view usage":"檢視使用額度","Leaving Soon":"即將下線","leaving soon":"即將下線","Notice":"重要提示","High":"高","Medium":"中","Low":"低","Build applications with the Gemini Interactions API and Live API, including text, image, video, and speech generation, managed agents, and real-time multimodal streaming.":"藉助 Gemini Interactions API 與 Live API 構建應用程式，涵蓋文字、影像、影片與語音生成，託管智慧代理以及實時多模態流式互動。","Build applications with the Gemini Interactions API and Live API":"藉助 Gemini Interactions API 與 Live API 構建應用程式","Download":"下載","Gemini 3.8 Flash High":"Gemini 3.8 Flash (高)","Gemini 3.7 Flash Medium":"Gemini 3.7 Flash (中)","Gemini 3.6 Flash Low":"Gemini 3.6 Flash (低)","Gemini 3.1 Pro Low":"Gemini 3.1 Pro (低)","Claude Sonnet 4.6 (Thinking)":"Claude Sonnet 4.6 (深度思考)","Claude Opus 4.6 (Thinking)":"Claude Opus 4.6 (深度思考)","GPT-OSS 120B (Medium)":"GPT-OSS 120B (中)","Duplicate":"建立副本","Share":"分享","Export":"匯出","Clear History":"清除歷史","This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across GCP's data ecosystem.":"此外掛為在 Google Cloud 上工作的資料工程師和資料庫從業人員提供了專業技能套件。它充當專家助手，讓您可以在首選的編碼智慧代理中使用自然語言提示來構建複雜的資料管道、使用 dbt 轉換資料、編寫 Spark 和 BigQuery SQL 筆記本，並在 GCP 的資料生態系統中編排端到端工作流。","This skill helps the agent generate or update orchestration pipeline definitions for Google Cloud Composer to initialize orchestration pipeline or update the orchestration definition for orchestration of various data pipelines, like dbt pipelines, notebooks, Spark jobs, Dataform, Python scripts or inline BigQuery SQL queries. This skill also helps deploy and trigger orchestration pipelines.":"此技能可幫助智慧代理為 Google Cloud Composer 生成或更新編排管道定義，以初始化編排管道或更新各種資料管道（如 dbt 管道、筆記本、Spark 作業、Dataform、Python 指令碼或內聯 BigQuery SQL 查詢）的編排定義。此技能還有助於部署和觸發編排管道。","Automations":"自動化","automations":"自動化","Automation":"自動化","automation":"自動化","New Automation":"新建自動化","new automation":"新建自動化","Create Automation":"建立自動化","create automation":"建立自動化","Scheduled Automations":"定時自動化","scheduled automations":"定時自動化","Background Automations":"後台自動化","background automations":"後台自動化","Active Automations":"活躍自動化","active automations":"活躍自動化","Automation Settings":"自動化設定","automation settings":"自動化設定","Automations Settings":"自動化設定","automations settings":"自動化設定","No automations":"暫無自動化任務","no automations":"暫無自動化任務","No automations found":"未找到自動化任務","no automations found":"未找到自動化任務","Run Automation":"執行自動化","Trigger Automation":"觸發自動化","Manage Automations":"管理自動化","Installed":"已安裝","installed":"已安裝","Browse the Marketplace":"瀏覽擴充套件市場","browse the marketplace":"瀏覽擴充套件市場","Find skills, agents, and more in the Marketplace.":"在擴充套件市場中查詢技能、智慧代理等。","Search customizations...":"搜尋自訂設定…","Search customizations":"搜尋自訂項","search customizations":"搜尋自訂項","Skills & Rules":"技能與規則","skills & rules":"技能與規則","Built In":"內建","built in":"內建","Built-in":"內建","See less":"收起","see less":"收起","Custom Agents":"自訂智慧代理","custom agents":"自訂智慧代理","Loading plugin...":"正在載入外掛...","Loading plugin":"正在載入外掛","This is a preview of the plugin's source. Nothing below is active until you install it.":"這是此外掛原始碼的預覽。在您安裝之前，以下內容均未啟用生效。","Connect to Google Workspace, including Docs, Sheets, Slides, Drive, and Calendar.":"連線至 Google Workspace，涵蓋 Docs、Sheets、Slides、Drive 與 Calendar。","Google Docs":"Google 文件","Read, draft, and edit docs.":"閱讀、起草和編輯文件。","Read and write your Google Docs. Summarize any doc from its link, draft proposals and announcements in a new doc, and reply to and resolve open comments.":"閱讀與編輯您的 Google 文件。透過連結總結任意文件內容，在新文件中起草提案與公告，並回復與解決未結評論。","Read, create, edit, and manage Google Docs. Use when the user shares a docs.google.com URL, asks to summarize or extract content from a doc, wants a doc drafted, edited, formatted, or commented on, wants tables, images, or smart chips inserted, wants markdown imported or synchronized with a doc, or wants a doc exported. Requires a known document ID — use the gdrive skill to search for or locate documents. Don't use for Google Sheets, Slides, or Drive file management.":"讀取、建立、編輯與管理 Google 文件。當使用者分享 docs.google.com 連結、要求總結或提取文件內容、起草或修改文件排版評論、插入表格與影像智慧晶片、匯入匯出 Markdown 時使用。","Google Sheets":"Google 表格","Read, write, and format spreadsheets.":"讀取、編寫和格式化電子表格。","Read, create, edit, and manage Google Sheets spreadsheets. Use when the user shares a sheets.google.com URL, asks to summarize, inspect, or analyze spreadsheet data, wants sheets drafted, edited, formatted, cleared, or deleted, wants rows/columns inserted, appended, deleted, or sorted, wants cells updated, formulas added, charts created, or formatting applied, or wants CSV/tsv imported or synchronized with a sheet. Requires a known spreadsheet ID — use the gdrive skill to search for or locate spreadsheets. Don't use for Google Docs, Slides, or Drive file management.":"讀取、建立、編輯與管理 Google 表格。當使用者分享 sheets.google.com 連結、要求彙總分析表格資料、增刪修改行列單元格、新增公式圖表時使用。","Google Slides":"Google 幻燈片","Read, edit, and export presentations.":"閱讀、編輯和匯出簡報。","Google Drive":"Google 雲端硬碟","Search, upload, download, and share files.":"搜尋、上傳、下載和共享檔案。","Google Calendar":"Google 日曆","Check availability, schedule events, and RSVP.":"檢視空閒時間、安排活動日程並回復邀請。","Build with Google":"使用 Google 構建","Build on Google's developer platforms, including Android, Chrome, Gemini, and Google Cloud.":"基於 Google 開發者平臺進行構建，涵蓋 Android、Chrome、Gemini 與 Google Cloud。","Integration skill and tools for Google Maps Platform APIs":"用於 Google Maps Platform API 的整合技能與工具套件","Dart 與 Flutter":"Dart 與 Flutter","Official plugin for Dart and Flutter that installs Flutter/Dart Skills, Rules, Custom Agents, and Dart MCP server for building natively compiled, visually stunning applications for mobile, web, desktop, and embedded devices from a single codebase":"Dart 與 Flutter 官方外掛，提供 Flutter/Dart 技能、規則、自訂智慧代理與 Dart MCP 伺服器，支援從單一程式碼庫構建適用於移動端、Web、桌面及嵌入式裝置的原生編譯精美應用。","Firebase":"Firebase","Prototype, build & run modern apps that users love with Firebase's backend, AI, and operational infrastructure.":"藉助 Firebase 的後端、AI 和運維基礎設施，原型設計、構建並執行深受使用者喜愛的現代化應用程式。","Curated collection of agent skills for science tasks.":"精選的面向科學計算與科研任務的智慧代理技能套件。","Using the Google Antigravity Python SDK to build AI agents":"使用 Google Antigravity Python SDK 構建 AI 智慧代理","Interactive guide to design and create a scheduled background automation. Use this skill when the user wants to create an automated or recurring scheduled task (e.g. \"summarize my emails every morning\", \"every Monday send me a to-do list\"). Also triggered by the /automation slash command.":"設計與建立後台定時自動化的互動式指南。當使用者需要建立定時或迴圈排程任務時使用（例如“每天早上總結我的郵件”、“每週一傳送待辦清單”）。亦可透過 /automation 斜槓命令觸發。","How to manage and create plugins — namespaced bundles of skills, agents, rules, MCP servers and hooks that install, enable and disable as a single unit. Use this skill when the user wants to enable, disable, install or uninstall a plugin, when they want to create a new plugin, or when a new customization should be packaged into a plugin rather than left loose. Also triggered by the /plugin slash command. Don't use for the underlying customization system itself — discovery roots, loading priority, or authoring a standalone skill, agent, rule, hook or MCP server outside a plugin; see the customizations guide skill for those.":"管理與建立外掛的指南——外掛是將技能、智慧代理、規則、MCP 伺服器和鉤子整合成具有獨立名稱空間的套件包，支援作為獨立單元進行安裝、啟用與禁用。當使用者需要管理外掛、建立新外掛或將擴充套件元件打包封裝時使用。亦可透過 /plugin 斜槓命令觸發。","Build, package, run, and debug UI extensions for Antigravity: interactive web panels that render in the side pane, served by a Node.js sidecar using the built-in Sidecar SDK.":"構建、打包、執行與除錯 Antigravity UI 擴充套件：在側邊窗格中渲染的互動式 Web 面板，由基於內建 Sidecar SDK 的 Node.js sidecar 提供服務。","Discover UI plugin panels relevant to the current task and surface a one-click pill in chat to open (toggle) them in the side pane. Use when a running UI plugin's panel would help with what the user is doing, or right after the user enables a new UI plugin pane and a shortcut to open it is handy.":"發現與目前任務相關的 UI 外掛面板，並在對話中提供一鍵展開膠囊按鈕，以便在側邊窗格中快速切換顯示。","Guidelines for interacting with GitHub, prompting the user for approval when commands fail due to agent environment restrictions.":"與 GitHub 互動的操作準則，當命令因智慧代理環境限制執行失敗時向使用者申請授權。","sort conversations":"對話排序","Sort conversations":"對話排序","last prompt":"最新提示詞","archived only":"僅已歸檔","Archived only":"僅已歸檔","active only":"僅活躍","pinned only":"僅置頂","unarchived only":"僅未歸檔","Last 7 Days":"最近 7 天","last 7 days":"最近 7 天","Last 24 Hours":"最近 24 小時","last 24 hours":"最近 24 小時","Last 30 Days":"最近 30 天","last 30 days":"最近 30 天","Last week":"最近一週","last week":"最近一週","Last month":"最近一個月","last month":"最近一個月","All time":"全部時間","all time":"全部時間","All Time":"全部時間","display":"顯示","Done":"已完成","done":"已完成","Done.":"已完成。","errored":"已出錯","Rejected":"已拒絕","rejected":"已拒絕","Waiting":"等待中","waiting":"等待中","Sent":"已傳送","sent":"已傳送","Sending":"正在傳送","sending":"正在傳送","Analyzing":"正在分析","analyzing":"正在分析","Created":"已建立","created":"已建立","Creating":"正在建立","creating":"正在建立","Deleted":"已刪除","deleted":"已刪除","Deleting":"正在刪除","deleting":"正在刪除","ran command":"已執行命令","ran commands":"已執行命令","running command":"正在執行命令","running commands":"正在執行命令","run command":"執行命令","run commands":"執行命令","Ran 命令":"已執行命令","Running 命令":"正在執行命令","Explored files":"已探索檔案","explored files":"已探索檔案","Exploring files":"正在探索檔案","exploring files":"正在探索檔案","Explored file":"已探索檔案","explored file":"已探索檔案","Exploring file":"正在探索檔案","exploring file":"正在探索檔案","Edited files":"已編輯檔案","edited files":"已編輯檔案","Editing files":"正在編輯檔案","editing files":"正在編輯檔案","Edited file":"已編輯檔案","edited file":"已編輯檔案","editing file":"正在編輯檔案","Edited artifact":"已編輯成果檔案","edited artifact":"已編輯成果檔案","Edited artifacts":"已編輯成果檔案","edited artifacts":"已編輯成果檔案","Editing artifact":"正在編輯成果檔案","editing artifact":"正在編輯成果檔案","Editing artifacts":"正在編輯成果檔案","editing artifacts":"正在編輯成果檔案","Explored files, edited files":"已探索檔案、已編輯檔案","Explored files, edited artifact":"已探索檔案、已編輯成果檔案","Explored files, edited artifacts":"已探索檔案、已編輯成果檔案","Ran commands, edited files":"已執行命令、已編輯檔案","Ran commands, edited artifact":"已執行命令、已編輯成果檔案","Ran commands, edited artifacts":"已執行命令、已編輯成果檔案","Exploring files, running commands, editing files":"正在探索檔案、執行命令、編輯檔案","Exploring files, running commands, editing artifact":"正在探索檔案、執行命令、編輯成果檔案","Exploring files, running commands, editing artifacts":"正在探索檔案、執行命令、編輯成果檔案","Exploring files, running commands":"正在探索檔案、執行命令","Exploring files, editing files":"正在探索檔案、編輯檔案","Exploring files, editing artifact":"正在探索檔案、編輯成果檔案","Exploring files, editing artifacts":"正在探索檔案、編輯成果檔案","Queue until after the current turn.":"等目前回覆結束後再傳送。","Interrupt the agent and send immediately.":"中斷目前回覆，立即傳送。","Queued Messages":"訊息傳送方式","Queued messages":"待傳送訊息","Configure how follow-up messages are sent.":"設定後續訊息的傳送時機。","There are no customizations enabled.":"尚未啟用任何自訂設定。","Untitled Conversation":"未命名對話","Outside of Projects":"專案外對話","Outside of Project":"專案外對話","Modified in":"已單獨設定於：","Type":"型別","and select":"並選擇","and 選擇":"並選擇","Configure the agent's visual theme and display preferences.":"設定介面主題和顯示方式。","Agent never asks for review. This maximizes the autonomy of the Agent, but also has the highest risk of the Agent operating over unsafe or injected Artifact content.":"智慧代理不再請求稽核，可自主繼續執行。如果生成的內容含有不安全指令或提示詞注入，這種方式的風險也最高。","Agent always asks for review.":"智慧代理每次都會請你稽核。","Modify permissions for file, terminal, and MCP tools.":"設定檔案、終端機命令和 MCP 工具的訪問權限。","Google Workspace":"Google Workspace","Your Plan":"目前訂閱","Your plan":"目前訂閱","Subscription":"訂閱方案","See Plans":"檢視訂閱方案","Open System Preferences":"開啟系統設定","Accept Step":"接受此步驟","Reject Step":"拒絕此步驟","Start Voice Recording":"開始錄音","Stop Voice Recording":"停止錄音","Toggle File Viewer":"顯示或隱藏檔案檢視器","Toggle Editor":"顯示或隱藏編輯器","Open Launchpad":"開啟啟動面板","Toggle Project Selector":"開啟或關閉專案選擇器","Toggle Environment Selector":"開啟或關閉環境選擇器","Toggle Overview Panel":"顯示或隱藏概覽面板","New Editor Window":"新建編輯器視窗","Close Tab":"關閉標籤頁","Continue Response":"繼續回覆","Close Terminal Tab":"關閉終端機標籤頁","New Terminal Tab":"新建終端機標籤頁","New Tab":"新建標籤頁","Open Command Palette":"開啟命令面板","Open Workspace Selector":"選擇工作區","Add to Chat":"新增到對話","Quote Selection":"引用所選內容","Go Back in Pane":"在窗格中後退","Go Forward in Pane":"在窗格中前進","Complete Onboarding Step":"完成此設定步驟","Open Commit Graph":"開啟提交關係圖","Open Conversation History":"開啟歷史對話","Open Keyboard Shortcuts":"檢視快捷鍵","Open Conversation":"開啟對話","Archive / Restore":"歸檔或恢復","Terminal: Add to Chat":"將終端機內容新增到對話","Copy Conversation Markdown":"以 Markdown 格式複製對話","Restart Main Language Server":"重啟主語言服務","Archive This Conversation":"歸檔此對話","Pin This Conversation":"置頂此對話","Unpin This Conversation":"取消置頂此對話","Find in Conversation":"在對話中查詢","Download Diagnostics":"下載診斷資訊","Toggle Between Light/Dark Themes":"切換淺色或深色主題","Rename This Conversation":"重新命名此對話","Move to New Group":"移到新分組","Comments":"評論","Edit comment":"編輯評論","Delete comment":"刪除評論","No Model Selected":"尚未選擇模型","Every command requires approval.":"每條命令都需要確認。","Ask before sensitive operations.":"執行敏感操作前先詢問。","Security agent decides if commands run.":"由安全智慧代理判斷命令是否可以執行。","Auto (Preview)":"自動判斷（預覽版）","Automatically decide if commands run.":"自動判斷命令是否可以執行。","Run all commands without restrictions.":"不設限制，直接執行所有命令。","Context Menus":"右鍵選單","Suggestions":"建議","Context":"上下文","Quota":"可用額度","Default Customizations":"預設自訂設定","Customize Global Skills":"設定全域技能","Updater":"更新管理","Allow List Terminal Commands":"終端機命令允許列表","The agent auto-executes commands matched by an allow list entry.":"命中允許列表的命令會自動執行。","Deny List Terminal Commands":"終端機命令確認列表","The agent asks for permission before executing commands matched by a deny list entry.":"命中此列表的命令會在執行前請求確認。","Agent Auto-Fix Lints":"自動修復程式碼檢查問題","Give the agent awareness of lint errors created by its edits so it can fix them without explicit prompting.":"讓智慧代理發現並修復修改程式碼時產生的檢查錯誤，無需另行提醒。","Confirm Window Reload":"重新載入視窗前確認","Enable Demo Mode (Beta)":"啟用演示模式（測試版）","Explain and Fix in Current Conversation":"在目前對話中解釋並修復","Strict Mode":"嚴格模式","Agent Non-Workspace File Access":"訪問工作區外的檔案","Command Setup Script":"命令執行前的準備指令碼","A shell setup script run before every command the agent executes.":"智慧代理每次執行命令前都會執行此 Shell 指令碼。","Run terminal commands with sandbox restrictions.":"在沙盒限制範圍內執行終端機命令。","Sandbox Allow Network":"允許沙盒訪問網路","Allow sandboxed commands to make network requests.":"允許沙盒中的命令發起網路請求。","Enable Shell Integration":"啟用終端機整合","Agent Host Address":"智慧代理主機地址","Review Policy":"稽核方式","Enable Sounds for Agent":"啟用智慧代理提示音","Play a sound when the agent finishes generating a response.":"智慧代理完成回覆時播放提示音。","Enable Notifications for Agent":"啟用智慧代理通知","Show browser notifications when your action is needed or execution finishes.":"需要你操作或任務完成時顯示通知。","Auto-Expand Changes Overview":"自動展開更改概覽","Automatically expand the Changes Overview toolbar when the agent finishes generating a response.":"智慧代理完成回覆後，自動展開更改概覽。","Let the agent access past conversations to inform its responses.":"允許智慧代理參考歷史對話來回復。","Auto-Open Edited Files":"自動開啟已修改的檔案","Open files in the background if the agent creates or edits them":"智慧代理建立或修改檔案時，在後台開啟這些檔案","Display and preserve intermediate thinking steps.":"顯示並保留中間思考步驟。","Custom Context Menus":"自訂右鍵選單","Replace the default browser right-click menu with quick actions.":"用快捷操作替換瀏覽器預設的右鍵選單。","Suggestions in Editor":"編輯器內建議","Show suggestions when typing in the editor":"在編輯器中輸入時顯示建議","Tab to Jump":"按 Tab 跳到下一編輯位置","Predict the location of your next edit and navigate you there with a tab keypress.":"預測下一處編輯位置，按 Tab 即可跳轉。","Tab to Import":"按 Tab 新增匯入語句","Quickly add and update imports with a tab keypress.":"按 Tab 快速新增或更新匯入語句。","Tab Speed":"Tab 建議速度","Set the speed of tab suggestions":"設定 Tab 建議的響應速度","Highlight After Accept":"接受補全後高亮顯示","Highlight newly inserted text after accepting a Tab completion.":"接受 Tab 補全後，高亮顯示新插入的文字。","Tab Gitignore Access":"允許 Tab 訪問 Git 忽略的檔案","Enable Browser Tools":"啟用瀏覽器工具","Chrome Binary Path":"Chrome 程式路徑","Path to the Chrome/Chromium executable. Leave empty for auto-detection.":"填寫 Chrome 或 Chromium 可執行檔案的路徑；留空時自動查詢。","Absolute path to the Chrome/Chromium executable":"Chrome 或 Chromium 可執行檔案的完整路徑","Browser User Profile Path":"瀏覽器使用者設定目錄","Browser CDP Port":"瀏覽器 CDP 除錯埠","Nickname":"顯示名稱","Before":"修改前","After":"修改後","Enter a URL (e.g. http://localhost:8080)":"輸入網址，例如 http://localhost:8080","Address bar":"位址列","Open in new tab":"在新標籤頁中開啟","View or edit comment":"檢視或編輯評論","Click to view or edit comment":"點選檢視或編輯評論","Open in external browser":"在外部瀏覽器中開啟","Open in Preview Tab":"在預覽標籤頁中開啟","Embedded web preview":"內嵌網頁預覽","Open in Built-in Browser":"在內建瀏覽器中開啟","Application":"應用","Dismiss Tip":"關閉提示","Explore the plugin marketplace":"瀏覽外掛市場","Tip":"提示","New Workspace":"新建工作區","Updated sidebar grouping":"已更新側邊欄分組方式","Create a Plugin with the Agent":"讓智慧代理建立外掛","Dismiss error":"關閉錯誤提示","Folders these agents can access.":"這些智慧代理可以訪問的資料夾。","Access grants":"已授予的權限","Commands and files these agents can use.":"這些智慧代理可以使用的命令和檔案。","Delete Task":"刪除任務","UI Plugins":"介面外掛","Sidecar error":"Sidecar 服務出錯","Search MCP servers by name":"按名稱搜尋 MCP 伺服器","Clear search":"清空搜尋","MCP Install Error:":"MCP 安裝失敗：","Delete MCP Server":"刪除 MCP 伺服器","Enter authorization code...":"輸入授權碼…","Skills and Rules Settings":"技能與規則設定","Custom Agent Error:":"自訂智慧代理出錯：","Copy Config File Path":"複製設定檔案路徑","MCP Configuration Error:":"MCP 設定錯誤：","UI Extensions":"介面擴充套件","See more results":"檢視更多結果","Accounts":"賬戶","Signed-in accounts":"已登入的賬戶","Context usage":"上下文用量","Close Logs Modal":"關閉日誌視窗","Starting":"正在啟動","Stopped":"已停止","Backoff":"等待重試","Unknown":"未知","Readme":"使用說明","MCP servers":"MCP 伺服器","UI extensions":"介面擴充套件","MCP Authentication Error:":"MCP 身份驗證失敗：","Setup required":"需要完成設定","Plugin metadata":"外掛資訊","Commit":"提交","Failed to Generate Commit Message":"無法生成提交說明","Commit succeeded":"提交成功","Failed to Commit":"提交失敗","Push":"推送","Push succeeded":"推送成功","Failed to Push":"推送失敗","Include unstaged changes":"包含未暫存的更改","Unstage change":"取消暫存此更改","Stage change":"暫存此更改","Discard":"放棄更改","Discard unstaged changes":"放棄未暫存的更改","Added (Staged)":"新增（已暫存）","Untracked (Unstaged)":"未跟蹤（未暫存）","Modified":"已修改","Renamed":"已重新命名","Recent Files":"最近開啟的檔案","Dismiss":"關閉提示","Type absolute path or navigate folders...":"輸入完整路徑，或瀏覽資料夾…","Open Preview":"開啟預覽","Opens in the in-app preview pane. Some sites don't support iframe embedding and may not load.":"在應用的預覽窗格中開啟。有些網站不允許內嵌顯示，可能無法載入。","Open preview in embedded pane":"在內嵌窗格中開啟預覽","Delete Terminal":"刪除終端機","Standalone Terminals":"獨立終端機","Terminals":"終端機","Failed to create terminal":"無法建立終端機","Stop subagent":"停止子代理","Full Error":"完整錯誤資訊","Previous question":"上一題","Next question":"下一題","Always Allow":"始終允許","Allow Once":"僅允許這一次","Confirm Browser Interaction":"確認瀏覽器操作","Mention Page":"引用目前頁面","Capture screenshot":"擷取螢幕畫面","Capture console logs":"獲取控制檯日誌","Deny setting up browser":"拒絕設定瀏覽器","Open Browser Setup":"開啟瀏覽器設定","Cancel step":"取消此步驟","Click to copy full command":"點選複製完整命令","Open search in external browser":"在外部瀏覽器中開啟搜尋結果","Ask first":"先確認再執行","Always run":"始終直接執行","Stop Subagent":"停止子代理","Errors":"錯誤","This command ran in the sandbox.":"此命令在沙盒內執行。","view full search results":"檢視完整搜尋結果","View Page":"檢視頁面","Send Now":"立即傳送","Confirm Undo":"確認撤銷","Revert file changes":"撤銷檔案更改","Remove audio":"移除音訊","Undo To Here":"撤銷到此處","Proceed with Plan":"按此計劃繼續","Open with External Browser":"用外部瀏覽器開啟","Fork warning":"建立分支對話前的提示","Generations":"生成結果","Edit permission target":"編輯權限適用物件","Resize side question panel":"調整補充問答面板大小","Drag to resize, double-click to reset":"拖動調整大小，雙擊還原","Previous side question":"上一個補充問題","Next side question":"下一個補充問題","(Optional) Tell us more...":"補充說明（可選）…","Verification required":"需要驗證","Complete verification":"完成驗證","Action required":"需要你操作","Agent terminated due to error":"智慧代理因錯誤而停止","Insufficient AI Credits":"AI 點數不足","Purchase Credits":"購買點數","Model quota reached":"模型額度已用盡","Select another model":"選擇其他模型","Baseline model quota reached":"基礎模型額度已用盡","Enable Overages":"額度用盡後使用點數","Error Loading Models":"模型載入失敗","No Models Available":"暫無可用模型","Select Model to Send Message":"選擇模型後即可傳送訊息","Select Model":"選擇模型","Workspace mismatch actions":"工作區不一致時的處理方式","Global Permission Settings":"全域權限設定","Click to copy URL":"點選複製網址","Could not create project":"無法建立專案","Workspace setup warning":"工作區設定提示","Failed to start conversation":"無法開始對話","Failed to proceed":"無法繼續執行","Failed to continue":"無法繼續","Failed to create worktree":"無法建立工作樹","No branches":"暫無分支","Select branch":"選擇分支","Configure Worktree Branches":"設定工作樹分支","Select Worktree":"選擇工作樹","Local":"本地","New worktree":"新建工作樹","New Worktree":"新建工作樹","Select Environment":"選擇執行環境","Select Default Branch":"選擇預設分支","Configure Branches":"設定分支","Disabled. Open the plugin page to finish setup.":"暫未啟用。請開啟外掛頁面完成設定。","Insert in terminal":"插入到終端機","Table options":"表格選項","Inline Widget":"對話內元件","Edit Model":"編輯模型","Usage":"用量","Model URL info":"模型網址說明","Max tokens until compaction info":"觸發上下文壓縮的 Token 上限說明","Manifest Changes":"清單更改","True changes vs the parent workspace":"與來源工作區相比的實際更改","Agent Edits":"智慧代理的修改","Files modified by the agent in this conversation":"智慧代理在目前對話中修改的檔案","Uncommitted":"未提交","Staged index changes and working tree changes":"已暫存的更改和工作區內的更改","Staged Changes":"已暫存的更改","Branch Changes":"分支更改","Files Changed":"已更改檔案","Telemetry is disabled in Settings":"診斷資料收集已在設定中關閉","Cancel recording":"取消錄音","Run in your current workspace":"在目前工作區中執行","Run in a new worktree":"在新工作樹中執行","Add context":"新增上下文","Getting scripts...":"正在獲取指令碼…","Number of responses":"回覆數量","Screen Recording":"螢幕錄製","View comments":"檢視評論","Mention":"引用","Screenshot":"螢幕截圖","Console logs":"控制檯日誌","Invalid Media":"媒體檔案無效","Error fetching MCP prompt":"無法獲取 MCP 提示詞","Couldn't load Google Drive link title":"無法獲取 Google 雲端硬碟連結的標題","Failed to stop agent":"無法停止智慧代理","Toggle file diff":"顯示或隱藏檔案差異","Clear filter":"清除篩選條件","Cancel All Tasks":"取消所有任務","Background Tasks":"後台任務","Cancel Task":"取消任務","Documents":"文件","Stop All Subagents":"停止所有子代理","Open Terminal":"開啟終端機","Uploads":"上傳的檔案","Open in new window":"在新視窗中開啟","Export as PDF":"匯出為 PDF","Open in Notebook View":"在筆記本檢視中開啟","File path breadcrumbs":"檔案路徑導航","Open Full View":"開啟完整檢視","Custom View":"自訂檢視","Match case":"區分大小寫","Match whole word":"全字匹配","Use regular expression":"使用正規表示式","Previous match":"上一處匹配","Next match":"下一處匹配","Toggle sidebar":"顯示或隱藏側邊欄","Open File":"開啟檔案","Preview":"預覽","Search tabs, files, plugins, subagents, artifacts, tasks...":"搜尋標籤頁、檔案、外掛、子代理、成果檔案或任務…","Search for content to open":"搜尋要開啟的內容","Search results":"搜尋結果","Close tab":"關閉標籤頁","Close other tabs":"關閉其他標籤頁","Close tabs to the right":"關閉右側標籤頁","New tab":"新建標籤頁","Blocked":"已阻止","In Progress":"進行中","Dismiss notification":"關閉通知","Recent files":"最近開啟的檔案","Search file contents...":"搜尋檔案內容…","Search for commands...":"搜尋命令…","Search for conversations...":"搜尋對話…","Search projects...":"搜尋專案…","Search workspaces...":"搜尋工作區…","Add recent remote workspace":"新增最近使用的遠端工作區","Input required":"等待你的輸入","File access":"檔案訪問","Open URL":"開啟網址","MCP tool":"MCP 工具","Run JS":"執行 JavaScript","Approval":"確認","Collapse toast":"收起提示","Dismiss toast":"關閉提示","Other (write your answer)":"其他（填寫你的答案）","Previous toast":"上一條提示","Next toast":"下一條提示","Conversation unavailable":"對話暫不可用","Mark all as read":"全部標為已讀","More Actions":"更多操作","View Debug":"檢視除錯資訊","Conversation Telemetry":"對話診斷資料","Share Conversation (Preview)":"分享對話（預覽版）","Conversation Archived":"對話已歸檔","Failed to rename conversation":"無法重新命名對話","Failed to delete conversation":"無法刪除對話","Failed to stop conversation":"無法停止對話","Restore":"恢復","Delete Permanently":"永久刪除","Billing model":"計費方式","Pay as you go":"按量付費","Available licenses":"可用許可證","Use theme to be imported with settings":"使用隨設定匯入的主題","Select your license":"選擇許可證","Managed by Enterprise Gateway":"由企業閘道器管理","Not Signed In":"未登入","App version":"應用版本","Device Name":"裝置名稱","Enter device name...":"輸入裝置名稱…","Show Remote Control QR code":"顯示遠端控制二維碼","Remote Control link":"遠端控制連結","A label for this computer when you connect from another device. Changing it reconnects.":"從其他裝置連線時，用此名稱識別這臺電腦。修改後會重新連線。","Local Windows environment":"本地 Windows 環境","Delete command":"刪除命令","Auto (detected)":"自動識別","Operating System":"作業系統","Host Environment":"執行環境","Binary":"程式元件","User Type":"使用者型別","UI Actions":"介面操作","Configure workspace-specific permissions, resources, and customizations.":"設定目前工作區的權限、資源和自訂設定。","Workspace File Access":"工作區檔案訪問","Read Files":"讀取檔案","Paths the agent can read inside this workspace.":"智慧代理可以在目前工作區讀取的路徑。","Enter file or directory path...":"輸入檔案或資料夾路徑…","Paths the agent can modify inside this workspace.":"智慧代理可以在目前工作區修改的路徑。","Workspace Command Access":"工作區命令權限","Terminal commands the agent can execute in this workspace.":"智慧代理可以在目前工作區執行的終端機命令。","Enter command (e.g., git, blaze)...":"輸入命令，例如 git 或 blaze…","Commands the agent can run outside the sandbox in this workspace.":"智慧代理可以為目前工作區在沙盒外執行的命令。","External tools the agent can call via Model Context Protocol.":"智慧代理可透過模型上下文協議（MCP）呼叫的外部工具。","Enter tool name or server...":"輸入工具或伺服器名稱…","Workspace Web Access":"工作區網路訪問","Read URLs":"讀取網頁","URLs the agent can read or open in this workspace.":"智慧代理可以為目前工作區讀取或開啟的網址。","Enter URL pattern...":"輸入網址匹配規則…","Execute URLs":"操作網頁","URLs the agent can actuate on in this workspace.":"智慧代理可以為目前工作區執行網頁操作的網址。","Browser Actuation Permissions":"瀏覽器操作權限","Allow/deny agent browser actuation access to specific URLs.":"允許或禁止智慧代理在指定網址上操作瀏覽器。","Organization Allowed Domains (Read-Only)":"組織允許訪問的域名（只讀）","Allow/deny agent read access to specific URLs or domains.":"允許或禁止智慧代理讀取指定網址或域名。","Allow/deny specific terminal commands.":"允許或禁止執行指定終端機命令。","Allow/deny agent command execution outside the sandbox.":"允許或禁止智慧代理在沙盒外執行命令。","Configure GitHub access policies.":"設定 GitHub 訪問規則。","Global Permissions":"全域權限","Paths the agent can read.":"智慧代理可以讀取的路徑。","Paths the agent can modify.":"智慧代理可以修改的路徑。","Terminal commands the agent can execute.":"智慧代理可以執行的終端機命令。","Commands the agent can run outside the sandbox.":"智慧代理可以在沙盒外執行的命令。","URLs the agent can read or open in the browser.":"智慧代理可以在瀏覽器中讀取或開啟的網址。","URLs the agent can actuate on using the browser.":"智慧代理可以使用瀏覽器執行操作的網址。","Workspace Creation":"建立工作區","Plugin Operation Error:":"外掛操作失敗：","Paste auth code":"貼上授權碼","Refresh MCP servers":"重新整理 MCP 伺服器","Options":"選項","Refresh custom agents":"重新整理自訂智慧代理","All tools (*)":"所有工具（*）","Hook will trigger if any tool is executed.":"執行任意工具時都會觸發此鉤子。","Browser tools (browser_.*)":"瀏覽器工具（browser_.*）","Hook will only trigger if the tool name starts with browser_.":"僅在工具名稱以 browser_ 開頭時觸發此鉤子。","Delete Hook":"刪除鉤子","Add Hook Card":"新增鉤子","Delete Handler":"刪除處理程式","New hook name":"新鉤子名稱","Manage Skills":"管理技能","Refresh skills paths":"重新整理技能路徑","Skills Configuration Error:":"技能設定錯誤：","Skill Custom Paths":"自訂技能路徑","Enter directory path...":"輸入資料夾路徑…","Add MCP Servers":"新增 MCP 伺服器","Manage Hooks":"管理鉤子","Configure hooks that run on agent lifecycle events.":"設定智慧代理啟動、執行或結束時觸發的鉤子。","Paste code here":"在此貼上程式碼","Enable Chat":"啟用對話","Open settings menu":"開啟設定選單","Filter repositories...":"篩選倉庫…","Failed to save project":"無法儲存專案","Extensions":"擴充套件","Command Center":"命令中心","Back to home":"返回首頁","Reload app":"重新載入應用","Close Settings":"關閉設定","Rename Conversation":"重新命名對話","Open side-by-side view":"並排開啟檢視","Conversation copied as Markdown to clipboard":"已將對話以 Markdown 格式複製到剪貼簿","Select Agent":"選擇智慧代理","Click to open docs":"點選開啟使用文件","New Agent Script":"新建智慧代理指令碼","Agent options":"智慧代理選項","Project Settings":"專案設定","Enter workspace name (e.g., my-feature)":"輸入工作區名稱，例如 my-feature","Branch / Ref":"分支或引用","Enter project name...":"輸入專案名稱…","Available workspaces":"可用工作區","Unmount workspace":"解除安裝工作區掛載","Delete workspace":"刪除工作區","Group Actions":"分組操作","Failed to archive workspace":"無法歸檔工作區","Workspace archived successfully":"工作區已歸檔","Customize Sections":"自訂分割槽","Open in preview":"在預覽中開啟","Goals":"目標","Links":"連結","Modified Files":"已修改檔案","Update Available":"有可用更新","Dismiss service announcement":"關閉服務公告","About":"關於","Close Sidebar":"關閉側邊欄","Hourly":"每小時","Daily":"每天","Weekly":"每週","Monday":"星期一","Tuesday":"星期二","Wednesday":"星期三","Thursday":"星期四","Friday":"星期五","Saturday":"星期六","Sunday":"星期日","Cron expression e.g. 0 */6 * * *":"Cron 表示式，例如 0 */6 * * *","Prompt to run when triggered...":"輸入觸發時執行的任務…","Edit automation title":"修改自動化名稱","Enter a prompt for the agent to run...":"輸入要讓智慧代理執行的任務…","Failed to create automation.":"無法建立自動化。","Add automation":"新增自動化","Prompt to execute on schedule...":"輸入要定時執行的任務…","Uptime":"已執行時間","Edit task title":"修改任務名稱","Open project settings":"開啟專案設定","Updates to your sidebar":"側邊欄更新說明","Current workspace":"目前工作區","Archive project":"歸檔專案","Archive Workspace":"歸檔工作區","Quick Start":"快速入門","Settings Unavailable":"設定暫不可用","Model selector loading":"正在載入模型列表","Copy value":"複製值","Copy thinking":"複製思考內容","Copy output":"複製輸出","Copy section content":"複製此部分內容","Copy description":"複製說明","Previous match (Shift+Enter)":"上一處匹配（Shift+Enter）","Next match (Enter)":"下一處匹配（Enter）","Clear search (Esc)":"清空搜尋（Esc）","First":"第一項","Previous":"上一項","Next":"下一項","Last":"最後一項","Steps":"步驟","Tool Execution":"工具執行","Step":"步驟","Step Type":"步驟型別","Step Details":"步驟詳情","Zoom out":"縮小","Zoom in":"放大","All":"全部","Double-click to reset panel sizes":"雙擊還原面板大小","View child subagents":"檢視子代理","Side-by-side layout":"左右佈局","Stacked layout":"上下佈局","Search across files...":"搜尋所有檔案…","Installed Skills":"已安裝的技能","Refresh customizations":"重新整理自訂設定","Close panel":"關閉面板","Search all skills on Agent Market…":"搜尋 Agent Market 中的所有技能…","Refresh skills":"重新整理技能","Close skills panel":"關閉技能面板","Search skills…":"搜尋技能…","Copy email address":"複製電子郵箱地址","Notification Preferences":"通知偏好設定","Open Preferences":"開啟偏好設定","Open Folder (Interactive)":"選擇並開啟資料夾","Enable Notifications":"啟用通知","Got it":"知道了","Block":"禁止","(empty)":"（空）","Remove policy":"移除規則","Workflow files":"工作流檔案","Workflow refs":"工作流引用","Delete repository policy":"刪除倉庫規則","Delete organization policy":"刪除組織規則","GitHub Policies":"GitHub 訪問規則","GitHub Permissions":"GitHub 權限","Manage fine-grained permissions for GitHub.":"管理 GitHub 的細分訪問權限。","Target text in PDF...":"輸入要在 PDF 中查詢的文字…","Write a comment...":"填寫評論…","Toggle Thumbnails":"顯示或隱藏縮圖","Download PDF":"下載 PDF","Previous Page":"上一頁","Current Page":"目前頁","Next Page":"下一頁","Clear Search":"清空搜尋","Open Search":"開啟搜尋","Zoom Level":"縮放比例","More toolbar actions":"更多工具欄操作","More":"更多","Dismiss text selection notice":"關閉文字選擇提示","Standalone":"獨立執行","Zoom out (-)":"縮小（-）","Reset zoom":"還原縮放","Reset zoom (0)":"還原縮放（0）","Zoom in (+)":"放大（+）","Download SVG":"下載 SVG","Close (Esc)":"關閉（Esc）","Retry":"重試","Just now":"剛剛","Error ID":"錯誤編號","Error ID:":"錯誤編號：","You can prompt the model to try again or start a new conversation if the error persists.":"你可以讓模型重試；如果仍然出錯，請開啟新對話。","See our troubleshooting guide for more help.":"請參閱疑難排解指南，取得更多協助。","See our":"請參閱","troubleshooting guide":"疑難排解指南","for more help.":"，取得更多協助。"};
+
+  const coreWords = {
+    "create": "建立", "delete": "刪除", "new": "新建", "edit": "編輯", "save": "儲存", "cancel": "取消", "confirm": "確認", "copy": "複製",
+    "close": "關閉", "open": "開啟", "stop": "停止", "start": "啟動", "add": "新增", "remove": "移除",
+    "update": "更新", "select": "選擇", "clear": "清除", "search": "搜尋", "find": "查詢", "view": "檢視", "show": "顯示", "hide": "隱藏",
+    "agent": "智慧代理", "agents": "智慧代理", "subagent": "子代理", "subagents": "子代理", "task": "任務", "tasks": "任務",
+    "automation": "自動化", "automations": "自動化",
+    "workspace": "工作區", "workspaces": "工作區", "project": "專案", "projects": "專案", "directory": "目錄", "folder": "資料夾", "file": "檔案", "files": "檔案",
+    "command": "命令", "commands": "命令", "palette": "面板", "terminal": "終端機", "console": "控制檯", "output": "輸出", "input": "輸入", "remote": "遠端", "control": "控制", "device": "裝置", "devices": "裝置", "link": "連結",
+    "log": "日誌", "logs": "日誌", "setting": "設定", "settings": "設定", "preference": "偏好", "preferences": "偏好", "permission": "權限", "permissions": "權限",
+    "theme": "主題", "themes": "主題", "model": "模型", "models": "模型", "capability": "能力", "capabilities": "能力",
+    "run": "執行", "ran": "已執行", "running": "執行中", "completed": "已完成", "failed": "已失敗", "pending": "等待中", "success": "成功", "error": "錯誤",
+    "system": "系統", "prompt": "提示詞", "instructions": "指令", "description": "描述", "name": "名稱", "version": "版本",
+    "active": "活躍", "background": "後台", "parent": "父級", "child": "子級", "branch": "分支", "share": "共享", "inherit": "繼承",
+    "original": "原始", "backup": "備份", "duration": "持續時間", "seconds": "秒", "timer": "定時器", "timers": "定時器",
+    "schedule": "排程", "cron": "定時任務", "tools": "工具", "tool": "工具", "execute": "執行", "execution": "執行", "plan": "計劃",
+    "policy": "策略", "policies": "策略", "never": "從不", "always": "總是",
+    "changed": "已更改", "review": "稽核", "reviewing": "稽核中", "reviewed": "已稽核",
+    "canceled": "已取消",
+    "explore": "探索", "search": "搜尋", "change": "更改", "changes": "更改",
+    "turn": "回合", "turns": "回合",
+    "analyzed": "分析", "analyzing": "分析",
+    "advanced": "高階", "collapse": "摺疊", "expand": "展開",
+    "global": "全域", "inherits": "繼承",
+    "wsl": "WSL", "distro": "發行版", "distros": "發行版"
+  };
+
+  const combinedDict = Object.assign({}, coreWords, dictionary);
+  // 效能最佳化 1：預先構建全小寫字典 Map，將未命中小寫查詢由 O(N) 降低為 O(1)
+  const lowerDictionary = new Map();
+  for (const k in dictionary) {
+    const lk = k.toLowerCase();
+    if (!lowerDictionary.has(lk)) {
+      lowerDictionary.set(lk, dictionary[k]);
+    }
+  }
+
+  const stringCache = new Map();
+  const MAX_STRING_CACHE = 5000;
+
+  const escapeRegExp = (str) => {
+    const specials = ['[', ']', '(', ')', '{', '}', '*', '+', '?', '.', '^', '$', '|', '\\'];
+    return str.split('').map(c => specials.includes(c) ? '\\' + c : c).join('');
+  };
+
+  // 效能最佳化 4：啟動階段一次性預編譯單次聯合分詞正則，徹底消滅執行時 80 次迴圈迭代正則匹配
+  const sortedCoreKeys = Object.keys(coreWords)
+    .sort((a, b) => b.length - a.length)
+    .filter(w => w.length > 2 || /^[a-zA-Z0-9]+$/.test(w));
+  const escapedCoreUnion = sortedCoreKeys.map(w => escapeRegExp(w)).join('|');
+  const CORE_WORDS_UNION_REGEX = new RegExp('\\b(' + escapedCoreUnion + ')\\b', 'gi');
+
+  function translateString(text) {
+    if (!text) return text;
+    const trimmed = text.trim();
+    if (!trimmed) return text;
+    const normalized = trimmed.replace(/\s+/g, ' ');
+    const exactTranslation = Object.prototype.hasOwnProperty.call(dictionary, normalized) ? dictionary[normalized] : lowerDictionary.get(normalized.toLowerCase());
+    if (exactTranslation !== undefined) return text.replace(trimmed, exactTranslation);
+    const selectorMatch = trimmed.match(/^Select (project|model), current:\s*(.*)$/i);
+    if (selectorMatch) {
+      const suffix = selectorMatch[1].toLowerCase() === 'project' && /^No Project$/i.test(selectorMatch[2]) ? '未關聯專案' : selectorMatch[2];
+      return text.replace(trimmed, '選擇'+(selectorMatch[1].toLowerCase()==='project'?'專案':'模型')+'，目前：'+suffix);
+    }
+    if (/^Your plan:\s*/i.test(trimmed)) return text.replace(trimmed, trimmed.replace(/^Your plan:\s*/i,'目前訂閱：'));
+
+
+    // 效能最佳化 2：極速短路。若文字完全不包含任何英文字母（純中文/純數字/純標點），絕對無需查英文詞典或跑正則，瞬間原樣返回
+    if (!/[a-zA-Z]/.test(trimmed)) {
+      return text;
+    }
+
+    // 0. 極速快取查詢（O(1) 命中瞬間返回）
+    if (stringCache.has(trimmed)) {
+      return text.replace(trimmed, stringCache.get(trimmed));
+    }
+
+    // ===== 2.21.0 專屬動態模式匹配與防禦 =====
+    // Customizations 擴充套件市場與已安裝動態模式
+    if (/^See\s+(\d+)\s+more$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^See\s+(\d+)\s+more$/i, '檢視其餘 $1 項');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^See\s+less$/i.test(trimmed)) {
+      const fixed = '收起';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^See\s+more\s+in\s+(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^See\s+more\s+in\s+(.+)$/i, '在“$1”中檢視更多');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Install\s+(.+)$/i.test(trimmed)) {
+      const target = trimmed.replace(/^Install\s+/i, '');
+      const translatedTarget = translateString(target);
+      const fixed = '安裝 ' + translatedTarget;
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Uninstall\s+(.+)$/i.test(trimmed)) {
+      const target = trimmed.replace(/^Uninstall\s+/i, '');
+      const translatedTarget = translateString(target);
+      const fixed = '解除安裝 ' + translatedTarget;
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(\d+)\s+(?:tools?|工具)\s+enabled$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^(\d+)\s+(?:tools?|工具)\s+enabled$/i, '已啟用 $1 個工具');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Custom Agents|Custom 智慧代理|custom agents)$/i.test(trimmed)) {
+      const fixed = '自訂智慧代理';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Skills\s*&\s*Rules|skills\s*&\s*rules)$/i.test(trimmed)) {
+      const fixed = '技能與規則';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Built In|Built-in|built in)$/i.test(trimmed)) {
+      const fixed = '內建';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Loading plugin[.…]*$/i.test(trimmed)) {
+      const fixed = '正在載入外掛...';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    // ===== 顯示選項與篩選子選單動態防禦 =====
+    if (/^(?:Last 提示詞|Last Prompt|Last prompt)$/i.test(trimmed)) {
+      const fixed = '最新提示詞';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Sort Conversations|Sort conversations|sort conversations)$/i.test(trimmed)) {
+      const fixed = '對話排序';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Archived Only|Archived only|archived only)$/i.test(trimmed)) {
+      const fixed = '僅已歸檔';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Last\s+(\d+)\s+days?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Last\s+(\d+)\s+days?$/i, '最近 $1 天');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Last\s+(\d+)\s+hours?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Last\s+(\d+)\s+hours?$/i, '最近 $1 小時');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Show\s+(\d+)\s+breakdowns?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Show\s+(\d+)\s+breakdowns?$/i, '顯示 $1 項明細');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Hide\s+breakdowns?$/i.test(trimmed)) {
+      const fixed = '隱藏明細';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    // ===== 智慧代理執行標籤、工具組與步驟狀態動態正則匹配 =====
+    // 1. 夾生詞清理：Ran 命令 -> 已執行命令
+    if (/^Ran\s+命令$/i.test(trimmed)) {
+      const fixed = '已執行命令';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+    if (/^Running\s+命令$/i.test(trimmed)) {
+      const fixed = '正在執行命令';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+    if (/^Ran\s+命令:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Ran\s+命令:\s*(.+)$/i, '已執行命令: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+    if (/^Running\s+命令:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Running\s+命令:\s*(.+)$/i, '正在執行命令: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+    if (/^Ran\s+(\d+)\s+命令$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Ran\s+(\d+)\s+命令$/i, '已執行 $1 條命令');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+    if (/^Running\s+(\d+)\s+命令$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Running\s+(\d+)\s+命令$/i, '正在執行 $1 條命令');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    // 2. 動詞三聯/複合短語（已完成與進行中）
+    if (/^Explored\s+(\d+)\s+files?,\s*ran\s+(\d+)\s+commands?,\s*edited\s+(\d+)\s+(?:files?|artifacts?)$/i.test(trimmed)) {
+      const isArt = /artifacts?$/i.test(trimmed);
+      const fixed = trimmed.replace(/^Explored\s+(\d+)\s+files?,\s*ran\s+(\d+)\s+commands?,\s*edited\s+(\d+)\s+(?:files?|artifacts?)$/i, 
+        isArt ? '已探索 $1 個檔案，已執行 $2 條命令，已編輯 $3 個工件' : '已探索 $1 個檔案，已執行 $2 條命令，已編輯 $3 個檔案');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Exploring\s+(\d+)\s+files?,\s*running\s+(\d+)\s+commands?,\s*editing\s+(\d+)\s+(?:files?|artifacts?)$/i.test(trimmed)) {
+      const isArt = /artifacts?$/i.test(trimmed);
+      const fixed = trimmed.replace(/^Exploring\s+(\d+)\s+files?,\s*running\s+(\d+)\s+commands?,\s*editing\s+(\d+)\s+(?:files?|artifacts?)$/i, 
+        isArt ? '正在探索 $1 個檔案，正在執行 $2 條命令，正在編輯 $3 個工件' : '正在探索 $1 個檔案，正在執行 $2 條命令，正在編輯 $3 個檔案');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Explored\s+files?,\s*ran\s+commands?,\s*edited\s+(?:files?|artifacts?)$/i.test(trimmed)) {
+      const fixed = /artifacts?$/i.test(trimmed) ? '已探索檔案、已執行命令、已編輯工件' : '已探索檔案、已執行命令、已編輯檔案';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Exploring\s+files?,\s*running\s+commands?,\s*editing\s+(?:files?|artifacts?)$/i.test(trimmed)) {
+      const fixed = /artifacts?$/i.test(trimmed) ? '正在探索檔案、執行命令、編輯工件' : '正在探索檔案、執行命令、編輯檔案';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Explored\s+(\d+)\s+files?,\s*ran\s+(\d+)\s+commands?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Explored\s+(\d+)\s+files?,\s*ran\s+(\d+)\s+commands?$/i, '已探索 $1 個檔案，已執行 $2 條命令');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Exploring\s+(\d+)\s+files?,\s*running\s+(\d+)\s+commands?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Exploring\s+(\d+)\s+files?,\s*running\s+(\d+)\s+commands?$/i, '正在探索 $1 個檔案，正在執行 $2 條命令');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Explored\s+files?,\s*ran\s+commands?$/i.test(trimmed)) {
+      const fixed = '已探索檔案，已執行命令';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Exploring\s+files?,\s*running\s+commands?$/i.test(trimmed)) {
+      const fixed = '正在探索檔案，正在執行命令';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Running\s+commands?,\s*editing\s+(?:files?|artifacts?)$/i.test(trimmed)) {
+      const fixed = /artifacts?$/i.test(trimmed) ? '正在執行命令、編輯工件' : '正在執行命令、編輯檔案';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Ran\s+commands?,\s*edited\s+(?:files?|artifacts?)$/i.test(trimmed)) {
+      const fixed = /artifacts?$/i.test(trimmed) ? '已執行命令、已編輯工件' : '已執行命令、已編輯檔案';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Explored\s+files?,\s*edited\s+(?:files?|artifacts?)$/i.test(trimmed)) {
+      const fixed = /artifacts?$/i.test(trimmed) ? '已探索檔案、已編輯工件' : '已探索檔案、已編輯檔案';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Exploring\s+files?,\s*editing\s+(?:files?|artifacts?)$/i.test(trimmed)) {
+      const fixed = /artifacts?$/i.test(trimmed) ? '正在探索檔案、編輯工件' : '正在探索檔案、編輯檔案';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    // 3. 統計數字類模式
+    if (/^Ran\s+(\d+)\s+commands?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Ran\s+(\d+)\s+commands?$/i, '已執行 $1 條命令');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Running\s+(\d+)\s+commands?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Running\s+(\d+)\s+commands?$/i, '正在執行 $1 條命令');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Ran\s+(\d+)\s+command$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Ran\s+(\d+)\s+command$/i, '已執行 $1 條命令');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Running\s+(\d+)\s+command$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Running\s+(\d+)\s+command$/i, '正在執行 $1 條命令');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Explored\s+(\d+)\s+files?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Explored\s+(\d+)\s+files?$/i, '已探索 $1 個檔案');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Exploring\s+(\d+)\s+files?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Exploring\s+(\d+)\s+files?$/i, '正在探索 $1 個檔案');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Edited\s+(\d+)\s+files?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Edited\s+(\d+)\s+files?$/i, '已編輯 $1 個檔案');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Editing\s+(\d+)\s+files?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Editing\s+(\d+)\s+files?$/i, '正在編輯 $1 個檔案');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Edited\s+(\d+)\s+artifacts?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Edited\s+(\d+)\s+artifacts?$/i, '已編輯 $1 個工件');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Editing\s+(\d+)\s+artifacts?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Editing\s+(\d+)\s+artifacts?$/i, '正在編輯 $1 個工件');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    // 4. 具體工具步驟行模式
+    if (/^Ran\s+command:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Ran\s+command:\s*(.+)$/i, '已執行命令: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Running\s+command:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Running\s+command:\s*(.+)$/i, '正在執行命令: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Waiting for command completion \(up to (\d+) seconds\)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Waiting for command completion \(up to (\d+) seconds\)$/i, '等待命令執行完成（最多 $1 秒）');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Rejected sending (?:termination request|input) to command$/i.test(trimmed)) {
+      const isTerm = /termination/i.test(trimmed);
+      const fixed = isTerm ? '已拒絕向命令傳送終止請求' : '已拒絕向命令傳送輸入';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Sent (?:termination request|input) to command$/i.test(trimmed)) {
+      const isTerm = /termination/i.test(trimmed);
+      const fixed = isTerm ? '已向命令傳送終止請求' : '已向命令傳送輸入';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Suggested sending (?:termination request|input) to command$/i.test(trimmed)) {
+      const isTerm = /termination/i.test(trimmed);
+      const fixed = isTerm ? '建議向命令傳送終止請求' : '建議向命令傳送輸入';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Sending (?:termination request|input) to command$/i.test(trimmed)) {
+      const isTerm = /termination/i.test(trimmed);
+      const fixed = isTerm ? '正在向命令傳送終止請求' : '正在向命令傳送輸入';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Error sending (?:termination request|input) to command$/i.test(trimmed)) {
+      const isTerm = /termination/i.test(trimmed);
+      const fixed = isTerm ? '向命令傳送終止請求時出錯' : '向命令傳送輸入時出錯';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Canceled edit to (.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Canceled edit to (.+)$/i, '已取消對 $1 的編輯');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Canceled creation of (.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Canceled creation of (.+)$/i, '已取消建立 $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Canceled deletion of (.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Canceled deletion of (.+)$/i, '已取消刪除 $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Used MCP tool:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Used MCP tool:\s*(.+)$/i, '呼叫 MCP 工具: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Used tool:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Used tool:\s*(.+)$/i, '呼叫工具: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Generated image:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Generated image:\s*(.+)$/i, '生成影像: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Browser task:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Browser task:\s*(.+)$/i, '瀏覽器任務: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Opened browser:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Opened browser:\s*(.+)$/i, '已開啟瀏覽器: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Read URL:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Read URL:\s*(.+)$/i, '讀取 URL: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Searched web:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Searched web:\s*(.+)$/i, '網頁搜尋: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Invoked subagent:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Invoked subagent:\s*(.+)$/i, '呼叫子代理: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Searched for files:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Searched for files:\s*(.+)$/i, '搜尋檔案: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Searched for\s+"([^"]+)"$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Searched for\s+"([^"]+)"$/i, '搜尋: "$1"');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Code search:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Code search:\s*(.+)$/i, '程式碼搜尋: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Internal search:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Internal search:\s*(.+)$/i, '內部搜尋: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Listed directory\s+(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Listed directory\s+(.+)$/i, '列出目錄: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^No more older messages(?:,\s*showing\s+(\d+)\s+of\s+(\d+))?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^No more older messages(?:,\s*showing\s+(\d+)\s+of\s+(\d+))?$/i, (m, a, b) => {
+        return a && b ? ('已無更早的歷史訊息（共顯示 ' + a + ' / ' + b + ' 條）') : '已無更早的歷史訊息';
+      });
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Select model,\s*current:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Select model,\s*current:\s*(.+)$/i, '選擇模型，目前為: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Opens external link:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Opens external link:\s*(.+)$/i, '開啟外部連結: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Send feedback as\s+(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Send feedback as\s+(.+)$/i, '以 $1 身份傳送反饋');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Show All|Show all|show all|顯示 All)$/i.test(trimmed)) {
+      const fixed = '顯示全部';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:File Reads|檔案 Reads|file reads)$/i.test(trimmed)) {
+      const fixed = '檔案讀取';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:File Writes|檔案 Writes|file writes)$/i.test(trimmed)) {
+      const fixed = '檔案寫入';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Project options|專案 options)$/i.test(trimmed)) {
+      const fixed = '專案選項';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Agent response|智慧代理 response)$/i.test(trimmed)) {
+      const fixed = '智慧代理回覆';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:View Usage|View usage|view usage|檢視 Usage)$/i.test(trimmed)) {
+      const fixed = '檢視使用額度';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Permanently delete|Permanently 刪除)$/i.test(trimmed)) {
+      const fixed = '永久刪除';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (trimmed.includes('could not be opened')) {
+      const replacedCouldNot = trimmed.replace(/could not be opened/gi, '無法開啟');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, replacedCouldNot);
+      return text.replace(trimmed, replacedCouldNot);
+    }
+
+    if (/Scan the code to/i.test(trimmed)) {
+      if (/Scan the code to.*,\s*or\s*$/i.test(trimmed)) {
+        const fixed = '掃描二維碼以在遠端控制中開啟此裝置，或';
+        if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+        return text.replace(trimmed, fixed);
+      }
+      if (/Scan the code to.*(?:copy link|複製連結)/i.test(trimmed)) {
+        const fixed = '掃描二維碼以在遠端控制中開啟此裝置，或複製連結。';
+        if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+        return text.replace(trimmed, fixed);
+      }
+      if (/Scan the code to.*(?:Remote Control|遠端\s*控制)/i.test(trimmed)) {
+        const fixed = '掃描二維碼以在遠端控制中開啟此裝置';
+        if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+        return text.replace(trimmed, fixed);
+      }
+    }
+
+    if (/Continue your work from another device/i.test(trimmed)) {
+      let fixed = '藉助遠端控制從另一臺裝置繼續工作。請掃描下方二維碼或開啟下方連結。';
+      if (!/Scan the QR code/i.test(trimmed)) {
+        fixed = '藉助遠端控制從另一臺裝置繼續工作。';
+      }
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/Scan the QR code or open the link below/i.test(trimmed)) {
+      const fixed = '掃描下方二維碼或開啟下方連結。';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Invalid tool call$/i.test(trimmed)) {
+      const fixed = '無效的工具呼叫';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^No Project$/i.test(trimmed)) {
+      const fixed = '無專案';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^See all\s*\(([^)]+)\)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^See all\s*\(([^)]+)\)$/i, '檢視全部 ($1)');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Ran\s+(\d+)\s*(?:commands|命令)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Ran\s+(\d+)\s*(?:commands|命令)$/i, '已執行 $1 條命令');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Load older messages,\s*showing\s+(\d+)\s+of\s+(\d+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Load older messages,\s*showing\s+(\d+)\s+of\s+(\d+)$/i, '載入歷史訊息，正在顯示 $1 / $2 條');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Fold lines\s+([0-9-]+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Fold lines\s+([0-9-]+)$/i, '摺疊第 $1 行');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Advanced\s*Settings|Advanced\s*設定|advanced\s*settings)$/i.test(trimmed)) {
+      const fixed = '高階設定';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Collapse\s*All|Collapse\s*all|collapse\s*all)$/i.test(trimmed)) {
+      const fixed = '全部摺疊';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Expand\s*All|Expand\s*all|expand\s*all)$/i.test(trimmed)) {
+      const fixed = '全部展開';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Inherit\s*Global|Inherits\s*Global|繼承\s*Global)$/i.test(trimmed)) {
+      const fixed = '繼承全域';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Inherits\s+your\s+Global\s+Permissions\s+when\s+working\s+in\s+this\s+project\.?$/i.test(trimmed)) {
+      const fixed = '在此專案中工作時繼承您的全域權限。';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Also\s+includes.*(?:Global\s+Permissions|全域權限).*when\s+working\s+in\s+this\s+project/i.test(trimmed)) {
+      const fixed = '在目前專案中工作時，亦繼承全域權限設定。';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Modify permissions for/i.test(trimmed)) {
+      const fixed = '修改針對檔案系統、終端機命令以及 MCP 工具的安全權限。';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^(?:Tool[\s ]+Permissions|工具[\s ]*Permissions)$/i.test(trimmed)) {
+      const fixed = '工具權限';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Setting up WSL:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Setting up WSL:\s*(.+)$/i, '正在設定 WSL: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Installing into\s*(.+?)[…\.]*$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Installing into\s*(.+?)[…\.]*$/i, '正在安裝到 $1…');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^This folder belongs to the WSL distro "([^"]+)", but this window is connected to "([^"]+)"\.?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^This folder belongs to the WSL distro "([^"]+)", but this window is connected to "([^"]+)"\.?$/i, '此資料夾屬於 WSL 發行版“$1”，但目前視窗連線到“$2”。');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^This location cannot be opened in WSL:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^This location cannot be opened in WSL:\s*(.+)$/i, '無法在 WSL 中開啟此位置: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^The WSL distro "([^"]+)" is no longer installed\.?$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^The WSL distro "([^"]+)" is no longer installed\.?$/i, 'WSL 發行版“$1”已不再安裝。');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Antigravity opened on Windows instead\.?$/i.test(trimmed)) {
+      const fixed = 'Antigravity 已改為在 Windows 本地開啟。';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Connected to WSL:\s*(.+)$/i.test(trimmed)) {
+      const fixed = trimmed.replace(/^Connected to WSL:\s*(.+)$/i, '已連線到 WSL: $1');
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/% of the (?:customization )?budget is (?:available|used)/i.test(trimmed)) {
+      let fixed = trimmed;
+      if (/^%\s*of the (?:customization )?budget is available[.。]?$/i.test(trimmed)) {
+        fixed = '% 的自訂額度可用。';
+      } else if (/^%\s*of the (?:customization )?budget is used[.。]?$/i.test(trimmed)) {
+        fixed = '% 的自訂額度已使用。';
+      } else if (/available/i.test(trimmed)) {
+        fixed = trimmed.replace(/(\d+(?:\.\d+)?)% of the (?:customization )?budget is available[.。]?/i, '自訂額度尚有 $1% 可用。');
+      } else if (/used/i.test(trimmed)) {
+        fixed = trimmed.replace(/(\d+(?:\.\d+)?)% of the (?:customization )?budget is used[.。]?/i, '已使用 $1% 的自訂額度。');
+      }
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Plugins are packaged collections of/i.test(trimmed)) {
+      let fixed = '';
+      if (/Google developer products/i.test(trimmed)) {
+        if (/change your choices in Settings/i.test(trimmed)) {
+          fixed = '外掛是技能和 MCP 的打包集合，用於協助 Antigravity 中的智慧代理使用 Google 開發者產品。你可以隨時在設定中更改你的選擇。';
+        } else {
+          fixed = '外掛是技能和 MCP 的打包集合，用於協助 Antigravity 中的智慧代理使用 Google 開發者產品。';
+        }
+      } else {
+        fixed = '外掛是技能和 MCP 的打包集合，用於協助智慧代理在';
+      }
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^You can always change your choices in Settings[.。]?$/i.test(trimmed)) {
+      const fixed = '你可以隨時在設定中更改你的選擇。';
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^Antigravity work with Google developer products/i.test(trimmed)) {
+      let fixed = 'Antigravity 中協同 Google 開發者產品工作。';
+      if (/change your choices in Settings/i.test(trimmed)) {
+        fixed = 'Antigravity 中協同 Google 開發者產品工作。你可以隨時在設定中更改你的選擇。';
+      }
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    if (/^work with Google developer products/i.test(trimmed)) {
+      let fixed = '協同 Google 開發者產品工作。';
+      if (/change your choices in Settings/i.test(trimmed)) {
+        fixed = '協同 Google 開發者產品工作。你可以隨時在設定中更改你的選擇。';
+      }
+      if (stringCache.size < MAX_STRING_CACHE) stringCache.set(trimmed, fixed);
+      return text.replace(trimmed, fixed);
+    }
+
+    // --- Dynamic Agent Logs Regex Rules (Fixed Escaping) ---
+    let dynamicMatch = trimmed;
+    let isDynamic = false;
+    
+    // 使用者定製方案 3：思考了 (時間) 與 總耗時 (時間) 動態正則
+    if (/^Thought (?:for|持續) (.+)$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^Thought (?:for|持續) (.+)$/i, '思考了 $1');
+      isDynamic = true;
+    }
+    if (/^Worked (?:for|持續) (.+)$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^Worked (?:for|持續) (.+)$/i, '總耗時 $1');
+      isDynamic = true;
+    }
+    if (/^\d+ files? changed(.*)$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^(\d+) files? changed(.*)/i, '$1 個檔案已更改$2');
+      isDynamic = true;
+    }
+    if (/^(\d+)\s+searches?$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^(\d+)\s+searches?/i, '$1 次搜尋');
+      isDynamic = true;
+    }
+    if (/^Edited (.*) \+(\d+) -(\d+)$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^Edited (.*) \+(\d+) -(\d+)/i, '編輯 $1 (+$2 -$3)');
+      isDynamic = true;
+    }
+    if (/^Canceled taskkill/.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^Canceled (.*)/, '已取消 $1');
+      isDynamic = true;
+    }
+    if (/^\d+(?:\.\d+)?% of the (?:customization )?budget is (?:available|used)[.。]?$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch
+        .replace(/(\d+(?:\.\d+)?)% of the (?:customization )?budget is available[.。]?/i, '自訂額度尚有 $1% 可用。')
+        .replace(/(\d+(?:\.\d+)?)% of the (?:customization )?budget is used[.。]?/i, '已使用 $1% 的自訂額度。');
+      isDynamic = true;
+    }
+
+    // 限額剩餘標題動態匹配 (例如 "Five Hour Limit Remaining", "Weekly Limit Remaining", "5-hour limit remaining")
+    if (/^(Weekly|Five[- ]Hour|5[- ]Hour|Hourly|Daily)\s+Limit\s+Remaining$/i.test(trimmed)) {
+      const lower = trimmed.toLowerCase();
+      if (lower.includes('weekly')) dynamicMatch = '每週限額剩餘';
+      else if (lower.includes('five') || lower.includes('5')) dynamicMatch = '5 小時限額剩餘';
+      else if (lower.includes('hourly')) dynamicMatch = '每小時限額剩餘';
+      else if (lower.includes('daily')) dynamicMatch = '每日限額剩餘';
+      isDynamic = true;
+    }
+
+    // 配額提示句 (含動態天數/小時/分鐘，支援全英或半中文狀態下自愈清洗)
+    if (/(?:You have used some of your|您已使用了部分).*(?:limit|限額)/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch
+        .replace(/^(?:You have used some of your|您已使用了部分)\s*(?:weekly|每週)\s*(?:limit|限額)?/i, '您已使用了部分每週限額')
+        .replace(/^(?:You have used some of your|您已使用了部分)\s*(?:5[- ]hour|five[- ]hour|5 小時|五小時)\s*(?:limit|限額)?/i, '您已使用了部分 5 小時限額')
+        .replace(/^(?:You have used some of your|您已使用了部分)\s*(?:hourly|每小時)\s*(?:limit|限額)?/i, '您已使用了部分每小時限額')
+        .replace(/^(?:You have used some of your|您已使用了部分)\s*(?:daily|每日)\s*(?:limit|限額)?/i, '您已使用了部分每日限額')
+        .replace(/(?:it will fully refresh in|它將在以下時間後完全重新整理[：:]?)\s*/i, ' 它將在以下時間後完全重新整理：')
+        .replace(/(\d+)\s*days?/gi, ' $1 天')
+        .replace(/(\d+)\s*hours?/gi, ' $1 小時')
+        .replace(/(\d+)\s*minutes?\.?$/gi, ' $1 分鐘')
+        .replace(/\s+/g, ' ')
+        .trim();
+      isDynamic = true;
+    }
+    // 模型分組配額說明長句
+    if (/^Within each group, models share/.test(trimmed)) {
+      dynamicMatch = '在每個分組中，模型共享每週限額和 5 小時限額。配額按 token 成本比例消耗。因此，較短的任務或使用更具價效比的模型時，限額可持續更長時間。5 小時限額用於平滑總需求，以便在所有使用者間公平分配全球容量，而每週限額則與您的個人等級直接掛鉤。';
+      isDynamic = true;
+    }
+
+    // 模型配額剩餘動態匹配 (例如 "100% Remaining", "85.4% remaining")
+    if (/^(\d+(?:\.\d+)?%?)\s+remaining$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^(\d+(?:\.\d+)?%?)\s+remaining$/i, '$1 剩餘');
+      isDynamic = true;
+    }
+    // 剩餘時間重新整理動態匹配 (例如 "15 minutes", "1 hour 26 minutes", "2 hours", "1 day")
+    if (/^(\d+)\s+hours?\s+(\d+)\s+minutes?$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^(\d+)\s+hours?\s+(\d+)\s+minutes?$/i, '$1 小時 $2 分鐘');
+      isDynamic = true;
+    }
+    if (/^(\d+)\s+minutes?$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^(\d+)\s+minutes?$/i, '$1 分鐘');
+      isDynamic = true;
+    }
+    if (/^(\d+)\s+hours?$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^(\d+)\s+hours?$/i, '$1 小時');
+      isDynamic = true;
+    }
+    if (/^(\d+)\s+days?$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^(\d+)\s+days?$/i, '$1 天');
+      isDynamic = true;
+    }
+
+    // 專案/路徑不存在的動態提示 (專案名 + " does not exist"，超3詞無法走分詞)
+    if (/^.+ does not exist\.?$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^(.+) does not exist\.?$/i, '$1 不存在');
+      isDynamic = true;
+    }
+    // "xxx was not found" 動態提示
+    if (/^.+ was not found\.?$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^(.+) was not found\.?$/i, '$1 未找到');
+      isDynamic = true;
+    }
+
+    // 步驟與回合動態提示
+    if (/^Step \d+ \([^\)]+\):?$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^Step (\d+) \(([^\)]+)\):?/i, '步驟 $1 ($2)：');
+      isDynamic = true;
+    }
+    if (/^\d+ turns?$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^(\d+) turns?$/i, '$1 回合');
+      isDynamic = true;
+    }
+    if (/^Turn \d+$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^Turn (\d+)$/i, '第 $1 回合');
+      isDynamic = true;
+    }
+    if (/^Task id "[^"]+" finished with result:$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^Task id "([^"]+)" finished with result:$/i, '任務 "$1" 執行完成：');
+      isDynamic = true;
+    }
+    if (/^Tool is running as a background task with task id: (.+)$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^Tool is running as a background task with task id: (.+)$/i, '工具正在後台執行 (任務ID: $1)');
+      isDynamic = true;
+    }
+    if (/^Thought (?:for|持續) (.+)$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^Thought (?:for|持續) (.+)$/i, '思考了 $1');
+      isDynamic = true;
+    }
+    if (/^Thinking (?:for|持續) (.+)$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^Thinking (?:for|持續) (.+)$/i, '思考了 $1');
+      isDynamic = true;
+    }
+    if (/^Thinking \((.+)\)$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^Thinking \((.+)\)$/i, '正在思考 ($1)');
+      isDynamic = true;
+    }
+    if (/^Version\s+(\d+.*)$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^Version\s+(\d+.*)$/i, '版本 $1');
+      isDynamic = true;
+    }
+    if (/^Updated\s+(.+)$/i.test(trimmed)) {
+      dynamicMatch = dynamicMatch.replace(/^Updated\s+(.+)$/i, '更新於 $1')
+        .replace(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2})\b/gi, (m, mon, day) => {
+          const monMap = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
+          return monMap[mon.toLowerCase()] + '月' + day + '日';
+        });
+      isDynamic = true;
+    }
+
+    // 智慧代理設定：計劃稽核策略提示 (包含純英文、部分翻譯、夾生等各種形態)
+    if (/(?:Type|輸入)\s*\/\s*(?:and|並|和)?\s*(?:select|選擇)?\s*['"]?plan['"]?\s*to\s+have\s+the\s+agent\s+generate\s+a\s+plan[。.]?/i.test(trimmed)) {
+      dynamicMatch = /[。.]\s*$/.test(trimmed) ? '輸入 / 並選擇 plan 來讓智慧代理生成計劃。' : '輸入 / 並選擇 plan 來讓智慧代理生成計劃';
+      isDynamic = true;
+    }
+    if (/^(?:to\s+)?have\s+the\s+agent\s+generate\s+a\s+plan[。.]?$/i.test(trimmed)) {
+      dynamicMatch = /[。.]\s*$/.test(trimmed) ? '來讓智慧代理生成計劃。' : '來讓智慧代理生成計劃';
+      isDynamic = true;
+    }
+    if (/^plan\s+to\s+have\s+the\s+agent\s+generate\s+a\s+plan[。.]?$/i.test(trimmed)) {
+      dynamicMatch = /[。.]\s*$/.test(trimmed) ? 'plan 來讓智慧代理生成計劃。' : 'plan 來讓智慧代理生成計劃';
+      isDynamic = true;
+    }
+    if (/^(?:Type|輸入)\s*\/\s*(?:and|並|和)\s*$/i.test(trimmed)) {
+      dynamicMatch = '輸入 / 並';
+      isDynamic = true;
+    }
+
+    if (isDynamic) {
+      return text.replace(trimmed, dynamicMatch);
+    }
+    // --- End Dynamic Regex ---
+
+    // 1. Direct Literal Match (Exact match including punctuation)
+    if (dictionary[trimmed]) {
+      return text.replace(trimmed, dictionary[trimmed]);
+    }
+
+    // Normalizing internal multiple whitespace/newlines for multi-sentence cards
+    const normalizedSpace = trimmed.replace(/\s+/g, ' ');
+    if (dictionary[normalizedSpace]) {
+      return text.replace(trimmed, dictionary[normalizedSpace]);
+    }
+    
+    const caseInsensitive = lowerDictionary.get(normalizedSpace.toLowerCase());
+    if (caseInsensitive !== undefined) return text.replace(trimmed,caseInsensitive);
+
+    // 2. Intelligent Punctuation Stripping & Reconstruction
+    let core = trimmed;
+    let trailPunc = '';
+    let matchPunc = '';
+
+    // Strip trailing common punctuation
+    const puncRegex = /(\.\.\.|…|\.|\?|!|:|：|？|！|。)$/;
+    const match = core.match(puncRegex);
+    if (match) {
+      matchPunc = match[0];
+      core = core.slice(0, -matchPunc.length).trim();
+      
+      // Determine the correct Chinese counterpart punctuation
+      if (matchPunc === '.') trailPunc = '。';
+      else if (matchPunc === '?') trailPunc = '？';
+      else if (matchPunc === '!') trailPunc = '！';
+      else if (matchPunc === ':') trailPunc = '：';
+      else if (matchPunc === '：') trailPunc = '：';
+      else if (matchPunc === '？') trailPunc = '？';
+      else if (matchPunc === '！') trailPunc = '！';
+      else if (matchPunc === '。') trailPunc = '。';
+      else trailPunc = matchPunc; // keep ..., …
+    }
+
+    // Check stripped core in dictionary (O(1) exact or O(1) case-insensitive)
+    const coreTranslated = dictionary[core] || lowerDictionary.get(core.toLowerCase()) || '';
+
+    if (coreTranslated) {
+      return text.replace(trimmed, coreTranslated + trailPunc);
+    }
+
+    // 3. Fallback to word-by-word ONLY for short strings (<= 3 words)
+    // 如果短語中已經包含了中文字元（即原本就是漢化內容或中英混排），則嚴禁進入英文分詞翻譯
+    // 這可以完美阻止像中英文混排短語被分詞規則執行二次翻譯導致重疊和汙染
+    if (/[\u4e00-\u9fa5]/.test(core)) {
+      return text;
+    }
+    // 防禦：若短語包含連字元、下劃線、斜槓、反斜槓、點號等，屬於程式碼識別符號、檔名、路徑或副檔名，絕對跳過分詞！
+    if (/[-_\\/.]/.test(core)) {
+      return text;
+    }
+    // This prevents long unmatched sentences from getting mangled into Chinglish.
+    const wordsCount = core.split(/\s+/).filter(Boolean).length;
+    if (wordsCount > 3) {
+      return text; // Do not translate, keep original English sentence clean
+    }
+
+    const wordTranslation = coreWords[core.toLowerCase()];
+    const replaced = wordTranslation !== undefined;
+    const temp = replaced ? wordTranslation : core;
+    let finalTranslated = replaced ? temp : core;
+    // 消除中文字元之間可能由分詞替換殘留的英文空格，提升翻譯句子的連貫精緻度
+    finalTranslated = finalTranslated.replace(/([\u4e00-\u9fa5])\s+([\u4e00-\u9fa5])/g, '$1$2');
+    // 特殊去重清洗：防止前置分詞造成的“使用使用”與半中半英長句殘留
+    finalTranslated = finalTranslated.replace(/使用使用 Google 外掛構建/g, '使用 Google 外掛構建');
+    finalTranslated = finalTranslated.replace(/Advanced\s*設定/gi, '高階設定');
+    finalTranslated = finalTranslated.replace(/Collapse\s*All/gi, '全部摺疊');
+    finalTranslated = finalTranslated.replace(/Expand\s*All/gi, '全部展開');
+    finalTranslated = finalTranslated.replace(/瞭解更多關於\s*繼承\s*Global/gi, '瞭解更多關於 繼承全域');
+    finalTranslated = finalTranslated.replace(/繼承\s*Global/gi, '繼承全域');
+    finalTranslated = finalTranslated.replace(/Also\s+includes\s*(?:Global\s*Permissions|全域權限)\s*when\s+working\s+in\s+this\s+project\.?[。.]?/gi, '在目前專案中工作時，亦繼承全域權限設定。');
+    finalTranslated = finalTranslated.replace(/Configure 智慧代理 執行[,\s]+queued 訊息 delivery[,\s]+and 權限[。.]?/g, '設定智慧代理執行策略、訊息佇列傳送機制以及安全權限。');
+    finalTranslated = finalTranslated.replace(/Automatic 檢查更新/g, '自動檢查更新');
+    finalTranslated = finalTranslated.replace(/每週限額\s*Remaining/gi, '每週限額剩餘');
+    finalTranslated = finalTranslated.replace(/五小時限額\s*Remaining/gi, '5 小時限額剩餘');
+    finalTranslated = finalTranslated.replace(/Claude and GPT 模型/g, 'Claude 與 GPT 模型');
+    finalTranslated = finalTranslated.replace(/命令\s*palette/gi, '命令面板');
+    finalTranslated = finalTranslated.replace(/Scan the code to .*(?:copy link|複製連結)[。.]?/gi, '掃描二維碼以在遠端控制中開啟此裝置，或複製連結。');
+    finalTranslated = finalTranslated.replace(/Scan the code to (?:開啟|open) this (?:裝置|device) in 遠端\s*(?:Control|控制)[,\s]+or (?:複製連結|copy link)[。.]?/gi, '掃描二維碼以在遠端控制中開啟此裝置，或複製連結。');
+    finalTranslated = finalTranslated.replace(/(?:工作了\s*持續|總耗時\s*持續|Worked for)\s*(.+)/gi, '總耗時 $1');
+    finalTranslated = finalTranslated.replace(/(?:Thought\s*持續|思考了\s*持續)\s*(.+)/gi, '思考了 $1');
+    finalTranslated = finalTranslated.replace(/檢視\s*could not be opened/gi, '檢視檔案無法開啟');
+    finalTranslated = finalTranslated.replace(/could not be opened/gi, '無法開啟');
+    finalTranslated = finalTranslated.replace(/(\d+)\s+searches?/gi, '$1 次搜尋');
+    finalTranslated = finalTranslated.replace(/(?:Type|輸入)\s*\/\s*(?:and|並|和)?\s*(?:select|選擇)?\s*['"]?plan['"]?\s*to\s+have\s+the\s+agent\s+generate\s+a\s+plan[。.]?/gi, '輸入 / 並選擇 plan 來讓智慧代理生成計劃。');
+    finalTranslated = finalTranslated.replace(/輸入\s*\/\s*並\s*選擇\s*plan\s*來讓智慧代理生成計劃[。.]?/g, '輸入 / 並選擇 plan 來讓智慧代理生成計劃。');
+    finalTranslated = finalTranslated.replace(/^Ran\s*命令$/i, '已執行命令');
+    finalTranslated = finalTranslated.replace(/^Running\s*命令$/i, '正在執行命令');
+    finalTranslated = finalTranslated.replace(/^Run\s*命令$/i, '執行命令');
+    finalTranslated = finalTranslated.replace(/^Ran\s*命令:\s*(.+)$/i, '已執行命令: $1');
+    finalTranslated = finalTranslated.replace(/^Running\s*命令:\s*(.+)$/i, '正在執行命令: $1');
+    finalTranslated = finalTranslated.replace(/^Run\s*命令:\s*(.+)$/i, '執行命令: $1');
+    if (matchPunc) {
+      finalTranslated += trailPunc;
+    }
+    if (stringCache.size < MAX_STRING_CACHE) {
+      stringCache.set(trimmed, finalTranslated);
+    }
+    return text.replace(trimmed, finalTranslated);
+  }
+
+  // 用於精確匹配程式碼編輯器、語法高亮等容器類名（收斂範圍，防止誤殺帶 font-mono 或 viewer 的正常 UI）
+  const codeClassPattern = /(?:^|[\s_-])(monaco-editor|editor-instance|hljs|shiki|prism|codemirror|line-content|gutter|codeblock|code-block|code-line|view-line)(?:$|[\s_-])/i;
+
+  // 提及選單 (@ Mentions) 分類白名單：放行漢化，同時保持斜槓命令 (/boost 等) 與程式碼檔名嚴格跳過
+  const MENTION_CATEGORIES = new Set([
+    'Rules',
+    '規則',
+    'Conversation',
+    '對話',
+    'PDF Document',
+    'PDF 文件',
+    'MCP Resource',
+    'MCP 資源',
+    'Browser Page',
+    '瀏覽器頁面',
+    'Browser Text',
+    '瀏覽器文字',
+    'Directory',
+    '目錄',
+    'Git Commit',
+    'Git 提交',
+    'Git Diff',
+    'Git 差異'
+  ]);
+
+// UI metadata and contextual fragments, kept separate from user content.
+function refinementProtectedAncestor(element, includeSelf = true) {
+  let current = includeSelf ? element : element && element.parentElement;
+  while (current) {
+    if (['PRE','CODE','SCRIPT','STYLE'].includes(current.tagName)) return true;
+    if (current.getAttribute && (
+      ['true','plaintext-only',''].includes(current.getAttribute('contenteditable')) ||
+      current.getAttribute('role') === 'textbox' ||
+      current.getAttribute('data-lexical-editor') === 'true')) return true;
+    if (current.classList && ['monaco-editor','user-message','group/user-input-step','thought-content','thinking-content','markdown','prose'].some(c => current.classList.contains(c))) return true;
+    current = current.parentElement || (current.getRootNode && current.getRootNode().host);
+  }
+  return false;
+}
+
+function translateSafeAttributes(element, requested) {
+  if (!element || element.nodeType !== Node.ELEMENT_NODE || !element.getAttribute) return;
+  const isInput = ['INPUT','TEXTAREA'].includes(element.tagName) ||
+    ['true','plaintext-only',''].includes(element.getAttribute('contenteditable')) ||
+    element.getAttribute('role') === 'textbox' || element.getAttribute('data-lexical-editor') === 'true';
+  if (refinementProtectedAncestor(element, !isInput)) return;
+  const attributes = requested || ['placeholder','data-placeholder','title','aria-label'];
+  for (const attribute of attributes) {
+    if (!['placeholder','data-placeholder','title','aria-label'].includes(attribute)) continue;
+    const original = element.getAttribute(attribute);
+    if (!original || !original.trim()) continue;
+    let translated;
+    if (isInput) {
+      // Only known UI phrases; never translate entered values or editable text.
+      const key = original.trim().replace(/\s+/g, ' ');
+      const replacement = Object.prototype.hasOwnProperty.call(dictionary,key) ? dictionary[key] : lowerDictionary.get(key.toLowerCase());
+      translated = replacement === undefined ? original : original.replace(original.trim(),replacement);
+    } else {
+      const testId = element.getAttribute('data-testid') || '';
+      const href = element.getAttribute('href') || '';
+      if ((/^\/c\//.test(href) || /conversation-(?:title|name)|project-name/.test(testId)) && !/^Untitled Conversation$/i.test(original.trim())) continue;
+      translated = translateString(original);
+    }
+    if (translated !== original) element.setAttribute(attribute,translated);
+  }
+}
+
+function refinementText(node) {
+  if (!node || !node.parentElement || !node.nodeValue) return null;
+  const element = node.parentElement;
+  const text = node.nodeValue;
+  const trimmed = text.trim();
+  if (element.closest('[data-testid="plan-command-fyi-alert"]')) {
+    if (trimmed === 'Type') return text.replace(trimmed,'輸入');
+    if (/^to have the agent generate a plan\.?$/.test(trimmed)) return '，讓智慧代理生成計劃。';
+  }
+  if (/^to be installed\.?$/.test(trimmed) && /Configure the browser subagent|瀏覽器子代理需要先安裝/.test(element.textContent || '')) return '。';
+  // "Plan" is a subscription heading on the quota page; elsewhere it remains a task plan.
+  if (trimmed === 'Plan' && /^H[1-6]$/.test(element.tagName)) {
+    let parent = element.parentElement;
+    for (let depth = 0; depth < 3 && parent; depth++,parent=parent.parentElement) {
+      if (/Google AI (?:Pro|Ultra)|Your [Pp]lan|目前訂閱/.test(parent.textContent || '')) return text.replace(trimmed,'訂閱方案');
+    }
+  }
+  // Relative ages in the sidebar, never a duration in code or a file name.
+  if (element.closest('nav')) {
+    const match = trimmed.match(/^(\d+)(mo|d|h|m|s)$/);
+    if (match) return text.replace(trimmed,match[1]+({mo:'個月前',d:'天前',h:'小時前',m:'分鐘前',s:'秒前'})[match[2]]);
+  }
+  return null;
+}
+
+function refineInlineSpacing(element) {
+  if (!element || !element.childNodes) return;
+  const plan = element.getAttribute && element.getAttribute('data-testid') === 'plan-command-fyi-alert';
+  const browser = Array.from(element.childNodes).some(n => n.nodeType === Node.TEXT_NODE && /Configure the browser subagent|瀏覽器子代理需要先安裝/.test(n.nodeValue || ''));
+  if (!plan && !browser) return;
+  for (const node of element.childNodes) {
+    if (node.nodeType !== Node.TEXT_NODE || !/^\s+$/.test(node.nodeValue || '')) continue;
+    const next = node.nextSibling;
+    if (next && next.nodeType === Node.TEXT_NODE && /^(?:to have the agent generate a plan|to be installed|[，。])/.test((next.nodeValue || '').trim())) node.nodeValue = '';
+  }
+}
+
+  const skipCache = new WeakMap();
+
+  function shouldSkipNode(node) {
+    let protectedElement = node && (node.nodeType === Node.TEXT_NODE ? node.parentElement : node);
+    while (protectedElement) {
+      if (protectedElement.getAttribute && protectedElement.getAttribute('data-testid') === 'model-selector-trigger') return true;
+      if (protectedElement.getAttribute && protectedElement.getAttribute('data-testid') === 'project-selector-trigger' && !/^No Project$/i.test((protectedElement.textContent || '').trim())) return true;
+      if (protectedElement.tagName === 'A' && /^\/c\//.test(protectedElement.getAttribute('href') || '') && !/^Untitled Conversation$/i.test((protectedElement.textContent || '').trim())) return true;
+      if (['INPUT','TEXTAREA','PRE','CODE','SCRIPT','STYLE'].includes(protectedElement.tagName)) return true;
+      if (protectedElement.getAttribute && (
+          ['true','plaintext-only',''].includes(protectedElement.getAttribute('contenteditable')) ||
+          protectedElement.getAttribute('role') === 'textbox' ||
+          protectedElement.getAttribute('data-lexical-editor') === 'true')) return true;
+      if (protectedElement.classList && ['monaco-editor','user-message','group/user-input-step','thought-content','thinking-content','markdown','prose'].some(c => protectedElement.classList.contains(c))) return true;
+      protectedElement = protectedElement.parentElement || (protectedElement.getRootNode && protectedElement.getRootNode().host);
+    }
+
+    if (!node) return true;
+    
+    // 如果是文字節點，我們檢查其父元素；如果是屬性/元素節點，檢查自身
+    const element = node.nodeType === Node.TEXT_NODE ? node.parentElement : node;
+    if (!element) return false;
+
+    // 1. 記憶化快取查詢：O(1) 瞬間返回，消除摺疊欄展開時的萬次重複檢查
+    if (skipCache.has(element)) {
+      return skipCache.get(element);
+    }
+
+    // 2. 絕對不能翻譯的指令碼/樣式/按鍵標籤
+    const skipTags = ['SCRIPT', 'STYLE', 'NOSCRIPT', 'KBD', 'SAMP', 'VAR'];
+    if (skipTags.includes(element.tagName)) {
+      skipCache.set(element, true);
+      return true;
+    }
+
+    // 核心保護：斜槓命令與提及建議選單的觸發詞標籤（保持 /boost, /schedule, /browser 等原生命令標識不變）
+    // 但針對提及選單（@）中的分類標籤（如 Rules -> 規則, Conversation -> 對話 等）放行漢化
+    const isMenuOptionLabel = element.closest && element.closest('[data-testid="menu-option-label"]');
+    if (isMenuOptionLabel) {
+      const labelText = (isMenuOptionLabel.innerText || isMenuOptionLabel.textContent || '').trim();
+      if (MENTION_CATEGORIES.has(labelText)) {
+        skipCache.set(element, false);
+        return false;
+      }
+      skipCache.set(element, true);
+      return true;
+    }
+
+    // 思考過程觸發藥丸按鈕（如“Thought for 4s”摺疊欄標題）：必須放行漢化為“思考了 4s”
+    const isThinkingTrigger = element.closest && element.closest('button[data-testid="thinking-collapsible-trigger"]');
+    if (isThinkingTrigger) {
+      skipCache.set(element, false);
+      return false;
+    }
+
+    // 3. 特殊特權放行：針對執行步驟的藥丸標籤（如 Ran, Explored, Edited, Viewed, Thought, Thinking, Working 等）
+    // 無論其父級為 SPAN、CODE 還是 BUTTON，只要是系統執行藥丸且不在使用者提問氣泡內，一律無條件放行漢化
+    const textContent = (element.innerText || element.textContent || '').trim();
+    const isActionPill = textContent.length <= 40 && /^(Explored|Exploring|Ran|Run|Running|Viewed|Viewing|Edited|Editing|Thought|Thinking|Working|Done|Analyzed|Analyzing|Created|Creating|Deleted|Deleting|Waiting|Rejected|Errored|Completed|Used)(\s+(command|commands|files?|tools?|artifacts?))?$/i.test(textContent);
+    if (isActionPill) {
+      let inUserInput = false;
+      let inThinkingContent = false;
+      let checkCur = element;
+      while (checkCur && checkCur !== document.body) {
+        if (checkCur.classList) {
+          if (checkCur.classList.contains('group/user-input-step') || checkCur.classList.contains('cursor-edit')) {
+            inUserInput = true;
+            break;
+          }
+        }
+        if (checkCur.parentElement && checkCur.parentElement.querySelector) {
+          const trigger = checkCur.parentElement.querySelector(':scope > button[data-testid="thinking-collapsible-trigger"]');
+          if (trigger && checkCur !== trigger && !trigger.contains(checkCur)) {
+            inThinkingContent = true;
+            break;
+          }
+        }
+        checkCur = checkCur.parentElement;
+      }
+      if (!inUserInput && !inThinkingContent) {
+        skipCache.set(element, false);
+        return false;
+      }
+    }
+
+    if (element.tagName === 'CODE') {
+      if (!isActionPill) {
+        skipCache.set(element, true);
+        return true;
+      }
+    }
+    if (element.tagName === 'PRE') {
+      skipCache.set(element, true);
+      return true;
+    }
+
+    // 4. 輸入框/文字域/富文字編輯器/使用者提問氣泡絕對跳過（輸入前、輸入中、傳送後 100% 原樣保留）
+    if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+      skipCache.set(element, true);
+      return true;
+    }
+    if (element.getAttribute && (
+        element.getAttribute('contenteditable') === 'true' ||
+        element.getAttribute('role') === 'textbox' ||
+        element.getAttribute('data-lexical-editor') === 'true'
+    )) {
+      skipCache.set(element, true);
+      return true;
+    }
+
+    // 5. 檢查元素自身是否帶有程式碼語言標記屬性
+    if (element.getAttribute) {
+      if (element.getAttribute('data-language') || 
+          element.getAttribute('data-code') ||
+          element.getAttribute('data-line') ||
+          element.getAttribute('data-line-number')) {
+        skipCache.set(element, true);
+        return true;
+      }
+    }
+
+    // 6. 向上遞迴檢查祖先節點（帶路徑記憶化剪枝）
+    let cur = element;
+    let shouldSkip = false;
+    while (cur && cur !== document.body) {
+      if (skipCache.has(cur)) {
+        shouldSkip = skipCache.get(cur);
+        break;
+      }
+
+      // 核心防禦：模型思考鏈正文容器絕對跳過
+      // 思考鏈為 AI 執行時生成的自由英文/動態推理流，切勿進行逐詞或斷句翻譯，否則會導致中英夾雜混亂
+      if (cur.classList && (
+        cur.classList.contains('cursor-edit') ||
+        cur.classList.contains('thought-content') ||
+        cur.classList.contains('thinking-content') ||
+        cur.classList.contains('thought-box')
+      )) {
+        shouldSkip = true;
+        break;
+      }
+
+      // 思考摺疊欄內容區域：位於 thinking-collapsible-trigger 旁的展開正文容器
+      if (cur.parentElement && cur.parentElement.querySelector) {
+        const trigger = cur.parentElement.querySelector(':scope > button[data-testid="thinking-collapsible-trigger"]');
+        if (trigger && cur !== trigger && !trigger.contains(cur)) {
+          shouldSkip = true;
+          break;
+        }
+      }
+
+      // 使用者輸入框與富文字編輯器（輸入前/輸入中絕對不翻譯）
+      if (cur.getAttribute && (
+          cur.getAttribute('contenteditable') === 'true' ||
+          cur.getAttribute('role') === 'textbox' ||
+          cur.getAttribute('data-lexical-editor') === 'true'
+      )) {
+        shouldSkip = true;
+        break;
+      }
+
+      if (cur.getAttribute && (
+          cur.getAttribute('data-language') || 
+          cur.getAttribute('data-code') ||
+          cur.getAttribute('data-line') ||
+          cur.getAttribute('data-line-number') ||
+          cur.getAttribute('role') === 'code'
+      )) {
+        shouldSkip = true;
+        break;
+      }
+
+      if (cur.classList && (
+        cur.classList.contains('group/user-input-step') ||
+        cur.classList.contains('user-message') ||
+        cur.classList.contains('cursor-text') ||
+        cur.classList.contains('monaco-editor') || 
+        cur.classList.contains('editor-instance') ||
+        cur.classList.contains('input-area') ||
+        cur.classList.contains('chat-input')
+      )) {
+        shouldSkip = true;
+        break;
+      }
+
+      if (cur.className && typeof cur.className === 'string') {
+        const lowerClass = cur.className.toLowerCase();
+        if (
+          lowerClass.includes('code-line') ||
+          lowerClass.includes('view-line') ||
+          codeClassPattern.test(cur.className)
+        ) {
+          shouldSkip = true;
+          break;
+        }
+      }
+
+      if (cur.tagName === 'PRE') {
+        shouldSkip = true;
+        break;
+      }
+
+      cur = cur.parentElement;
+    }
+
+    skipCache.set(element, shouldSkip);
+    return shouldSkip;
+  }
+
+  // 效能最佳化 3：已處理文字節點記憶化 WeakSet，消除父容器重繪時的重複遍歷
+  const translatedNodes = new WeakSet();
+
+  function translateNode(node) {
+    if (!node) return;
+    if (node.nodeType === Node.ELEMENT_NODE) translateSafeAttributes(node);
+    if (shouldSkipNode(node)) return;
+    if (node.nodeType === Node.ELEMENT_NODE) refineInlineSpacing(node);
+
+    if (node.nodeType === Node.TEXT_NODE) {
+      if (translatedNodes.has(node)) return;
+      const original = node.nodeValue;
+      if (!original || !original.trim()) return;
+      const translated = refinementText(node) ?? translateString(original);
+      if (original !== translated) {
+        node.nodeValue = translated;
+        translatedNodes.add(node);
+      } else if (!/[a-zA-Z]/.test(original)) {
+        translatedNodes.add(node);
+      }
+    } else if (node.nodeType === Node.ELEMENT_NODE) {
+      if (node.shadowRoot) {
+        observeRoot(node.shadowRoot);
+        translateNode(node.shadowRoot);
+      }
+      for (let i = 0; i < node.childNodes.length; i++) {
+        translateNode(node.childNodes[i]);
+      }
+    } else if (node.nodeType === Node.DOCUMENT_FRAGMENT_NODE) {
+      for (let i = 0; i < node.childNodes.length; i++) {
+        translateNode(node.childNodes[i]);
+      }
+    }
+  }
+
+  const observerConfig = {
+    childList: true,
+    subtree: true,
+    characterData: true,
+    attributes: true,
+    attributeFilter: ['placeholder', 'data-placeholder', 'title', 'aria-label']
+  };
+
+  const observedRoots = new WeakSet();
+  let isTranslating = false;
+  let batchRafHandle = null;
+  const pendingAddedNodes = new Set();
+  const pendingTextNodes = new Set();
+  const pendingAttrNodes = new Map();
+
+  const scheduleBatchFrame = (fn) => {
+    if (typeof queueMicrotask === 'function') {
+      queueMicrotask(fn);
+    } else if (typeof requestAnimationFrame === 'function') {
+      requestAnimationFrame(fn);
+    } else {
+      setTimeout(fn, 0);
+    }
+  };
+
+  function scheduleBatchTranslation() {
+    if (batchRafHandle !== null) return;
+    batchRafHandle = true;
+    scheduleBatchFrame(processBatchTranslation);
+  }
+
+  function processBatchTranslation() {
+    batchRafHandle = null;
+    if (isTranslating) return;
+    isTranslating = true;
+
+    try {
+      // 1. 批次處理屬性變更
+      if (pendingAttrNodes.size > 0) {
+        for (const [target, attrs] of pendingAttrNodes) translateSafeAttributes(target,attrs);
+        pendingAttrNodes.clear();
+      }
+
+      // 2. 批次處理文字變更 (characterData)
+      if (pendingTextNodes.size > 0) {
+        for (const node of pendingTextNodes) {
+          if (!shouldSkipNode(node)) {
+            const original = node.nodeValue;
+            if (original && original.trim()) {
+              const translated = refinementText(node) ?? translateString(original);
+              if (original !== translated) {
+                node.nodeValue = translated;
+                translatedNodes.add(node);
+              } else if (!/[a-zA-Z]/.test(original)) {
+                translatedNodes.add(node);
+              }
+            }
+          }
+        }
+        pendingTextNodes.clear();
+      }
+
+      // 3. 批次處理新增節點（效能最佳化 6：祖先包含剪枝，徹底消滅 O(N^2) 巢狀遞迴）
+      if (pendingAddedNodes.size > 0) {
+        const rootNodes = [];
+        for (const node of pendingAddedNodes) {
+          let hasAncestor = false;
+          let p = node.parentElement;
+          while (p) {
+            if (pendingAddedNodes.has(p)) {
+              hasAncestor = true;
+              break;
+            }
+            p = p.parentElement;
+          }
+          if (!hasAncestor) {
+            rootNodes.push(node);
+          }
+        }
+        pendingAddedNodes.clear();
+
+        for (let i = 0; i < rootNodes.length; i++) {
+          const node = rootNodes[i];
+          if (node.shadowRoot) {
+            observeRoot(node.shadowRoot);
+          }
+          if (!shouldSkipNode(node)) {
+            translateNode(node);
+          }
+        }
+      }
+    } catch (e) {
+      console.error('Batch translation error:', e);
+    } finally {
+      isTranslating = false;
+    }
+  }
+
+  function observeRoot(root) {
+    if (!root || observedRoots.has(root)) return;
+    observedRoots.add(root);
+
+    const observer = new MutationObserver((mutations) => {
+      let needsSchedule = false;
+      for (let i = 0; i < mutations.length; i++) {
+        const mutation = mutations[i];
+        if (mutation.type === 'childList') {
+          const added = mutation.addedNodes;
+          for (let j = 0; j < added.length; j++) {
+            const node = added[j];
+            if (node.shadowRoot) {
+              observeRoot(node.shadowRoot);
+            }
+            pendingAddedNodes.add(node);
+            needsSchedule = true;
+          }
+        } else if (mutation.type === 'characterData') {
+          translatedNodes.delete(mutation.target);
+          pendingTextNodes.add(mutation.target);
+          needsSchedule = true;
+        } else if (mutation.type === 'attributes') {
+          const target = mutation.target;
+          let attrSet = pendingAttrNodes.get(target);
+          if (!attrSet) {
+            attrSet = new Set();
+            pendingAttrNodes.set(target, attrSet);
+          }
+          attrSet.add(mutation.attributeName);
+          needsSchedule = true;
+        }
+      }
+
+      if (needsSchedule) {
+        scheduleBatchTranslation();
+      }
+    });
+
+    observer.observe(root, observerConfig);
+  }
+
+  // Hook attachShadow
+  const originalAttachShadow = Element.prototype.attachShadow;
+  Element.prototype.attachShadow = function() {
+    const shadowRoot = originalAttachShadow.apply(this, arguments);
+    observeRoot(shadowRoot);
+    return shadowRoot;
+  };
+
+  function safeScan() {
+    if (document.body) {
+      try {
+        translateNode(document.body);
+      } catch (e) {
+        console.error('Translation scan error:', e);
+      }
+      observeRoot(document.body);
+    }
+  }
+
+  function startObserver() {
+    safeScan();
+
+    // 1. 漸進式多階掛載兜底 (Progressive Mounting Backstop)
+    // 應對托盤重開、溫熱載入下 React 非同步掛載延遲與路由初次渲染
+    [50, 150, 400, 1000, 2500].forEach(delay => {
+      setTimeout(safeScan, delay);
+    });
+
+    // 2. 視窗啟用 (Focus) 與可見性恢復 (VisibilityChange) 兜底
+    // 無論是視窗從最小化還原、托盤重新喚醒，還是失焦後重新聚焦，自動觸發增量補丁
+    window.addEventListener('focus', safeScan);
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') {
+        safeScan();
+      }
+    });
+
+    // 3. 單頁應用 (SPA) 路由切換監聽 (History API Hook)
+    // 保證在不同會話、專案切換、從歡迎根路徑跳轉至具體任務檢視時即時漢化
+    try {
+      const origPushState = history.pushState;
+      history.pushState = function() {
+        const ret = origPushState.apply(this, arguments);
+        setTimeout(safeScan, 50);
+        return ret;
+      };
+      const origReplaceState = history.replaceState;
+      history.replaceState = function() {
+        const ret = origReplaceState.apply(this, arguments);
+        setTimeout(safeScan, 50);
+        return ret;
+      };
+      window.addEventListener('popstate', () => setTimeout(safeScan, 50));
+    } catch (_) {}
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', startObserver);
+  } else {
+    startObserver();
+  }
+
+
+})();

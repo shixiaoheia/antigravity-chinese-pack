@@ -1,0 +1,35 @@
+﻿Antigravity Desktop 2.22.0 繁體中文漢化包 r1
+
+第一次安裝：
+1. 以滑鼠右鍵點選下載的 ZIP → 全部解壓縮 → 擷取。
+2. 儲存工作，並完全結束 Antigravity（包含系統匣）。
+3. 開啟解壓縮後的資料夾，按兩下「雙擊安裝漢化.cmd」。
+4. 看到安裝成功後，按任意鍵關閉視窗，再開啟軟體。
+
+請勿直接在 ZIP 內執行，也不要單獨取出安裝檔。無須安裝 Node.js 或 Python。
+若找不到軟體，依提示輸入包含 Antigravity.exe 的資料夾路徑。
+
+還原英文：結束軟體，按兩下本包的「雙擊還原英文.cmd」。
+安裝時自動保留原版備份，請勿刪除或改名：
+安裝資料夾\resources\app.asar.agy-zh-CN-2.22.0.original
+兩種語言共用備份，檔名中的 zh-CN 是正常的。
+
+適用範圍：Windows，已核對的 Desktop 2.22.0 構建。
+不適用於 Antigravity IDE 1.x、命令列工具、不同構建或其他來源的補丁。
+本專案簡體 r1／r2 可直接切換至本包，但須保留原版備份。
+若想切回簡體 r2，先用本包還原英文，再安裝簡體包。
+版本不符時工具拒絕覆寫，請勿略過校驗。官方更新後的新版本需要重新適配。
+
+本包提供 2,766 條詞條，統一檔案、專案、視窗、權限等用語，補齊錯誤與疑難排解提示。
+保留模型名稱、使用者輸入、程式碼、對話正文、自訂標題與專案名稱。
+少量新增文案或第三方外掛仍可能顯示英文。漢化不處理帳號地區限制或模型服務錯誤。
+安裝、切換、重複安裝與還原等測試結果見「驗證報告.json」。
+
+完整教學、下載與回報：
+https://github.com/shixiaoheia/antigravity-chinese-pack
+
+基礎引擎與詞庫：
+https://github.com/liominsb/Antigravity-Chinese-Localization
+MIT 授權見 LICENSE-upstream.txt。
+繁簡轉換使用 OpenCC 字典與 opencc-python-reimplemented。
+相關授權與聲明見 LICENSE-OpenCC.txt、NOTICE-OpenCC.txt。
