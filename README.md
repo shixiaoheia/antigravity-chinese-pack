@@ -1,4 +1,4 @@
-# Antigravity 中文汉化包
+# Antigravity（反重力）简体＋繁體中文汉化
 
 Google Antigravity **Desktop 2.22.0 · Windows** 的社区汉化包，提供简体中文和繁體中文。安装工具会自动备份原文件，也可以双击还原英文。
 
