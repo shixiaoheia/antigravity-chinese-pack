@@ -6,11 +6,11 @@ Google Antigravity **Desktop 2.22.0 · Windows** 的社区汉化包，提供简�
 
 ## 第一步：下载合并包
 
-[下载简体＋繁體合并 ZIP](https://github.com/shixiaoheia/antigravity-chinese-pack/releases/download/v2.22.0-cn-r2-tw-r1/Antigravity-2.22.0-Chinese-Pack.zip)
+[下载简体＋繁體合并 ZIP](https://github.com/shixiaoheia/antigravity-chinese-pack/releases/download/v2.22.0-cn-r2-tw-r1/Antigravity-Chinese-Pack.zip)
 
 **只需下载这一个 ZIP，两种语言都在里面。** 解压后打开「简体中文」或「繁體中文」文件夹，安装你想用的一种即可，不需要把两种都安装一遍。
 
-[打不开下载链接？进入发布页面，在 Assets 下选择 `Antigravity-2.22.0-Chinese-Pack.zip`](https://github.com/shixiaoheia/antigravity-chinese-pack/releases/tag/v2.22.0-cn-r2-tw-r1)。
+[打不开下载链接？进入发布页面，在 Assets 下选择 `Antigravity-Chinese-Pack.zip`](https://github.com/shixiaoheia/antigravity-chinese-pack/releases/tag/v2.22.0-cn-r2-tw-r1)。
 
 请下载上面的汉化合并包。GitHub 自动生成的 `Source code (zip)` 是仓库源码，初次安装请使用合并包。
 
